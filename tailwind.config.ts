@@ -19,7 +19,9 @@ const config: Config = {
       colors: {
         customGray: '#4e4e4e',
       },
-
+      boxShadow: {
+        'custom-shadow': '0 .3rem .1rem rgba(0, 0, 0, .2)',
+      },
     },
   },
   plugins: [],
