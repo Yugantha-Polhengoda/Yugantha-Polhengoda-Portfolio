@@ -10,11 +10,11 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontSize: {
         'custom-xs': '8px',
+        'custom-sm': '14px',
       },
       colors: {
         customGray: '#4e4e4e',
@@ -22,8 +22,12 @@ const config: Config = {
       boxShadow: {
         'custom-shadow': '0 .3rem .1rem rgba(0, 0, 0, .2)',
       },
+      padding: {
+        'custom-p': '14px',
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
