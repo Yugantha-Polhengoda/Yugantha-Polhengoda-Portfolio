@@ -17,7 +17,7 @@ const Hero = () => {
             <div className='2xl:absolute 2xl:ml-80 mt-4 2xl:mt-12'>
                 <h3 className="text-white text-xs pb-1 2xl:text-2xl">Hello, It's Me</h3>
                 <h1 className="text-white text-sm pb-2 font-semibold 2xl:text-4xl">Yugantha Polhengoda</h1>
-                <h3 className="text-white text-xs mb-4 2xl:text-2xl">And I'm a <span id="text">Web Developer...</span></h3>
+                <h3 className="text-white text-xs mb-4 2xl:text-2xl">And I'm a <span className='ml-1' id="text">Web Developer...</span></h3>
                 
                 <div className="flex gap-3 2xl:mt-5">
                     <button className="inline-flex items-center px-6 py-2 border border-transparent text-sm 2xl:text-lg font-medium rounded-md shadow-sm text-black bg-white hover:bg-gray-200 group">
@@ -34,30 +34,6 @@ const Hero = () => {
         </div>
       </div>
     </div>
-
-
-
-    // <div className='relative min-h-[200px] md:min-h-[50vh] 2xl:min-h-[68vh]'>
-    //     <Image className={`absolute bottom-0 left-0 right-0 top-0 h-full w-full object-cover`}
-    //     src="/Images/back9.jpg"
-    //     alt=''
-    //     priority={true}
-    //     layout="fill"
-    //   />
-
-    //     <Image className={`absolute
-    //     mt-10 ml-16 mr-20 
-    //     md:w-10 
-    //     lg:mt-20 lg:ml-32 lg:w-72 lg:h-72
-    //     2xl:mt-28 2xl:ml-32`}
-
-    //     src="/Images/Adobe6.png"
-    //     alt=''
-    //     priority={true}
-    //     width={200}
-    //     height={200}
-    //   />
-    // </div>
   )
 }
 
