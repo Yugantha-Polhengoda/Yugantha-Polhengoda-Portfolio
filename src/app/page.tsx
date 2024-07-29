@@ -1,7 +1,9 @@
 import Content from "@/components/Content/Content";
 import Experience from "@/components/Experience/Experience";
+import Footer from "@/components/Footer/Footer";
 import NavBar from "@/components/Header/NavBar";
 import Hero from "@/components/Hero/Hero";
+import Projects from "@/components/Projects/Projects";
 import Image from "next/image";
 
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
       </div>
       <Content />
       <Experience />
+      <Projects />
+      <Footer />
     </main>
   );
 }

@@ -14,7 +14,7 @@ const config: Config = {
       },
       fontSize: {
         'custom-xs': '8px',
-        'custom-sm': '14px',
+        'custom-sm': '16px',
       },
       colors: {
         customGray: '#4e4e4e',
@@ -24,6 +24,9 @@ const config: Config = {
       },
       padding: {
         'custom-p': '14px',
+      },
+      dropShadow: {
+        'box-Hover': 'inset 0 -4px 20px rgba(111, 65, 210, .5)',
       },
     },
   },
