@@ -22,7 +22,7 @@ const Projects = () => {
         </h4>
         <div className="2xl:gap-8 relative flex justify-center items-center flex-wrap z-10">
 
-          <Tilt className="group w-[350px] h-[370px] 2xl:w-[350px] 2xl:h-[400px] m-8 rounded-[15px] bg-transparent overflow-hidden flex justify-center items-center border-t border-l border-white backdrop-blur-[5px] shadow-[20px_20px_50px_rgba(200,200,200,0.2)] transition-all">
+          <Tilt className="group w-[350px] h-[380px] 2xl:w-[350px] 2xl:h-[400px] m-8 rounded-[15px] bg-transparent overflow-hidden flex justify-center items-center border-t border-l border-white backdrop-blur-[5px] shadow-[20px_20px_50px_rgba(200,200,200,0.2)] transition-all">
             <div className="text-center transition-all">
               <Image className="absolute w-full h-1/2 top-1.5 left-0 px-1.5 rounded-[15px] object-cover" src={Campaign} alt="Campaign" />
               <Image className="absolute w-full h-1/2 top-1.5 left-0 px-1.5 rounded-[15px] object-cover hidden group-hover:block" src={WebSlideshow} alt="Campaign Hover" />
@@ -38,7 +38,7 @@ const Projects = () => {
             </div>
           </Tilt>
 
-          <Tilt className="group w-[350px] h-[370px] 2xl:w-[350px] 2xl:h-[400px] m-8 rounded-[15px] bg-transparent overflow-hidden flex justify-center items-center border-t border-l border-white backdrop-blur-[5px] shadow-[20px_20px_50px_rgba(200,200,200,0.2)] transition-all">
+          <Tilt className="group w-[350px] h-[380px] 2xl:w-[350px] 2xl:h-[400px] m-8 rounded-[15px] bg-transparent overflow-hidden flex justify-center items-center border-t border-l border-white backdrop-blur-[5px] shadow-[20px_20px_50px_rgba(200,200,200,0.2)] transition-all">
             <div className="text-center transition-all">
               <Image className="absolute w-full h-1/2 top-1.5 left-0 px-1.5 rounded-[15px] object-cover" src={UI2} alt="UI Design" />
               <Image className="absolute w-full h-1/2 top-1.5 left-0 px-1.5 rounded-[15px] object-cover hidden group-hover:block" src={UISlideshow} alt="UI Design Hover" />
@@ -54,7 +54,7 @@ const Projects = () => {
             </div>
           </Tilt>
 
-          <Tilt className="group w-[350px] h-[370px] 2xl:w-[350px] 2xl:h-[400px] m-8 rounded-[15px] bg-transparent overflow-hidden flex justify-center items-center border-t border-l border-white backdrop-blur-[5px] shadow-[20px_20px_50px_rgba(200,200,200,0.2)] transition-all">
+          <Tilt className="group w-[350px] h-[380px] 2xl:w-[350px] 2xl:h-[400px] m-8 rounded-[15px] bg-transparent overflow-hidden flex justify-center items-center border-t border-l border-white backdrop-blur-[5px] shadow-[20px_20px_50px_rgba(200,200,200,0.2)] transition-all">
             <div className="text-center transition-all">
               <Image className="absolute w-full h-1/2 top-1.5 left-0 px-1.5 rounded-[15px] object-cover" src={MobileUI} alt="3D Animation" />
               <Image className="absolute w-full h-1/2 top-1.5 left-0 px-1.5 rounded-[15px] object-cover hidden group-hover:block" src={Slideshow3D} alt="3D Animation Hover" />
