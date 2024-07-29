@@ -3,6 +3,7 @@ import Experience from "@/components/Experience/Experience";
 import Footer from "@/components/Footer/Footer";
 import NavBar from "@/components/Header/NavBar";
 import Hero from "@/components/Hero/Hero";
+import LogoSlider from "@/components/LogoSlider/LogoSlider";
 import Projects from "@/components/Projects/Projects";
 import Image from "next/image";
 
@@ -15,6 +16,7 @@ export default function Home() {
       </div>
       <Content />
       <Experience />
+      <LogoSlider />
       <Projects />
       <Footer />
     </main>

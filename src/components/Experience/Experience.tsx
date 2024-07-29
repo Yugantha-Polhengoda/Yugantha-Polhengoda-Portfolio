@@ -17,7 +17,7 @@ import Icon3D2 from '/public/Images/3D2.jpg'
 
 const Experience = () => {
   return (
-    <div className="p-8 justify-center 2xl:mt-16 2xl:p-32 flex flex-wrap text-white font-Poppins-font 2xl:justify-between items-center">
+    <div className="p-8 justify-center 2xl:mt-16 2xl:p-20 flex flex-wrap text-white font-Poppins-font 2xl:justify-between items-center">
       <div className="mb-10 2xl:mb-32">
         <h4 className='languages-t text-custom-xs ml-4 w-48  bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.3)] rounded-full py-1 pl-5 mb-1 2xl:text-xs 2xl:w-56 2xl:ml-10'>Web Development & Languages</h4>
         <h2 className="pt-2 text-sm 2xl:text-3xl font-bold">I'm Certified & Skilled Developer</h2>
