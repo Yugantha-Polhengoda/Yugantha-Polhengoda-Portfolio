@@ -16,10 +16,10 @@ import Blender from '/public/Images/blender.png';
 
 const LogoSlider = () => {
   return (
-    <div className="mb-20 text-center items-center justify-center">
-      <h3 className="Slide-h4 text-xs mb-8 text-white bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.2)] rounded-full px-4 py-1 inline-block relative hover:bg-[rgba(111,65,210,0.25)] hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)]">
+    <div className="mb-14 text-center items-center justify-center 2xl:mb-20">
+      <h4 className="Slide-h4 text-custom-xs mb-6 text-white bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.2)] rounded-full px-4 py-1 inline-block relative hover:bg-[rgba(111,65,210,0.25)] hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)] 2xl:text-xs">
         SOFTWARE TOOLS
-      </h3>
+      </h4>
       <div className="logos overflow-hidden whitespace-nowrap">
         <div className="logos-slide inline-block">
           <h4 className="h4 inline-block">|</h4>

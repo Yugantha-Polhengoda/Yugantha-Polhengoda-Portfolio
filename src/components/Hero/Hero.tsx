@@ -13,11 +13,11 @@ const Hero = () => {
       <div className="bg-cover bg-center min-h-fit flex items-center justify-center 2xl:items-start 2xl:justify-start" style={{ backgroundImage: "url('/Images/back9.jpg')" }}>
       <div className="text-center bg-opacity-50 p-5 rounded-lg 2xl:p-16">
         <div className="w-full h-50 mx-auto mt-8 mb-4 rounded-full 2xl:text-left 2xl:inline-flex 2xl:w-72 2xl:h-72 2xl:ml-20 ">
-          <Image src={ProfileImg} alt="Profile Image" className=' w-56 ml-8 2xl:w-72 2xl:ml-0'/>
+          <Image src={ProfileImg} alt="Profile Image" className=' w-52 ml-9 2xl:w-72 2xl:ml-0'/>
             <div className='2xl:absolute 2xl:ml-80 mt-4 2xl:mt-12'>
-                <h3 className="text-white text-xs pb-1 2xl:text-2xl">Hello, It's Me</h3>
-                <h1 className="text-white text-sm pb-2 font-semibold 2xl:text-4xl">Yugantha Polhengoda</h1>
-                <h3 className="text-white text-xs mb-4 2xl:text-2xl">And I'm a <span className='ml-1' id="text">Web Developer...</span></h3>
+                <h3 className="text-white text-sm 2xl:pb-1 2xl:text-2xl">Hello, It's Me</h3>
+                <h1 className="text-white text-lg pb-1 font-semibold 2xl:text-4xl">Yugantha Polhengoda</h1>
+                <h3 className="text-white text-sm mb-4 2xl:text-2xl">And I'm a <span className='ml-1' id="text">Web Developer...</span></h3>
                 
                 <div className="flex gap-3 2xl:mt-5">
                     <button className="inline-flex items-center px-6 py-2 border border-transparent text-sm 2xl:text-lg font-medium rounded-md shadow-sm text-black bg-white hover:bg-gray-200 group">
