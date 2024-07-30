@@ -16,8 +16,8 @@ import Blender from '/public/Images/blender.png';
 
 const LogoSlider = () => {
   return (
-    <div className="mb-32 text-center items-center justify-center">
-      <h3 className="text-xs mb-4 text-white bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.2)] rounded-full px-4 py-1 inline-block relative hover:bg-[rgba(111,65,210,0.25)] hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)]">
+    <div className="mb-20 text-center items-center justify-center">
+      <h3 className="Slide-h4 text-xs mb-8 text-white bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.2)] rounded-full px-4 py-1 inline-block relative hover:bg-[rgba(111,65,210,0.25)] hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)]">
         SOFTWARE TOOLS
       </h3>
       <div className="logos overflow-hidden whitespace-nowrap">
@@ -48,7 +48,7 @@ const LogoSlider = () => {
           <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={Lumion} alt="Lumion" width={45} height={50} />
           <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={AfterEffects} alt="After Effects" width={85} height={85} />
           <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={Blender} alt="Blender" width={65} height={65} />
-          <h4 className="h4 inline-block">|</h4>
+          <h4 className="h4 mb-20 inline-block">|</h4>
         </div>
       </div>
     </div>
