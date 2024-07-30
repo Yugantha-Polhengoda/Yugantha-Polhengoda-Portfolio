@@ -10,12 +10,12 @@
 .logos {
     overflow: hidden;
     //background-color: white;
-    //opacity: 0.5;
+    filter: opacity(50%);
     mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 100%);
 }
 
 .logos:hover {
-    transform: scale(1.1);
+    //transform: scale(1.1);
     filter: opacity(100%);
 }
 
