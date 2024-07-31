@@ -1,4 +1,5 @@
 import Content from "@/components/Content/Content";
+import CustomerService from "@/components/CustomerService/CustomerService";
 import Experience from "@/components/Experience/Experience";
 import Footer from "@/components/Footer/Footer";
 import NavBar from "@/components/Header/NavBar";
@@ -9,7 +10,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen bg-black flex-col">
+    <main className="flex z-50 min-h-screen bg-black flex-col">
       <div className="">
         <NavBar />
         <Hero />
@@ -19,6 +20,7 @@ export default function Home() {
       <LogoSlider />
       <Projects />
       <Footer />
+      <CustomerService />
     </main>
   );
 }

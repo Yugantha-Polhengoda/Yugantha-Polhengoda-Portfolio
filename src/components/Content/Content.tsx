@@ -24,7 +24,7 @@ const Content = () => {
             <h4 className="ml-0 pt-2 mt-2 text-xs 2xl:ml-3 2xl:pt-2 2xl:mt-2 2xl:text-xl text-gray-50">Web Development</h4>
             </div>
 
-            <div className="relative">
+            <div className="relative lg:ml-2 2xl:ml-3">
             <Image className="w-20 2xl:w-44" src={Icon95} alt="icon95-2" />
             <h4 className="ml-0 pt-2 mt-2 text-xs 2xl:ml-6 2xl:pt-2 2xl:mt-2 2xl:text-xl text-gray-50">UI/UX Design</h4>
             </div>
