@@ -18,7 +18,7 @@ const LogoSlider = () => {
   return (
     <div className="mb-14 text-center items-center justify-center lg:mb-20 2xl:mb-20">
       <h4 className="Slide-h4 text-custom-xs mb-6 text-white bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.2)] rounded-full px-4 py-1 inline-block relative hover:bg-[rgba(111,65,210,0.25)] hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)] lg:text-xs 2xl:text-xs">
-        SOFTWARE TOOLS
+      📱 SOFTWARE TOOLS
       </h4>
       <div className="logos overflow-hidden whitespace-nowrap">
         <div className="logos-slide inline-block">
