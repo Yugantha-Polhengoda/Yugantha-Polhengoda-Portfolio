@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import ProfileImg from '/public/Images/Adobe6.png'
+import './Hero.css'
 
 import { FaUser, FaEnvelope, FaPhoneAlt } from 'react-icons/fa'; // Import icons from react-icons
 import { FaBriefcase } from "react-icons/fa6";
@@ -10,7 +11,7 @@ import { FaCode } from 'react-icons/fa';
 
 const Hero = () => {
   return (
-      <div className="bg-cover bg-center min-h-fit flex items-center justify-center lg:items-start lg:justify-start 2xl:items-start 2xl:justify-start" style={{ backgroundImage: "url('/Images/back9.jpg')" }}>
+      <div className=" bg-cover bg-center min-h-fit flex items-center justify-center lg:items-start lg:justify-start 2xl:items-start 2xl:justify-start" style={{ backgroundImage: "url('/Images/back9.jpg')" }}>
       <div className="text-center bg-opacity-50 p-5 rounded-lg lg:pt-16 lg:pb-16 2xl:p-16">
         <div className="w-full h-50 mx-auto mt-8 mb-4 rounded-full lg:text-left lg:inline-flex lg:w-72 lg:h-72 lg:ml-20 2xl:text-left 2xl:inline-flex 2xl:w-72 2xl:h-72 2xl:ml-20 ">
           <Image src={ProfileImg} alt="Profile Image" className=' w-52 ml-9 lg:w-72 lg:ml-0 2xl:w-72 2xl:ml-0'/>
