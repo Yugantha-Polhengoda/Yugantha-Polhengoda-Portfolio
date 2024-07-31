@@ -68,7 +68,7 @@ const Experience = () => {
         <div className="mb-10 md:w-350 md:mt-0 lg:w-500 2xl:max-w-2xl 2xl:mb-40">
           <h4 className='languages-t text-custom-xs 2xl:text-xs bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.3)]  rounded-full w-40 py-1 ml-10 pl-5 mb-1 lg:w-48 lg:text-xs 2xl:w-48'>3D Modeling & Animation</h4>
           <h2 className="pt-2 text-sm lg:text-2xl 2xl:text-3xl font-bold">I'm Certified & Skilled 3D Designer</h2>
-          <p className='pt-5 text-sm 2xl:text-base'>☝️I discovered my love for 3D design 5 years ago and have since
+          <p className='pt-5 text-sm 2xl:text-base'>⚽ I discovered my love for 3D design 5 years ago and have since
             honed my skills in creating immersive and visually captivating 3D
             models, animations, and environments. My work spans across various industries, including gaming, film, architecture, and product design.</p>
         </div>
