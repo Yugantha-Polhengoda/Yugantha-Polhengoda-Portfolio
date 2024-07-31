@@ -37,7 +37,10 @@ const config: Config = {
         'box-Hover': 'inset 0 -4px 20px rgba(111, 65, 210, .5)',
       },
       width: {
+        '350': '350px',
+        '410': '410px',
         '500': '500px',
+        '55%': '55%',
       },
     },
   },
