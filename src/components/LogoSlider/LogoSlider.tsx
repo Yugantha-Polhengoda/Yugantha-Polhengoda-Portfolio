@@ -16,38 +16,38 @@ import Blender from '/public/Images/blender.png';
 
 const LogoSlider = () => {
   return (
-    <div className="mb-14 text-center items-center justify-center 2xl:mb-20">
-      <h4 className="Slide-h4 text-custom-xs mb-6 text-white bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.2)] rounded-full px-4 py-1 inline-block relative hover:bg-[rgba(111,65,210,0.25)] hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)] 2xl:text-xs">
+    <div className="mb-14 text-center items-center justify-center lg:mb-20 2xl:mb-20">
+      <h4 className="Slide-h4 text-custom-xs mb-6 text-white bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.2)] rounded-full px-4 py-1 inline-block relative hover:bg-[rgba(111,65,210,0.25)] hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)] lg:text-xs 2xl:text-xs">
         SOFTWARE TOOLS
       </h4>
       <div className="logos overflow-hidden whitespace-nowrap">
         <div className="logos-slide inline-block">
           <h4 className="h4 inline-block">|</h4>
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={Figma} alt="Figma" width={50} height={50} />
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={Canva} alt="Canva" width={50} height={50} />
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={VS2} alt="VS2" width={75} height={70} />
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={IntelJ} alt="IntelliJ" width={50} height={50} />
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={Android} alt="Android" width={55} height={50} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={Figma} alt="Figma" width={50} height={50} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={Canva} alt="Canva" width={50} height={50} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={VS2} alt="VS2" width={75} height={70} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={IntelJ} alt="IntelliJ" width={50} height={50} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={Android} alt="Android" width={55} height={50} />
           <h4 className="h4 inline-block">|</h4>
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={Cinema4D} alt="Cinema 4D" width={50} height={50} />
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={Max3DS} alt="3ds Max" width={50} height={50} />
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={Lumion} alt="Lumion" width={45} height={50} />
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={AfterEffects} alt="After Effects" width={85} height={85} />
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={Blender} alt="Blender" width={65} height={65} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={Cinema4D} alt="Cinema 4D" width={50} height={50} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={Max3DS} alt="3ds Max" width={50} height={50} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={Lumion} alt="Lumion" width={45} height={50} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={AfterEffects} alt="After Effects" width={85} height={85} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={Blender} alt="Blender" width={65} height={65} />
           <h4 className="h4 inline-block">|</h4>
         </div>
         <div className="logos-slide inline-block">
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={Figma} alt="Figma" width={50} height={50} />
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={Canva} alt="Canva" width={50} height={50} />
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={VS2} alt="VS2" width={75} height={70} />
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={IntelJ} alt="IntelliJ" width={50} height={50} />
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={Android} alt="Android" width={55} height={50} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={Figma} alt="Figma" width={50} height={50} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={Canva} alt="Canva" width={50} height={50} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={VS2} alt="VS2" width={75} height={70} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={IntelJ} alt="IntelliJ" width={50} height={50} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={Android} alt="Android" width={55} height={50} />
           <h4 className="h4 inline-block">|</h4>
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={Cinema4D} alt="Cinema 4D" width={50} height={50} />
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={Max3DS} alt="3ds Max" width={50} height={50} />
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={Lumion} alt="Lumion" width={45} height={50} />
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={AfterEffects} alt="After Effects" width={85} height={85} />
-          <Image className="inline-block mx-10  transition-transform duration-200 ease-in-out " src={Blender} alt="Blender" width={65} height={65} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={Cinema4D} alt="Cinema 4D" width={50} height={50} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={Max3DS} alt="3ds Max" width={50} height={50} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={Lumion} alt="Lumion" width={45} height={50} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={AfterEffects} alt="After Effects" width={85} height={85} />
+          <Image className="inline-block mx-10 lg:mx-5 2xl:mx-10 transition-transform duration-200 ease-in-out " src={Blender} alt="Blender" width={65} height={65} />
           <h4 className="h4 mb-20 inline-block">|</h4>
         </div>
       </div>
