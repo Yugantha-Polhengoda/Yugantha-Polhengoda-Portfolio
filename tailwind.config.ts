@@ -36,6 +36,9 @@ const config: Config = {
       dropShadow: {
         'box-Hover': 'inset 0 -4px 20px rgba(111, 65, 210, .5)',
       },
+      width: {
+        '500': '500px',
+      },
     },
   },
   plugins: [],
