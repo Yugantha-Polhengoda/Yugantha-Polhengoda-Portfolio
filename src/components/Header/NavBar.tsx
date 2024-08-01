@@ -34,7 +34,7 @@ const NavBar = () => {
                 </Link>
 
                 <Link href="https://www.behance.net/yuganthpolheng" className="">
-                <FaBehance color='white' className='w-5 h-5 hover:scale-90 transition-transform duration-200 md:w-6 md:h-5 lg:w-5 lg:h-5 2xl:w-6 2xl:h-6 border-2 border-[#0ef] rounded-full p-[2px]'/>
+                <FaBehance color='white' className='w-5 h-5 hover:scale-90 transition-transform duration-200 md:w-5 md:h-5 lg:w-5 lg:h-5 2xl:w-6 2xl:h-6 border-2 border-[#0ef] rounded-full p-[2px]'/>
                 </Link>
             </button>
             
