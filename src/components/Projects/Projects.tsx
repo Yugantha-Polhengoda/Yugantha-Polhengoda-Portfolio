@@ -17,7 +17,7 @@ const Projects = () => {
   return (
     <div className="pt-30 pb-20">
       <div className="text-center 2xl:text-left">
-        <h4 className="Projects-h4 text-custom-xs mx-auto pb-2 z-10 text-white bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.2)] rounded-full mb-1 px-5 py-1 inline-block justify-center items-center relative lg:text-xs 2xl:text-xs 2xl:ml-44">
+        <h4 className="Projects-h4 text-custom-xs mx-auto z-10 text-white bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.2)] rounded-full mb-1 px-5 pt-1 pb-1 inline-block justify-center items-center relative hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)] lg:text-xs 2xl:text-xs 2xl:ml-44">
         📅 Projects & Recent Works
         </h4>
         <div className="lg:gap-0 2xl:gap-8 relative flex justify-center items-center flex-wrap z-10">

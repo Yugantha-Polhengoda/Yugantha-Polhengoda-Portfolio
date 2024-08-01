@@ -19,7 +19,16 @@ const NavBar = () => {
         
         <nav className="bg-transparent text-white border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto pl-4 mr-4 md:pl-8 md:pr-8 md:pt-5 md:pb-5 lg:pt-5 lg:pb-5 lg:ml-20 lg:mr-20 2xl:mr-40 2xl:pt-5 2xl:pl-0 2xl:pr-0 2xl:pb-5">
-        <h4 className='flex gap-1 font-Poppins-font text-custom-xs font-light border border-cyan-200 rounded-full py-1 pr-3 pl-3 mb-1 md:pr-3 md:pl-4 md:text-xs lg:pr-3 lg:pl-4 lg:text-xs 2xl:pr-3 2xl:pl-4 2xl:text-xs'>Yugantha Polhengoda<div className="pluseDot2"></div><div className="pluseDot3"></div><div className="pluseDot"></div></h4>
+        <h4 className='flex gap-1 font-Poppins-font text-custom-xs font-light border border-cyan-200 rounded-full py-1 pr-3 pl-3 mb-1 
+                        md:pr-3 md:pl-4 md:text-xs 
+                        lg:pr-3 lg:pl-4 lg:text-xs 
+                        2xl:pr-3 2xl:pl-4 2xl:text-xs'
+                        >Yugantha Polhengoda
+                        <div className="pluseDot2"></div>
+                        <div className="pluseDot3"></div>
+                        <div className="pluseDot"></div>
+                        </h4>
+
         <div className="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
             <button type="button" className="flex text-sm gap-1 lg:gap-2 2xl:gap-1 bg-transparent rounded-full md:me-0 focus:ring-4 focus:ring-gray-300
              dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
