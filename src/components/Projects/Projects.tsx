@@ -20,7 +20,7 @@ const Projects = () => {
         <h4 className="Projects-h4 text-custom-xs mx-auto z-10 text-white bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.2)] rounded-full mb-1 px-5 pt-1 pb-1 inline-block justify-center items-center relative hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)] lg:text-xs 2xl:text-xs 2xl:ml-44">
         📅 Projects & Recent Works
         </h4>
-        <div className="lg:gap-0 2xl:gap-8 relative flex justify-center items-center flex-wrap z-10">
+        <div className="pt-5 lg:gap-0 2xl:gap-8 relative flex justify-center items-center flex-wrap z-10">
 
           <Tilt className="group w-[350px] h-[345px] md:mt-10 md:w-[300px] md:h-[380px] lg:m-3 lg:w-[300px] lg:h-[380px] 2xl:w-[340px] 2xl:h-[400px] m-8 rounded-[15px] bg-transparent overflow-hidden flex justify-center items-center border-t border-l border-white backdrop-blur-[5px] shadow-[20px_20px_50px_rgba(200,200,200,0.2)] transition-all">
             <div className="text-center transition-all">
