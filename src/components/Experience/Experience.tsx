@@ -70,7 +70,7 @@ const Experience = () => {
       </div>
 
       <div className="flex flex-wrap text-white justify-between items-center gap-18 lg:gap-8 2xl:gap-0 2xl:mt-16">
-        <div className="mb-10 md:w-350 md:mt-0 lg:w-500 2xl:w-2/4 2xl:mb-40">
+        <div className="mb-10 md:w-350 md:mt-0 lg:w-55% 2xl:w-2/4 2xl:mb-40">
           <h4 className='languages-t w-44 py-1 ml-10 pl-4 mb-1 text-custom-xs bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.3)]  rounded-full hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)]
                         md:w-52 md:text-xs
                         lg:w-52 lg:text-xs 
@@ -83,7 +83,7 @@ const Experience = () => {
             models, animations, and environments. My work spans across various industries, including gaming, film, architecture, and product design.</p>
         </div>
         <div>
-          <img className="mb-32 md:w-80 md:mt-28  lg:w-96 lg:mt-28 lg:ml-0 2xl:w-500 2xl:mt-0 2xl:ml-11" src={Icon3D2.src} alt="3D2" width="500px"/>
+          <img className="mb-32 md:w-80 md:mt-28  lg:w-96 lg:mt-28 lg:ml-0 2xl:w-500 2xl:mt-0 2xl:ml-0" src={Icon3D2.src} alt="3D2" width="500px"/>
         </div>
       </div>
     </div>

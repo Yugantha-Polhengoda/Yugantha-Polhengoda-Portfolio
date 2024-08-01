@@ -20,10 +20,11 @@ const NavBar = () => {
   return (
     <header className="fixed shadow-custom-shadow top-0 z-[999] w-full backdrop-blur-sm">
       <nav className="bg-transparent text-white border-gray-200 dark:bg-gray-900">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto pl-4 mr-4 md:pl-8 md:pr-8 md:pt-5 md:pb-5 lg:pt-5 lg:pb-5 lg:ml-20 lg:mr-20 2xl:mr-40 2xl:pt-5 2xl:pl-0 2xl:pr-0 2xl:pb-5">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto pl-4 mr-4 md:pl-8 md:pr-8 md:pt-5 md:pb-5 lg:pt-5 lg:pb-5 lg:ml-20 lg:mr-20 1xl:mr-20 1xl:pt-5 1xl:pl-40 1xl:pr-0 1xl:pb-5 2xl:mr-40 2xl:pt-5 2xl:pl-0 2xl:pr-0 2xl:pb-5">
           <h4 className='flex gap-1 font-Poppins-font text-custom-xs font-light border border-cyan-200 rounded-full py-1 pr-3 pl-3 mb-1 
                         md:pr-3 md:pl-4 md:text-xs 
-                        lg:pr-3 lg:pl-4 lg:text-xs 
+                        lg:pr-3 lg:pl-4 lg:text-xs
+                        1xl:pr-3 1xl:pl-4 1xl:text-xs 
                         2xl:pr-3 2xl:pl-4 2xl:text-xs'>
             Yugantha Polhengoda
             <div className="pluseDot2"></div>
@@ -32,20 +33,20 @@ const NavBar = () => {
           </h4>
 
           <div className="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
-            <button type="button" className="flex text-sm gap-1 lg:gap-2 2xl:gap-1 bg-transparent rounded-full md:me-0 focus:ring-4 focus:ring-gray-300
+            <button type="button" className="flex text-sm gap-1 lg:gap-2 1xl:gap-1 2xl:gap-1 bg-transparent rounded-full md:me-0 focus:ring-4 focus:ring-gray-300
              dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
               <span className="sr-only">Open user menu</span>
 
               <Link href="https://github.com/Yugantha-Polhengoda" className="">
-                <FaGithub color='white' className='w-5 h-5 hover:scale-90 transition-transform duration-200 md:w-5 md:h-5 lg:w-5 lg:h-5 2xl:w-6 2xl:h-6 border-2 border-[#0ef] rounded-full p-[2px]' />
+                <FaGithub color='white' className='w-5 h-5 hover:scale-90 transition-transform duration-200 md:w-5 md:h-5 lg:w-5 lg:h-5 1xl:w-6 1xl:h-6 2xl:w-6 2xl:h-6 border-2 border-[#0ef] rounded-full p-[2px]' />
               </Link>
 
               <Link href="https://www.linkedin.com/in/yugantha-polhengoda-7b5348175/" className="">
-                <FaLinkedinIn color='white' className='w-5 h-5 hover:scale-90 transition-transform duration-200 md:w-5 md:h-5 lg:w-5 lg:h-5 2xl:w-6 2xl:h-6 border-2 border-[#0ef] rounded-full p-[2px]' />
+                <FaLinkedinIn color='white' className='w-5 h-5 hover:scale-90 transition-transform duration-200 md:w-5 md:h-5 lg:w-5 lg:h-5 1xl:w-6 1xl:h-6 2xl:w-6 2xl:h-6 border-2 border-[#0ef] rounded-full p-[2px]' />
               </Link>
 
               <Link href="https://www.behance.net/yuganthpolheng" className="">
-                <FaBehance color='white' className='w-5 h-5 hover:scale-90 transition-transform duration-200 md:w-5 md:h-5 lg:w-5 lg:h-5 2xl:w-6 2xl:h-6 border-2 border-[#0ef] rounded-full p-[2px]' />
+                <FaBehance color='white' className='w-5 h-5 hover:scale-90 transition-transform duration-200 md:w-5 md:h-5 lg:w-5 lg:h-5 1xl:w-6 1xl:h-6 2xl:w-6 2xl:h-6 border-2 border-[#0ef] rounded-full p-[2px]' />
               </Link>
             </button>
 
