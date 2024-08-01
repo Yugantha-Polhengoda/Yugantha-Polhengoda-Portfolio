@@ -25,16 +25,16 @@ const NavBar = () => {
              dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
                 <span className="sr-only">Open user menu</span>
                 
-                <Link href="/" className="">
+                <Link href="https://github.com/Yugantha-Polhengoda" className="">
                 <FaGithub color='white' className='w-5 h-5 hover:scale-90 transition-transform duration-200 md:w-5 md:h-5 lg:w-5 lg:h-5 2xl:w-6 2xl:h-6 border-2 border-[#0ef] rounded-full p-[2px]' />
                 </Link>
 
-                <Link href="/" className="">
+                <Link href="https://www.linkedin.com/in/yugantha-polhengoda-7b5348175/" className="">
                 <FaLinkedinIn color='white' className='w-5 h-5 hover:scale-90 transition-transform duration-200 md:w-5 md:h-5 lg:w-5 lg:h-5 2xl:w-6 2xl:h-6 border-2 border-[#0ef] rounded-full p-[2px]' />
                 </Link>
 
-                <Link href="/" className="">
-                <FaBehance color='white' className='w-5 h-5 hover:scale-90 transition-transform duration-200 md:w-6 md:h-5 lg:w-6 lg:h-5 2xl:w-6 2xl:h-6 border-2 border-[#0ef] rounded-full p-[2px]'/>
+                <Link href="https://www.behance.net/yuganthpolheng" className="">
+                <FaBehance color='white' className='w-5 h-5 hover:scale-90 transition-transform duration-200 md:w-6 md:h-5 lg:w-5 lg:h-5 2xl:w-6 2xl:h-6 border-2 border-[#0ef] rounded-full p-[2px]'/>
                 </Link>
             </button>
             

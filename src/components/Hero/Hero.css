@@ -11,6 +11,11 @@
     animation: gradient-animation 18s ease infinite;
     height: 490px;
     width: 100%;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 100%);
+  }
+
+  .bgImg {
+    
   }
   
   @keyframes gradient-animation {
