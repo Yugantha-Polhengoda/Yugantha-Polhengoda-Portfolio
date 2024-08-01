@@ -17,7 +17,7 @@ import Icon3D2 from '/public/Images/3D2.jpg'
 
 const Experience = () => {
   return (
-    <div className="p-8 pb-0 justify-center flex flex-wrap text-white font-Poppins-font items-center md:mt-8 md:p-12 md:pb-0 md:justify-between lg:mt-8 lg:p-12 lg:pb-0 lg:justify-between 2xl:mt-16 2xl:p-32 2xl:pb-0 2xl:justify-between">
+    <div className="p-8 pb-0 mt-16 justify-center flex flex-wrap text-white font-Poppins-font items-center md:mt-8 md:p-12 md:pb-0 md:justify-between lg:mt-8 lg:p-12 lg:pb-0 lg:justify-between 2xl:mt-16 2xl:p-32 2xl:pb-0 2xl:justify-between">
       <div className="mb-10 md:w-410 lg:w-2/3 2xl:w-55% 2xl:mb-32">
         <h4 className='languages-t ml-4 w-52 py-1 pl-3 mb-1 text-custom-xs bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.3)] rounded-full hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)]
                       md:pl-3 md:text-xs md:w-60
@@ -71,10 +71,10 @@ const Experience = () => {
 
       <div className="flex flex-wrap text-white justify-between items-center gap-18 lg:gap-8 2xl:gap-0 2xl:mt-16">
         <div className="mb-10 md:w-350 md:mt-0 lg:w-55% 2xl:w-2/4 2xl:mb-40">
-          <h4 className='languages-t w-44 py-1 ml-10 pl-4 mb-1 text-custom-xs bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.3)]  rounded-full hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)]
+          <h4 className='languages-t w-44 py-1 ml-4 pl-4 mb-1 text-custom-xs bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.3)]  rounded-full hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)]
                         md:w-52 md:text-xs
                         lg:w-52 lg:text-xs 
-                        2xl:text-xs 2xl:w-52'
+                        2xl:text-xs 2xl:w-52 2xl:ml-10'
                         >⚽ 3D Modeling & Animation</h4>
 
           <h2 className="pt-2 text-sm lg:text-2xl 2xl:text-3xl font-bold">I'm Certified & Skilled 3D Designer</h2>
