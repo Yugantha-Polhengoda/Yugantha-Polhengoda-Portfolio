@@ -17,7 +17,8 @@
     "react-next-tilt": "^0.4.3",
     "react-parallax-tilt": "^1.7.234",
     "react-simple-typewriter": "^5.0.1",
-    "react-tilt": "^1.0.2"
+    "react-tilt": "^1.0.2",
+    "sharp": "^0.33.4"
   },
   "devDependencies": {
     "@types/node": "^20",
