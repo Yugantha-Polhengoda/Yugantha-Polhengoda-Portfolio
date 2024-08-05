@@ -4,14 +4,15 @@
     //box-shadow: 1px 1px 4px 4px lightblue;
     background-image: url('/Images/back9.jpg');
     //background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
-    background-size: 180% 180%;
+    //background-size: 180% 180%;
     //background-size: cover;
     background-position: center; /* Center the background image */
     background-repeat: no-repeat;
-    animation: gradient-animation 18s ease infinite;
+    //animation: gradient-animation 18s ease infinite;
     height: 490px;
     width: 100%;
     mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 100%);
+    z-index: 50;
   }
 
   .bgImg {

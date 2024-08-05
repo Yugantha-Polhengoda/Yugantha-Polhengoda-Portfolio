@@ -14,10 +14,10 @@ import { FaCode } from 'react-icons/fa';
 
 const Hero = () => {
   return (
-      <div className=" bg-cover bg-center min-h-fit flex items-center justify-center
+      <div className="bg-cover bg-center min-h-fit flex items-center justify-center
                       md:items-start md:justify-start
                       lg:items-start lg:justify-start 
-                      2xl:items-start 2xl:justify-start" style={{ backgroundImage: "url('/Images/back9.jpg')" }}>
+                      2xl:items-start 2xl:justify-start" style={{ backgroundImage: "url('./Images/back9.jpg')" }}>
 
       <div className="text-center bg-opacity-50 p-5 rounded-lg 
                       md:pt-16 md:pb-0 md:p-0
