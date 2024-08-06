@@ -44,7 +44,7 @@ const Hero = () => {
                       delaySpeed={1000}
                     /></span></h3> 
                 
-                <div className="flex gap-3 2xl:mt-5">
+                <div className="flex pb-5 gap-3 2xl:mt-5">
                     <button className="inline-flex items-center px-6 py-2 border border-transparent text-sm 2xl:text-lg font-medium rounded-md shadow-sm text-black bg-white hover:bg-gray-200 group">
                     <HiOutlineBriefcase size={25} className="phone-Icon mb-1 mr-2" />
                         Hire Me

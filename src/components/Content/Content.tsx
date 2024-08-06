@@ -7,8 +7,8 @@ import Icon95 from '/public/Images/95-icon.png'
 const Content = () => {
   return (
     <div className="flex justify-center z-30 " id="Skills">
-      <div className="mt-[-2px] pt-2 pb-2 px-2 bg-customGray rounded-xl shadow-[1px_1px_4px_4px_lightblue] 
-                      md:p-5 md:px-16 md:mt-[-30px]
+      <div className="mt-[-14px] pt-2 pb-2 px-2 bg-customGray rounded-xl shadow-[1px_1px_4px_4px_lightblue] 
+                      md:p-5 md:px-16 md:mt-[-20px]
                       lg:p-5 lg:px-16 lg:mt-[-20px] 
                       2xl:p-5 2xl:px-16 2xl:mt-[-30px]">
         <h2 className="text-center font-semibold pb-3 pt-1 text-gray-50 font-Orbitron-font 
