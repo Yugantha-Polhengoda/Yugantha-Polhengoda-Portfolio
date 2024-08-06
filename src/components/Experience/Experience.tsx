@@ -26,7 +26,7 @@ const Experience = () => {
                        >💻 Web Development & Languages</h4>
 
         <h2 className="pt-2 text-sm md:text-xl lg:text-2xl 2xl:text-3xl font-bold">I'm Certified & Skilled Developer</h2>
-        <p className="pt-5 text-sm md:text-base lg:text-base 2xl:text-base">👋 Hi there! I'm a web developer passionate about crafting beautiful
+        <p className="pt-5 text-sm md:text-base lg:text-base 2xl:text-base">👋 I'm a web developer passionate about crafting beautiful
           and functional web experiences. With a strong foundation in both front-end
           and back-end technologies,I love turning ideas into real-world applications.</p>
       </div>
