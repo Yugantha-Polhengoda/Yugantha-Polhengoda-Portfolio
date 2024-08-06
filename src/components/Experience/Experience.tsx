@@ -83,7 +83,7 @@ const Experience = () => {
             models, animations, and environments. My work spans across various industries, including gaming, film, architecture, and product design.</p>
         </div>
         <div>
-          <Image className="mb-32 md:max-w-80 md:mt-28 lg:max-w-96 lg:mt-28 lg:ml-0 2xl:max-w-600 2xl:mt-0 2xl:ml-0" src={Icon3D2.src} alt="3D2" width="700" height="0"/>
+          <Image className="mb-32 md:max-w-80 md:mt-28 lg:max-w-96 lg:mt-28 lg:ml-0 2xl:w-600 2xl:mt-0 2xl:mr-10" src={Icon3D2.src} alt="3D2" width="700" height="0"/>
         </div>
       </div>
     </div>
