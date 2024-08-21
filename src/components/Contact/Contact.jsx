@@ -88,7 +88,7 @@ const Contact = () => {
         </div>
 
         <div className='pb-20 py-5'>
-            <textarea id="message" rows="8" class="block p-2.5 w-full text-sm text-gray-900 bg-[#121212] rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your message here..."></textarea>
+            <textarea id="message" rows="8" class="block p-2.5 w-full text-sm text-white bg-[#121212] rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your message here..."></textarea>
             <button type="submit" class="inline-flex gap-3 p-2 px-5 mt-5 items-end bg-blue-700 text-white rounded-full cursor-pointer hover:bg-blue-600 dark:text-blue-500 dark:hover:bg-gray-600">
             <span class="">Send message</span>
             <svg class="w-5 h-5 rotate-90 rtl:-rotate-90" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
