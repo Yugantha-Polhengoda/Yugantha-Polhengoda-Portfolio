@@ -16,7 +16,7 @@ import { FaCode } from 'react-icons/fa';
 
 const Hero = () => {
   return (
-      <div className="bg-cover bg-center min-h-fit flex items-center justify-center
+      <div id='Hero' className="bg-cover bg-center min-h-fit flex items-center justify-center
                       md:items-start md:justify-start
                       lg:items-start lg:justify-start 
                       2xl:items-start 2xl:justify-start" style={{ backgroundImage: "url('./Images/back9.jpg')" }}>
