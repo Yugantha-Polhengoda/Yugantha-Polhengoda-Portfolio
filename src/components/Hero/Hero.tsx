@@ -10,6 +10,8 @@ import { FaUser, FaEnvelope, FaPhoneAlt } from 'react-icons/fa'; // Import icons
 import { FaBriefcase } from "react-icons/fa6";
 import { HiOutlineBriefcase } from "react-icons/hi2";
 import { LiaPhoneAltSolid } from "react-icons/lia";
+import { MdSimCardDownload } from "react-icons/md";
+import { LiaFileDownloadSolid } from "react-icons/lia";
 import { FaCode } from 'react-icons/fa';
 
 const Hero = () => {
@@ -46,8 +48,8 @@ const Hero = () => {
                 
                 <div className="flex pb-4 gap-3 2xl:mt-5">
                     <button className="inline-flex items-center px-6 py-2 border border-transparent text-sm 2xl:text-lg font-medium rounded-md shadow-sm text-black bg-white hover:bg-gray-200 group">
-                    <HiOutlineBriefcase size={25} className="phone-Icon mb-1 mr-2" />
-                        Hire Me
+                    <LiaFileDownloadSolid size={25} className="phone-Icon mr-2" />
+                        Resume
                     </button>
 
                     <button className="inline-flex items-center px-6 py-2 border border-white text-sm 2xl:text-lg font-medium rounded-md shadow-sm text-white bg-transparent hover:bg-white hover:text-black group">
