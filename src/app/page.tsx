@@ -6,6 +6,7 @@ import NavBar from "@/components/Header/NavBar";
 import Hero from "@/components/Hero/Hero";
 import LogoSlider from "@/components/LogoSlider/LogoSlider";
 import Projects from "@/components/Projects/Projects";
+import Contact from "@/components/Contact/Contact"
 import Image from "next/image";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Experience />
       <LogoSlider />
       <Projects />
+      <Contact />
       <Footer />
       <CustomerService />
     </main>

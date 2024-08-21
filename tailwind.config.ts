@@ -42,6 +42,10 @@ const config: Config = {
         '600': '600px',
         '55%': '55%',
       },
+      spacing: {
+        'customX': '498px',
+        'customXs': '655px',
+       }
     },
   },
   plugins: [],

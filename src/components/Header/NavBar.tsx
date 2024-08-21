@@ -88,7 +88,7 @@ const NavBar = () => {
                                      ">Projects</a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
+                <a href="#Contact" className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
                                       md:text-white md:hover:scale-125 md:hover:text-cyan-600 md:p-0 md:dark:hover:text-blue-500 md:hover:bg-transparent md:dark:hover:bg-transparent
                                       lg:text-white lg:hover:scale-125
                                       2xl:text-white 2xl:hover:scale-125
