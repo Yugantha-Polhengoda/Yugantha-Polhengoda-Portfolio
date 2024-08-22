@@ -21,7 +21,7 @@ const Contact = () => {
             🌍 &nbsp;Connect with me
     </h4> 
 
-    <h2 className="text-center font-bold text-5xl mt-8"><span className='text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-pink-500'>Get in touch</span></h2> 
+    <h2 className="text-center font-bold text-5xl mt-6"><span className='text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-pink-500'>Get in touch</span></h2> 
     <p className="text-center max-w-2x1 mx-auto mt-5 mb-12"><span className=''>I'd love to hear from you!
     If you have any questions, comments or feedback, please use the form below. </span></p>
    
@@ -30,7 +30,7 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 mx-auto items-center gap-5 w-auto">
             <div className="relative h-12 w-full min-w-[200px]">
                 <input className="peer h-full w-full rounded-[7px] 
-                       border bg-[#121212] border-white border-t-transparent 
+                       border bg-zinc-900 border-white border-t-transparent 
                        bg-transparent px-3 py-2.5 font-sans text-sm
                        font-normal text-blue-gray-700 outline outline-0 
                        transition-all placeholder-shown:border
@@ -58,7 +58,7 @@ const Contact = () => {
 
             <div className="relative h-12 w-full min-w-[200px]">
                 <input className="peer h-full w-full rounded-[7px] 
-                       border bg-[#121212] border-white border-t-transparent 
+                       border bg-zinc-900 border-white border-t-transparent 
                        bg-transparent px-3 py-2.5 font-sans text-sm
                        font-normal text-blue-gray-700 outline outline-0 
                        transition-all placeholder-shown:border
@@ -88,8 +88,8 @@ const Contact = () => {
         </div>
 
         <div className='pb-20 py-5'>
-            <textarea id="message" rows="8" class="block p-2.5 w-full text-sm text-white bg-[#121212] rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your message here..."></textarea>
-            <button type="submit" class="inline-flex gap-3 p-2 px-5 mt-5 items-end bg-blue-700 text-white rounded-full cursor-pointer hover:bg-blue-600 dark:text-blue-500 dark:hover:bg-gray-600">
+            <textarea id="message" rows="8" class="block p-2.5 w-full text-sm text-white bg-zinc-900 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your message here..."></textarea>
+            <button type="submit" class="inline-flex gap-3 p-2 pb-2.5 px-5 mt-5 items-end bg-transparent border border-cyan-500 text-cyan-500 rounded-full cursor-pointer hover:bg-gray-800 dark:text-blue-500 dark:hover:bg-gray-600">
             <span class="">Send message</span>
             <svg class="w-5 h-5 rotate-90 rtl:-rotate-90" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
                 <path d="m17.914 18.594-8-18a1 1 0 0 0-1.828 0l-8 18a1 1 0 0 0 1.157 1.376L8 18.281V9a1 1 0 0 1 2 0v9.281l6.758 1.689a1 1 0 0 0 1.156-1.376Z"/>
