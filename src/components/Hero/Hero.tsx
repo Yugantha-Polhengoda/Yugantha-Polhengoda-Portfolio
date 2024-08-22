@@ -47,12 +47,12 @@ const Hero = () => {
                     /></span></h3> 
                 
                 <div className="flex pb-4 gap-3 2xl:mt-5">
-                    <button className="inline-flex items-center px-6 py-2 border border-transparent text-sm 2xl:text-lg font-medium rounded-md shadow-sm text-black bg-white hover:bg-gray-200 group">
+                    <button className="inline-flex items-center px-6 py-2 border border-transparent text-sm 2xl:text-lg font-medium rounded-md shadow-sm text-zinc-800 bg-white hover:bg-gray-200 hover:text-black  group">
                     <LiaFileDownloadSolid size={25} className="phone-Icon mr-2" />
                         Resume
                     </button>
 
-                    <button className="inline-flex items-center px-6 py-2 border border-white text-sm 2xl:text-lg font-medium rounded-md shadow-sm text-white bg-transparent hover:bg-white hover:text-black group">
+                    <button className="inline-flex items-center px-6 py-2 border border-white text-sm 2xl:text-lg font-medium rounded-md shadow-sm text-white bg-transparent hover:bg-white hover:text-zinc-800 group">
                     <LiaPhoneAltSolid size={25} className="phone-Icon mr-1" />
                         Contact
                     </button>
