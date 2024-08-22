@@ -1,7 +1,6 @@
 "use client";
 
-import React, { useState } from 'react';
-import { useRouter } from "next/router";
+import React, { useState, useEffect, useRef } from 'react';
 import Link from "next/link";
 import './NavBar.css';
 
@@ -11,10 +10,31 @@ import { FaBehance } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 
 const NavBar = () => {
-  const [menuOpen, setMenuOpen] = useState(false); // State to manage menu visibility
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null); 
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+  };
+
+  // Close the menu when clicking outside of it
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setMenuOpen(false);
+      }
+    };
+  
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+  
+
+  // Close the menu when clicking on a content link
+  const handleLinkClick = () => {
+    setMenuOpen(false);
   };
 
   return (
@@ -56,7 +76,7 @@ const NavBar = () => {
               className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               aria-controls="navbar-user"
               aria-expanded={menuOpen}
-              onClick={toggleMenu} // Toggle menu visibility
+              onClick={toggleMenu}
             >
               <span className="sr-only">Open main menu</span>
               <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -64,30 +84,31 @@ const NavBar = () => {
               </svg>
             </button>
           </div>
-          <div className={`text-base items-center justify-between ${menuOpen ? 'block' : 'hidden'} w-full md:flex md:w-auto md:order-1`} id="navbar-user">
+
+          <div ref={menuRef} className={`text-base items-center justify-between ${menuOpen ? 'block' : 'hidden'} w-full md:flex md:w-auto md:order-1`} id="navbar-user">
             <ul className="lg:bg-transparent flex flex-col font-light p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-customGray md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-              <li>
+              <li onClick={handleLinkClick}>
                 <a href="#Hero" className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
                                      md:text-white md:hover:scale-125 md:dark:hover:text-blue-500 md:hover:bg-transparent md:dark:hover:bg-transparent md:hover:text-cyan-600 md:p-0
                                      lg:text-white lg:hover:scale-125
                                      2xl:text-white 2xl:hover:scale-125
                                     " aria-current="page">Home</a>
               </li>
-              <li>
+              <li onClick={handleLinkClick}>
                 <a href="#Experience" className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
                                      md:text-white md:hover:scale-125 md:dark:hover:text-blue-500 md:hover:bg-transparent md:dark:hover:bg-transparent md:hover:text-cyan-600 md:p-0
                                      lg:text-white lg:hover:scale-125
                                      2xl:text-white 2xl:hover:scale-125
                                      ">About</a>
               </li>
-              <li>
+              <li onClick={handleLinkClick}>
                 <a href="#Projects" className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
                                      md:text-white md:hover:scale-125 md:hover:bg-transparent md:hover:text-cyan-600 md:p-0 md:dark:hover:text-blue-500 md:dark:hover:bg-transparent
                                      lg:text-white lg:hover:scale-125
                                      2xl:text-white 2xl:hover:scale-125 
                                      ">Projects</a>
               </li>
-              <li>
+              <li onClick={handleLinkClick}>
                 <a href="#Contact" className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
                                       md:text-white md:hover:scale-125 md:hover:text-cyan-600 md:p-0 md:dark:hover:text-blue-500 md:hover:bg-transparent md:dark:hover:bg-transparent
                                       lg:text-white lg:hover:scale-125
