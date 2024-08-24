@@ -29,7 +29,7 @@ const Contact = () => {
     If you have any questions, comments or feedback, please use the form below. </span></p>
 
 
-    <div className=" text-white text-left 2xl:mx-[20%] pb-5 ">
+    <div className=" text-white text-left xl:mx-[20%] pb-5 ">
       <p className='flex flex-wrap gap-3 text-sm lg:text-base m-4'><FaLocationDot size={26} /> Kurunegala, Sri lanka</p>
       <p className='flex flex-wrap gap-3 text-sm lg:text-base m-4'><FaPhone size={23} /> +94 767801452</p>
       <p className='flex flex-wrap gap-3 text-sm lg:text-base m-4'><MdEmail size={27} /> yuganthapolhengoda@gmail.com</p>
