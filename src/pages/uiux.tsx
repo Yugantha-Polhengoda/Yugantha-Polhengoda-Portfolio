@@ -27,7 +27,7 @@ const uiux = () => {
     <div className='py-40 h-[1020vh] lg:h-[320vh]'>
     <h4 className="text-center text-5xl pb-10 font-bold">
             <span className='text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-pink-500'>
-              Web Development
+                UI/UX Design
             </span>
       </h4> 
 
