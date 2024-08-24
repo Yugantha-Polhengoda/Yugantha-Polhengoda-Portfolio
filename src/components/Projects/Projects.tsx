@@ -14,6 +14,9 @@ import UISlideshow from '/public/Images/UISlideshow.gif';
 import Slideshow3D from '/public/Images/3DSlideshow.gif';
 
 const Projects = () => {
+
+  
+
   return (
     <div id='Projects' className="pt-30 pb-20 scroll-mt-36">
       <div className="text-center 2xl:text-left">
@@ -28,7 +31,8 @@ const Projects = () => {
               <Image className="absolute w-full h-44 md:h-1/2 lg:h-1/2 2xl:h-1/2 top-1.5 left-0 px-1.5 rounded-[15px] object-cover" src={Campaign} alt="Campaign" />
               <Image className="absolute w-full h-44 md:h-1/2 lg:h-1/2 2xl:h-1/2 top-1.5 left-0 px-1.5 rounded-[15px] object-cover hidden group-hover:block" src={WebSlideshow} alt="Campaign Hover" />
               <h3 className="text-white text-2xl z-10 pt-48">Web Development</h3>
-              <Link href="/Pages/WebDevelopment.html">
+
+              <Link href="/webDevelopment">
                 <button className="text-white mt-5 w-20 h-9 text-lg font-montserrat bg-[rgba(25,17,51,0.5)] border-t border-l border-white backdrop-blur-[5px] rounded-full hover:bg-transparent transition-all">
                   <span className="relative inline-block cursor-pointer transition-all hover:pr-4 ">
                     View
@@ -44,7 +48,8 @@ const Projects = () => {
               <Image className="absolute w-full h-1/2 top-1.5 left-0 px-1.5 rounded-[15px] object-cover" src={UI2} alt="UI Design" />
               <Image className="absolute w-full h-1/2 top-1.5 left-0 px-1.5 rounded-[15px] object-cover hidden group-hover:block" src={UISlideshow} alt="UI Design Hover" />
               <h3 className="text-white text-2xl z-10 pt-48">UI/UX Design</h3>
-              <Link href="/Pages/UI.html">
+
+              <Link href="/uiux">
                 <button className="text-white mt-5 w-20 h-9 text-lg font-montserrat bg-[rgba(25,17,51,0.5)] border-t border-l border-white backdrop-blur-[5px] rounded-full hover:bg-transparent transition-all">
                   <span className="relative inline-block cursor-pointer transition-all hover:pr-4">
                     View
@@ -60,7 +65,8 @@ const Projects = () => {
               <Image className="absolute w-full h-1/2 top-1.5 left-0 px-1.5 rounded-[15px] object-cover" src={MobileUI} alt="3D Animation" />
               <Image className="absolute w-full h-1/2 top-1.5 left-0 px-1.5 rounded-[15px] object-cover hidden group-hover:block" src={Slideshow3D} alt="3D Animation Hover" />
               <h3 className="text-white text-2xl z-10 pt-48">3D Animation</h3>
-              <Link href="/Pages/3D.html">
+
+              <Link href="/annimations">
                 <button className="text-white mt-5 bg-[rgba(25,17,51,0.5)] border-t border-l border-white backdrop-blur-[5px] rounded-full w-20 h-9 text-lg font-montserrat hover:bg-transparent transition-all">
                   <span className="relative inline-block cursor-pointer transition-all hover:pr-4">
                     View

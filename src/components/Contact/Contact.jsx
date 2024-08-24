@@ -1,8 +1,11 @@
 import React from 'react'
+import { FaLocationDot } from "react-icons/fa6";
+import { FaPhone } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div id="Contact" className="w-full px-[12%] py-20 scroll-mt-14 bg-[url('•/images/ footer-bg-color.png')] bg-no-repeat
+    <div id="Contact" className="w-full px-[12%] py-20 scroll-mt-4 bg-[url('•/images/ footer-bg-color.png')] bg-no-repeat
              bg-[length:90%_auto] bg-center font-Poppins-font text-center  text-white">
     
 
@@ -22,8 +25,15 @@ const Contact = () => {
     </h4> 
 
     <h2 className="text-center font-bold text-5xl mt-6"><span className='text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-pink-500'>Get in touch</span></h2> 
-    <p className="text-center max-w-2x1 mx-auto mt-5 mb-12"><span className=''>I'd love to hear from you!
+    <p className="text-center max-w-2x1 mx-auto mt-5 max-w-2xl mb-12"><span className=''>I'd love to hear from you!
     If you have any questions, comments or feedback, please use the form below. </span></p>
+
+
+    <div className=" text-white text-left 2xl:mx-[20%] pb-5 ">
+      <p className='flex flex-wrap gap-3 text-sm lg:text-base m-4'><FaLocationDot size={26} /> Kurunegala, Sri lanka</p>
+      <p className='flex flex-wrap gap-3 text-sm lg:text-base m-4'><FaPhone size={23} /> +94 767801452</p>
+      <p className='flex flex-wrap gap-3 text-sm lg:text-base m-4'><MdEmail size={27} /> yuganthapolhengoda@gmail.com</p>
+    </div>
    
     <form action="" className="max-w-2x1 xl:mx-[20%]">
         

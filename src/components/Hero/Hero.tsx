@@ -13,6 +13,7 @@ import { LiaPhoneAltSolid } from "react-icons/lia";
 import { MdSimCardDownload } from "react-icons/md";
 import { LiaFileDownloadSolid } from "react-icons/lia";
 import { FaCode } from 'react-icons/fa';
+import { FaDownload } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -48,7 +49,7 @@ const Hero = () => {
                 
                 <div className="flex pb-4 gap-3 2xl:mt-5">
                     <button className="inline-flex items-center px-6 py-2 border border-transparent text-sm 2xl:text-lg font-medium rounded-md shadow-sm text-zinc-800 bg-white hover:bg-gray-200 hover:text-black  group">
-                    <LiaFileDownloadSolid size={25} className="phone-Icon mr-2" />
+                    <FaDownload size={18} className="phone-Icon mr-2" />
                         Resume
                     </button>
 
