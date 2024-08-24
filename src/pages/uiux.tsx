@@ -5,7 +5,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Tilt from 'react-parallax-tilt';
 import "../app/globals.css";
-import "./webDevelopment.css";
 
 import Campaign from '/public/Images/Campaign.png';
 import Translator from '/public/Images/Translator.png';
