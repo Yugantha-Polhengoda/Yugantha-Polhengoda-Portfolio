@@ -24,7 +24,7 @@ const webDevelopment = () => {
   return (
       <div className='bg-black h-full'>
         <NavBar />
-        <div className='py-40 h-[1020vh] lg:h-[320vh]'>
+        <div className='py-40 h-[360vh] lg:h-[320vh]'>
         <h4 className="text-center text-5xl pb-10 font-bold">
                 <span className='text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-pink-500'>
                   Web Development
@@ -52,7 +52,7 @@ const webDevelopment = () => {
           </div>
 
 
-          <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white mt-[700px] lg:mt-[38%] py-10 '>
+          <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white mt-[180%] lg:mt-[38%] py-10 '>
 
             <div className="right">
                   <h1 className='text-3xl text-white pb-5'>Multi Translator
@@ -74,7 +74,7 @@ const webDevelopment = () => {
 
 
 
-          <div className='absolute grid grid-cols-1 my-10 lg:grid-cols-2 px-5 lg:left-5 max-w-[1000px] text-white mt-[418%]  lg:mt-[68%] py-20 '>
+          <div className='absolute grid grid-cols-1 my-10 lg:grid-cols-2 px-5 lg:left-5 max-w-[1000px] text-white mt-[340%]  lg:mt-[68%] py-20 '>
 
             <div className="left max-w-[90%]">
                   
@@ -94,7 +94,7 @@ const webDevelopment = () => {
           </div>
 
 
-          <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white mt-[630%] lg:mt-[104%] py-10 '>
+          <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white mt-[520%] lg:mt-[104%] py-10 '>
 
             <div className="right">
                   <h1 className='text-3xl text-white pb-5'>Online Shopping Application

@@ -34,86 +34,86 @@ const uiux = () => {
         
       <div className='absolute grid grid-cols-1 my-10 lg:grid-cols-2 px-5 lg:left-5 max-w-[1000px] text-white py-20 '>
 
-        <div className="left max-w-[90%]">
-              
-              <Image className="img1 h-64 rounded-[5px] object-cover" src={Campaign} alt="Campaign" />
+            <div className="left max-w-[90%]">
+                  
+                  <Image className="img1 h-64 rounded-[5px] object-cover" src={Campaign} alt="Campaign" />
 
-        </div>
+            </div>
 
-        <div className="right">
-              <h1 className='text-3xl text-white mt-5 pb-5 lg:mt-0'>Online Cosmetic Store
-              </h1>
-              <h2></h2>
-              <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-              <p>In stock. <a href="">Buy Extended Warranty</a></p>
-              <p></p>
-        </div>
+            <div className="right">
+                  <h1 className='text-3xl text-white mt-5 pb-5 lg:mt-0'>Online Cosmetic Store
+                  </h1>
+                  <h2></h2>
+                  <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
+                  <p>In stock. <a href="">Buy Extended Warranty</a></p>
+                  <p></p>
+            </div>
 
-      </div>
-
-
-      <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white mt-[700px] lg:mt-[38%] py-10 '>
-
-        <div className="right">
-              <h1 className='text-3xl text-white pb-5'>Multi Translator
-              </h1>
-              <h2></h2>
-              <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-              <p>In stock. <a href="">Buy Extended Warranty</a></p>
-              <p></p>
-        </div>
-
-        
-        <div className="left max-w-[90%]">
-              
-              <Image className="img1 h-64 rounded-[5px] object-cover" src={Translator} alt="Translator" />
-
-        </div>
-
-      </div>
+          </div>
 
 
+          <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white mt-[180%] lg:mt-[38%] py-10 '>
 
-      <div className='absolute grid grid-cols-1 my-10 lg:grid-cols-2 px-5 lg:left-5 max-w-[1000px] text-white mt-[418%]  lg:mt-[68%] py-20 '>
+            <div className="right">
+                  <h1 className='text-3xl text-white pb-5'>Multi Translator
+                  </h1>
+                  <h2></h2>
+                  <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
+                  <p>In stock. <a href="">Buy Extended Warranty</a></p>
+                  <p></p>
+            </div>
 
-        <div className="left max-w-[90%]">
-              
-              <Image className="img1 h-64 rounded-[5px] object-fill" src={Hotels} alt="Hotels" />
+            
+            <div className="left max-w-[90%]">
+                  
+                  <Image className="img1 h-64 rounded-[5px] object-cover" src={Translator} alt="Translator" />
 
-        </div>
+            </div>
 
-        <div className="right">
-              <h1 className='text-3xl text-white mt-5 pb-5 lg:mt-0'>Hotel Reservation System
-              </h1>
-              <h2></h2>
-              <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-              <p>In stock. <a href="">Buy Extended Warranty</a></p>
-              <p></p>
-        </div>
-        
-      </div>
+          </div>
 
 
-      <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white mt-[630%] lg:mt-[104%] py-10 '>
 
-        <div className="right">
-              <h1 className='text-3xl text-white pb-5'>Online Shopping Application
+          <div className='absolute grid grid-cols-1 my-10 lg:grid-cols-2 px-5 lg:left-5 max-w-[1000px] text-white mt-[340%]  lg:mt-[68%] py-20 '>
 
-              </h1>
-              <h2></h2>
-              <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-              <p>In stock. <a href="">Buy Extended Warranty</a></p>
-              <p></p>
-        </div>
+            <div className="left max-w-[90%]">
+                  
+                  <Image className="img1 h-64 rounded-[5px] object-fill" src={Hotels} alt="Hotels" />
 
-        
-        <div className="left max-w-[90%]">
-              
-              <Image className="img1 h-64 rounded-[5px] object-fill" src={Clothing} alt="Clothing" />
+            </div>
 
-        </div>
+            <div className="right">
+                  <h1 className='text-3xl text-white mt-5 pb-5 lg:mt-0'>Hotel Reservation System
+                  </h1>
+                  <h2></h2>
+                  <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
+                  <p>In stock. <a href="">Buy Extended Warranty</a></p>
+                  <p></p>
+            </div>
+            
+          </div>
 
-      </div>
+
+          <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white mt-[520%] lg:mt-[104%] py-10 '>
+
+            <div className="right">
+                  <h1 className='text-3xl text-white pb-5'>Online Shopping Application
+
+                  </h1>
+                  <h2></h2>
+                  <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
+                  <p>In stock. <a href="">Buy Extended Warranty</a></p>
+                  <p></p>
+            </div>
+
+            
+            <div className="left max-w-[90%]">
+                  
+                  <Image className="img1 h-64 rounded-[5px] object-fill" src={Clothing} alt="Clothing" />
+
+            </div>
+
+          </div>
 
 
     </div>
