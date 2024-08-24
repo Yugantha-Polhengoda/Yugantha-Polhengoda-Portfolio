@@ -5,7 +5,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Tilt from 'react-parallax-tilt';
 import "../app/globals.css";
-import "./webDevelopment.css";
 
 import Campaign from '/public/Images/Campaign.png';
 import Translator from '/public/Images/Translator.png';
@@ -22,10 +21,127 @@ import Footer from '@/components/Footer/Footer';
 
 const webDevelopment = () => {
   return (
-      <div className='bg-black h-full'>
+      <div className='bg-black h-auto'>
         <NavBar />
-        <div className='py-40 h-[360vh] lg:h-[320vh]'>
-        <h4 className="text-center text-5xl pb-10 font-bold">
+        
+        <div className='py-40 lg:hidden'>
+          <h4 className="text-center text-5xl pb-10 font-bold">
+                <span className='text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-pink-500'>
+                  Web Development
+                </span>
+          </h4> 
+
+            
+          <div className='grid grid-cols-1 mx-4 text-white py-20'>
+
+            <div className="">
+                  <Image className="img1 h-64 rounded-[5px] object-cover" src={Campaign} alt="Campaign" />
+            </div>
+
+            <div className="right">
+                  <h1 className='text-3xl text-white mt-5 pb-5 lg:mt-0'>Online Cosmetic Store
+                  </h1>
+                  <h2></h2>
+                  <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
+                  <p>In stock. <a href="">Buy Extended Warranty</a></p>
+                  
+                  <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
+                    <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
+                    <p className='bg-purple-500 rounded-[20px] text-sm p-1'>CSS</p>
+                    <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
+                    <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Bootstrap</p>
+                  </div>
+            </div>
+
+          </div>
+
+
+          <div className='grid grid-cols-1 py-10 px-4 text-white'>
+
+            <div className="">   
+                <Image className="img1 h-64 rounded-[5px] object-cover" src={Translator} alt="Translator" />
+            </div>
+
+            <div className="right">
+                  <h1 className='text-3xl mt-5 pb-5'>Multi Translator
+                  </h1>
+                  <h2></h2>
+                  <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
+                  <p>In stock. <a href="">Buy Extended Warranty</a></p>
+                  
+                  <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
+                    <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
+                    <p className='bg-purple-500 rounded-[20px] text-sm p-1'>CSS</p>
+                    <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
+                    <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Tailwind CSS</p>
+                  </div>
+            </div>
+          </div>
+
+
+
+          <div className='grid grid-cols-1 mx-4 text-white py-20'>
+
+            <div className="">
+                  
+                  <Image className="img1 h-64 rounded-[5px] object-fill" src={Hotels} alt="Hotels" />
+
+            </div>
+
+            <div className="right">
+                  <h1 className='text-3xl text-white mt-5 pb-5'>Hotel Reservation System
+                  </h1>
+                  <h2></h2>
+                  <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
+                  <p>In stock. <a href="">Buy Extended Warranty</a></p>
+                  
+                  <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
+                    <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
+                    <p className='bg-purple-500 rounded-[20px] text-sm p-1'>CSS</p>
+                    <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
+                    <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Bootstrap</p>
+                  </div>
+            </div>
+            
+          </div>
+
+
+          <div className='grid grid-cols-1 mx-4 text-white py-20'>
+
+            <div className="">  
+                  <Image className="img1 h-64 rounded-[5px] object-fill" src={Clothing} alt="Clothing" />
+            </div>
+
+            <div className="right">
+                  <h1 className='text-3xl text-white mt-5 pb-5'>Online Shopping Application
+
+                  </h1>
+                  <h2></h2>
+                  <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
+                  <p>In stock. <a href="">Buy Extended Warranty</a></p>
+                  
+                  <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
+                    <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
+                    <p className='bg-purple-500 rounded-[20px] text-sm p-1'>CSS</p>
+                    <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
+                    <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Tailwind CSS</p>
+                  </div>
+            </div>
+          </div> 
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div className='py-40 h-[360vh] lg:h-[320vh] hidden lg:block'>
+          <h4 className="text-center text-5xl pb-10 font-bold">
                 <span className='text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-pink-500'>
                   Web Development
                 </span>
@@ -46,7 +162,13 @@ const webDevelopment = () => {
                   <h2></h2>
                   <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
                   <p>In stock. <a href="">Buy Extended Warranty</a></p>
-                  <p></p>
+                  
+                  <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
+                    <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
+                    <p className='bg-purple-500 rounded-[20px] text-sm p-1'>CSS</p>
+                    <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
+                    <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Bootstrap</p>
+                  </div>
             </div>
 
           </div>
@@ -60,7 +182,13 @@ const webDevelopment = () => {
                   <h2></h2>
                   <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
                   <p>In stock. <a href="">Buy Extended Warranty</a></p>
-                  <p></p>
+                  
+                  <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
+                    <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
+                    <p className='bg-purple-500 rounded-[20px] text-sm p-1'>CSS</p>
+                    <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
+                    <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Tailwind CSS</p>
+                  </div>
             </div>
 
             
@@ -88,7 +216,13 @@ const webDevelopment = () => {
                   <h2></h2>
                   <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
                   <p>In stock. <a href="">Buy Extended Warranty</a></p>
-                  <p></p>
+                  
+                  <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
+                    <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
+                    <p className='bg-purple-500 rounded-[20px] text-sm p-1'>CSS</p>
+                    <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
+                    <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Bootstrap</p>
+                  </div>
             </div>
             
           </div>
@@ -103,18 +237,21 @@ const webDevelopment = () => {
                   <h2></h2>
                   <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
                   <p>In stock. <a href="">Buy Extended Warranty</a></p>
-                  <p></p>
+                  
+                  <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
+                    <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
+                    <p className='bg-purple-500 rounded-[20px] text-sm p-1'>CSS</p>
+                    <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
+                    <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Tailwind CSS</p>
+                  </div>
             </div>
 
-            
             <div className="left max-w-[90%]">
                   
                   <Image className="img1 h-64 rounded-[5px] object-fill" src={Clothing} alt="Clothing" />
 
             </div>
-
-          </div>
-
+          </div> 
 
         </div>
 
