@@ -35,7 +35,7 @@ const webDevelopment = () => {
           <div className='grid grid-cols-1 mx-4 text-white py-20'>
 
             <div className="">
-                  <Image className="img1 h-64 rounded-[5px] object-cover" src={Campaign} alt="Campaign" />
+                  <Image className="img1 rounded-[5px] object-cover" src={Campaign} alt="Campaign" />
             </div>
 
             <div className="right">
@@ -59,7 +59,7 @@ const webDevelopment = () => {
           <div className='grid grid-cols-1 py-10 px-4 text-white'>
 
             <div className="">   
-                <Image className="img1 h-64 rounded-[5px] object-cover" src={Translator} alt="Translator" />
+                <Image className="img1 rounded-[5px] object-fill" src={Translator} alt="Translator" />
             </div>
 
             <div className="right">
@@ -84,7 +84,7 @@ const webDevelopment = () => {
 
             <div className="">
                   
-                  <Image className="img1 h-64 rounded-[5px] object-fill" src={Hotels} alt="Hotels" />
+                  <Image className="img1 rounded-[5px] object-fill" src={Hotels} alt="Hotels" />
 
             </div>
 
@@ -109,7 +109,7 @@ const webDevelopment = () => {
           <div className='grid grid-cols-1 mx-4 text-white py-20'>
 
             <div className="">  
-                  <Image className="img1 h-64 rounded-[5px] object-fill" src={Clothing} alt="Clothing" />
+                  <Image className="img1 rounded-[5px] object-fill" src={Clothing} alt="Clothing" />
             </div>
 
             <div className="right">
