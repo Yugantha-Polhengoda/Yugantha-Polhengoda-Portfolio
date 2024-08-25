@@ -90,32 +90,40 @@ const NavBar = () => {
           <div ref={menuRef} className={`text-base items-center justify-between ${menuOpen ? 'block' : 'hidden'} w-full md:flex md:w-auto md:order-1`} id="navbar-user">
             <ul className="lg:bg-transparent flex flex-col font-light p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-customGray md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li onClick={handleLinkClick}>
-                <a href="/" className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
-                                     md:text-white md:hover:scale-125 md:dark:hover:text-blue-500 md:hover:bg-transparent md:dark:hover:bg-transparent md:hover:text-cyan-600 md:p-0
-                                     lg:text-white lg:hover:scale-125
-                                     2xl:text-white 2xl:hover:scale-125
-                                    " aria-current="page">Home</a>
-              </li>
-              <li onClick={handleLinkClick}>
-                <a href="#Experience" className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
-                                     md:text-white md:hover:scale-125 md:dark:hover:text-blue-500 md:hover:bg-transparent md:dark:hover:bg-transparent md:hover:text-cyan-600 md:p-0
-                                     lg:text-white lg:hover:scale-125
-                                     2xl:text-white 2xl:hover:scale-125
-                                     ">About</a>
-              </li>
-              <li onClick={handleLinkClick}>
-                <a href="#Projects" className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
-                                     md:text-white md:hover:scale-125 md:hover:bg-transparent md:hover:text-cyan-600 md:p-0 md:dark:hover:text-blue-500 md:dark:hover:bg-transparent
-                                     lg:text-white lg:hover:scale-125
-                                     2xl:text-white 2xl:hover:scale-125 
-                                     ">Projects</a>
-              </li>
-              <li onClick={handleLinkClick}>
-                <a href="#Contact" className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
-                                      md:text-white md:hover:scale-125 md:hover:text-cyan-600 md:p-0 md:dark:hover:text-blue-500 md:hover:bg-transparent md:dark:hover:bg-transparent
+                <Link href="/">
+                  <h1 className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
+                                      md:text-white md:hover:scale-125 md:dark:hover:text-blue-500 md:hover:bg-transparent md:dark:hover:bg-transparent md:hover:text-cyan-600 md:p-0
                                       lg:text-white lg:hover:scale-125
                                       2xl:text-white 2xl:hover:scale-125
-                                     ">Contact</a>
+                                      " aria-current="page">Home</h1>
+                </Link>
+              </li>
+              <li onClick={handleLinkClick}>
+                <Link href="/#Experience">
+                  <h1 className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
+                                      md:text-white md:hover:scale-125 md:dark:hover:text-blue-500 md:hover:bg-transparent md:dark:hover:bg-transparent md:hover:text-cyan-600 md:p-0
+                                      lg:text-white lg:hover:scale-125
+                                      2xl:text-white 2xl:hover:scale-125
+                                      ">About</h1>
+                </Link>
+              </li>
+              <li onClick={handleLinkClick}>
+                <Link href="/#Projects">
+                  <h1 className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
+                                      md:text-white md:hover:scale-125 md:hover:bg-transparent md:hover:text-cyan-600 md:p-0 md:dark:hover:text-blue-500 md:dark:hover:bg-transparent
+                                      lg:text-white lg:hover:scale-125
+                                      2xl:text-white 2xl:hover:scale-125 
+                                      ">Projects</h1>
+                </Link>
+              </li>
+              <li onClick={handleLinkClick}>
+                <Link href="/#Contact">
+                  <h1 className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
+                                        md:text-white md:hover:scale-125 md:hover:text-cyan-600 md:p-0 md:dark:hover:text-blue-500 md:hover:bg-transparent md:dark:hover:bg-transparent
+                                        lg:text-white lg:hover:scale-125
+                                        2xl:text-white 2xl:hover:scale-125
+                                      ">Contact</h1>
+                </Link>
               </li>
             </ul>
           </div>
