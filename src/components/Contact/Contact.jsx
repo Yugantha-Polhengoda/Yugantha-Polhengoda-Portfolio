@@ -1,4 +1,4 @@
-"use client";  // This tells Next.js that this is a Client Component
+"use client";
 
 import React, { useState } from 'react';
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
