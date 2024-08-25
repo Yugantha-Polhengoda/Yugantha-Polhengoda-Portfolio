@@ -46,10 +46,8 @@ const annimations = () => {
                   <p>In stock. <a href="">Buy Extended Warranty</a></p>
                   
                   <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
-                    <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
-                    <p className='bg-purple-500 rounded-[20px] text-sm p-1'>CSS</p>
-                    <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
-                    <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Bootstrap</p>
+                    <p className='bg-blue-500  rounded-[20px] text-sm p-1'>Cinema 4D</p>
+                    <p className='bg-purple-500 rounded-[20px] text-sm p-1'>V-Ray</p>
                   </div>
             </div>
 
@@ -70,10 +68,8 @@ const annimations = () => {
                   <p>In stock. <a href="">Buy Extended Warranty</a></p>
                   
                   <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
-                    <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
-                    <p className='bg-purple-500 rounded-[20px] text-sm p-1'>CSS</p>
-                    <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
-                    <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Tailwind CSS</p>
+                    <p className='bg-blue-500  rounded-[20px] text-sm p-1'>Cinema 4D</p>
+                    <p className='bg-purple-500 rounded-[20px] text-sm p-1'>V-Ray</p>
                   </div>
             </div>
           </div>
@@ -96,10 +92,8 @@ const annimations = () => {
                   <p>In stock. <a href="">Buy Extended Warranty</a></p>
                   
                   <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
-                    <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
-                    <p className='bg-purple-500 rounded-[20px] text-sm p-1'>CSS</p>
-                    <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
-                    <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Bootstrap</p>
+                    <p className='bg-blue-500  rounded-[20px] text-sm p-1'>Cinema 4D</p>
+                    <p className='bg-purple-500 rounded-[20px] text-sm p-1'>V-Ray</p>
                   </div>
             </div>
             
@@ -121,10 +115,8 @@ const annimations = () => {
                   <p>In stock. <a href="">Buy Extended Warranty</a></p>
                   
                   <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
-                    <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
-                    <p className='bg-purple-500 rounded-[20px] text-sm p-1'>CSS</p>
-                    <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
-                    <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Tailwind CSS</p>
+                    <p className='bg-blue-500  rounded-[20px] text-sm p-1'>Cinema 4D</p>
+                    <p className='bg-purple-500 rounded-[20px] text-sm p-1'>V-Ray</p>
                   </div>
             </div>
           </div> 
