@@ -41,16 +41,18 @@ const NavBar = () => {
     <header className="fixed shadow-custom-shadow top-0 z-[999] w-full backdrop-blur-sm">
       <nav className="bg-transparent text-white border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto pl-4 mr-4 md:pl-8 md:pr-8 md:pt-5 md:pb-5 lg:pt-5 lg:pb-5 lg:ml-20 lg:mr-20 1xl:mr-20 1xl:pt-5 1xl:pl-40 1xl:pr-0 1xl:pb-5 2xl:mr-40 2xl:pt-5 2xl:pl-0 2xl:pr-0 2xl:pb-5">
-          <h4 className='flex gap-1 font-Poppins-font text-custom-xs font-light border border-cyan-200 rounded-full py-1 pr-3 pl-3 mb-1 
-                        md:pr-3 md:pl-4 md:text-xs 
-                        lg:pr-3 lg:pl-4 lg:text-xs
-                        1xl:pr-3 1xl:pl-4 1xl:text-xs 
-                        2xl:pr-3 2xl:pl-4 2xl:text-xs'>
-            Yugantha Polhengoda
-            <div className="pluseDot2"></div>
-            <div className="pluseDot3"></div>
-            <div className="pluseDot"></div>
-          </h4>
+          <Link href="/">
+            <h4 className='flex gap-1 font-Poppins-font text-custom-xs font-light border border-cyan-200 rounded-full py-1 pr-3 pl-3 mb-1 
+                          md:pr-3 md:pl-4 md:text-xs 
+                          lg:pr-3 lg:pl-4 lg:text-xs
+                          1xl:pr-3 1xl:pl-4 1xl:text-xs 
+                          2xl:pr-3 2xl:pl-4 2xl:text-xs'>
+                Yugantha Polhengoda
+              <div className="pluseDot2"></div>
+              <div className="pluseDot3"></div>
+              <div className="pluseDot"></div>
+            </h4>
+          </Link>
 
           <div className="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
             <button type="button" className="flex text-sm gap-1 lg:gap-2 1xl:gap-1 2xl:gap-1 bg-transparent rounded-full md:me-0 focus:ring-4 focus:ring-gray-300
@@ -88,7 +90,7 @@ const NavBar = () => {
           <div ref={menuRef} className={`text-base items-center justify-between ${menuOpen ? 'block' : 'hidden'} w-full md:flex md:w-auto md:order-1`} id="navbar-user">
             <ul className="lg:bg-transparent flex flex-col font-light p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-customGray md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li onClick={handleLinkClick}>
-                <a href="#Hero" className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
+                <a href="/" className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
                                      md:text-white md:hover:scale-125 md:dark:hover:text-blue-500 md:hover:bg-transparent md:dark:hover:bg-transparent md:hover:text-cyan-600 md:p-0
                                      lg:text-white lg:hover:scale-125
                                      2xl:text-white 2xl:hover:scale-125
