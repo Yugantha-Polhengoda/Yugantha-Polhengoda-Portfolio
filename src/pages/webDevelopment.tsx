@@ -42,8 +42,8 @@ const webDevelopment = () => {
                   <h1 className='text-3xl text-white mt-5 pb-5 lg:mt-0'>Online Cosmetic Store
                   </h1>
                   <h2></h2>
-                  <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-                  <p>In stock. <a href="">Buy Extended Warranty</a></p>
+                  <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
+                  <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
                   
                   <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
                     <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
@@ -66,8 +66,8 @@ const webDevelopment = () => {
                   <h1 className='text-3xl mt-5 pb-5'>Multi Translator
                   </h1>
                   <h2></h2>
-                  <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-                  <p>In stock. <a href="">Buy Extended Warranty</a></p>
+                  <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
+                  <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
                   
                   <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
                     <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
@@ -92,8 +92,8 @@ const webDevelopment = () => {
                   <h1 className='text-3xl text-white mt-5 pb-5'>Hotel Reservation System
                   </h1>
                   <h2></h2>
-                  <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-                  <p>In stock. <a href="">Buy Extended Warranty</a></p>
+                  <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
+                  <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
                   
                   <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
                     <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
@@ -117,8 +117,8 @@ const webDevelopment = () => {
 
                   </h1>
                   <h2></h2>
-                  <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-                  <p>In stock. <a href="">Buy Extended Warranty</a></p>
+                  <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
+                  <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
                   
                   <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
                     <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
@@ -160,8 +160,8 @@ const webDevelopment = () => {
                   <h1 className='text-3xl text-white pb-5'>Online Cosmetic Store
                   </h1>
                   <h2></h2>
-                  <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-                  <p>In stock. <a href="">Buy Extended Warranty</a></p>
+                  <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
+                  <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
                   
                   <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
                     <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
@@ -180,8 +180,8 @@ const webDevelopment = () => {
                   <h1 className='text-3xl text-white pb-5'>Multi Translator
                   </h1>
                   <h2></h2>
-                  <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-                  <p>In stock. <a href="">Buy Extended Warranty</a></p>
+                  <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
+                  <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
                   
                   <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
                     <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
@@ -214,8 +214,8 @@ const webDevelopment = () => {
                   <h1 className='text-3xl text-white mt-5 pb-5 lg:mt-0'>Hotel Reservation System
                   </h1>
                   <h2></h2>
-                  <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-                  <p>In stock. <a href="">Buy Extended Warranty</a></p>
+                  <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
+                  <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
                   
                   <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
                     <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
@@ -235,8 +235,8 @@ const webDevelopment = () => {
 
                   </h1>
                   <h2></h2>
-                  <p>Designer Karim Rashid continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-                  <p>In stock. <a href="">Buy Extended Warranty</a></p>
+                  <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
+                  <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
                   
                   <div className='grid grid-cols-2 w-60 text-center gap-3 mt-4'>
                     <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
