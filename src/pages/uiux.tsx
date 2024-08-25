@@ -8,6 +8,7 @@ import "../app/globals.css";
 
 import Campaign from '/public/Images/Campaign.png';
 import Translator from '/public/Images/Translator.png';
+import UILogin from '/public/Images/UILogin.png';
 import Hotels from '/public/Images/Hotels.jpg';
 import Clothing from '/public/Images/Clothing.png';
 import MobileUI from '/public/Images/Mobile-UI.jpg';
@@ -34,7 +35,7 @@ const uiux = () => {
           <div className='grid grid-cols-1 mx-4 text-white py-20'>
 
             <div className="">
-                  <Image className="img1 rounded-[5px] object-cover" src={Campaign} alt="Campaign" />
+                  <Image className="img1 rounded-[5px] object-cover" src={UILogin} alt="UILogin" />
             </div>
 
             <div className="right">
@@ -139,7 +140,7 @@ const uiux = () => {
 
             <div className="left max-w-[90%]">
                   
-                  <Image className="img1 h-64 rounded-[5px] object-cover" src={Campaign} alt="Campaign" />
+                  <Image className="img1 h-64 rounded-[5px] object-cover" src={UILogin} alt="UILogin" />
 
             </div>
 
