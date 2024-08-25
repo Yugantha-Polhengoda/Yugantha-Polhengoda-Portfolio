@@ -11,28 +11,25 @@ import { FaFacebookF } from "react-icons/fa";
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const menuRef = useRef<HTMLDivElement>(null); 
+  const menuRef = useRef<HTMLDivElement>(null);
 
   const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
+    setMenuOpen(prev => !prev);
   };
 
-  // Close the menu when clicking outside of it
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
         setMenuOpen(false);
       }
     };
-  
+
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
-  
 
-  // Close the menu when clicking on a content link
   const handleLinkClick = () => {
     setMenuOpen(false);
   };
@@ -55,19 +52,24 @@ const NavBar = () => {
           </Link>
 
           <div className="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
-            <button type="button" className="flex text-sm gap-1 lg:gap-2 1xl:gap-1 2xl:gap-1 bg-transparent rounded-full md:me-0 focus:ring-4 focus:ring-gray-300
-             dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
+            <button
+              type="button"
+              className="flex text-sm gap-1 lg:gap-2 1xl:gap-1 2xl:gap-1 bg-transparent rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+              id="user-menu-button"
+              aria-expanded={menuOpen}
+              onClick={toggleMenu}
+            >
               <span className="sr-only">Open user menu</span>
 
-              <Link href="https://github.com/Yugantha-Polhengoda" className="">
+              <Link href="https://github.com/Yugantha-Polhengoda">
                 <FaGithub color='white' className='w-5 h-5 hover:scale-90 transition-transform duration-200 md:w-5 md:h-5 lg:w-5 lg:h-5 1xl:w-6 1xl:h-6 2xl:w-6 2xl:h-6 border-2 border-[#0ef] rounded-full p-[2px]' />
               </Link>
 
-              <Link href="https://www.linkedin.com/in/yugantha-polhengoda-7b5348175/" className="">
+              <Link href="https://www.linkedin.com/in/yugantha-polhengoda-7b5348175/">
                 <FaLinkedinIn color='white' className='w-5 h-5 hover:scale-90 transition-transform duration-200 md:w-5 md:h-5 lg:w-5 lg:h-5 1xl:w-6 1xl:h-6 2xl:w-6 2xl:h-6 border-2 border-[#0ef] rounded-full p-[2px]' />
               </Link>
 
-              <Link href="https://www.behance.net/yuganthpolheng" className="">
+              <Link href="https://www.behance.net/yuganthpolheng">
                 <FaBehance color='white' className='w-5 h-5 hover:scale-90 transition-transform duration-200 md:w-5 md:h-5 lg:w-5 lg:h-5 1xl:w-6 1xl:h-6 2xl:w-6 2xl:h-6 border-2 border-[#0ef] rounded-full p-[2px]' />
               </Link>
             </button>
@@ -91,29 +93,29 @@ const NavBar = () => {
             <ul className="lg:bg-transparent flex flex-col font-light p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-customGray md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li onClick={handleLinkClick}>
                 <Link href="/">
-                  <h1 className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
+                  <h1 className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
                                       md:text-white md:hover:scale-125 md:dark:hover:text-blue-500 md:hover:bg-transparent md:dark:hover:bg-transparent md:hover:text-cyan-600 md:p-0
                                       lg:text-white lg:hover:scale-125
-                                      2xl:text-white 2xl:hover:scale-125
-                                      " aria-current="page">Home</h1>
+                                      2xl:text-white 2xl:hover:scale-125"
+                      aria-current="page">Home</h1>
                 </Link>
               </li>
               <li onClick={handleLinkClick}>
                 <Link href="/#Experience">
-                  <h1 className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
+                  <h1 className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
                                       md:text-white md:hover:scale-125 md:dark:hover:text-blue-500 md:hover:bg-transparent md:dark:hover:bg-transparent md:hover:text-cyan-600 md:p-0
                                       lg:text-white lg:hover:scale-125
-                                      2xl:text-white 2xl:hover:scale-125
-                                      ">About</h1>
+                                      2xl:text-white 2xl:hover:scale-125"
+                      >About</h1>
                 </Link>
               </li>
               <li onClick={handleLinkClick}>
                 <Link href="/#Projects">
-                  <h1 className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
+                  <h1 className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
                                       md:text-white md:hover:scale-125 md:hover:bg-transparent md:hover:text-cyan-600 md:p-0 md:dark:hover:text-blue-500 md:dark:hover:bg-transparent
                                       lg:text-white lg:hover:scale-125
-                                      2xl:text-white 2xl:hover:scale-125 
-                                      ">Projects</h1>
+                                      2xl:text-white 2xl:hover:scale-125"
+                      >Projects</h1>
                 </Link>
               </li>
               <li onClick={handleLinkClick}>
@@ -121,8 +123,8 @@ const NavBar = () => {
                   <h1 className="block py-2 px-3 rounded text-white transition-transform duration-200 hover:bg-gray-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:border-gray-700 font-Poppins-font
                                         md:text-white md:hover:scale-125 md:hover:text-cyan-600 md:p-0 md:dark:hover:text-blue-500 md:hover:bg-transparent md:dark:hover:bg-transparent
                                         lg:text-white lg:hover:scale-125
-                                        2xl:text-white 2xl:hover:scale-125
-                                      ">Contact</h1>
+                                        2xl:text-white 2xl:hover:scale-125"
+                      >Contact</h1>
                 </Link>
               </li>
             </ul>
