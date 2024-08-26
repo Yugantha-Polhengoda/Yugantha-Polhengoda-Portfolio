@@ -39,7 +39,7 @@ const uiux = () => {
             </div>
 
             <div className="right">
-                  <h1 className='text-3xl text-white mt-5 pb-5 lg:mt-0'>Online Cosmetic Store
+                  <h1 className='text-3xl text-white mt-5 pb-5 lg:mt-0'>StrengthHub - Workout plan application
                   </h1>
                   <h2></h2>
                   <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
@@ -145,7 +145,7 @@ const uiux = () => {
             </div>
 
             <div className="right">
-                  <h1 className='text-3xl text-white pb-5'>Online Cosmetic Store
+                  <h1 className='text-3xl text-white pb-5'>StrengthHub - Workout plan application
                   </h1>
                   <h2></h2>
                   <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
@@ -207,7 +207,7 @@ const uiux = () => {
           </div>
 
 
-          <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white xl:mt-[104%] lg:mt-[144%] py-10 '>
+          <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white xl:mt-[104%] lg:mt-[144%] py-20 '>
 
             <div className="right">
                   <h1 className='text-3xl text-white pb-5'>Online Shopping Application
