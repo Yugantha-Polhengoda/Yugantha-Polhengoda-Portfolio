@@ -63,18 +63,18 @@ const webDevelopment = () => {
 
         <div className='grid grid-cols-1 mx-4 text-white py-20'>
           <div className="left">   
-            <Image className="img1 h-64 rounded-[5px] object-contain"
+            <Image className="img1 h-64 rounded-[5px] object-contain md:ml-12"
               src={selectedImage1}
               alt="Selected"
               width={640}
               height={256} />
-            <div className="flex justify-center -mt-2">
+            <div className="flex justify-center -mt-2 md:mt-2">
               {images.slice(0, 3).map((image) => (
                 <div key={image.id} className="m-1">
                   <Image
                     src={image.thumb}
                     alt={`Thumbnail ${image.id}`}
-                    className={`cursor-pointer w-36 h-20 object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage1 === image.src ? 'shadow-outline' : ''}`}
+                    className={`cursor-pointer w-36 h-20 md:w-full object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage1 === image.src ? 'shadow-outline' : ''}`}
                     onClick={() => setSelectedImage1(image.src)}
                     width={160}
                     height={64} />
@@ -83,12 +83,12 @@ const webDevelopment = () => {
             </div>
           </div>
 
-          <div className="right">
-            <h1 className='text-3xl text-white mt-5 pb-5 lg:mt-0'>Online Cosmetic Store</h1>
+          <div className="right md:px-32">
+            <h1 className='text-3xl text-white mt-5 pb-5 lg:mt-0 md:text-center'>Online Cosmetic Store</h1>
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
-            <div className='grid grid-cols-3 w-80 text-center gap-3 mt-4'>
+            <div className='grid grid-cols-3 w-80 text-center gap-3 mt-4 md:justify-center md:w-full'>
               <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
               <p className='bg-cyan-300 rounded-[20px] text-sm p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
@@ -101,18 +101,18 @@ const webDevelopment = () => {
 
         <div className='grid grid-cols-1 py-20 px-4 text-white'>
           <div className="left">
-            <Image className="img1 h-64 rounded-[5px] object-contain"
+            <Image className="img1 h-64 rounded-[5px] object-contain md:ml-12"
               src={selectedImage2}
               alt="Selected"
               width={640}
               height={256} />
-            <div className="flex justify-center -mt-8">
+            <div className="flex justify-center -mt-8 md:mt-2">
               {images.slice(3, 6).map((image) => (
                 <div key={image.id} className="m-1">
                   <Image
                     src={image.thumb}
                     alt={`Thumbnail ${image.id}`}
-                    className={`cursor-pointer w-36 h-20 object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage2 === image.src ? 'shadow-outline' : ''}`}
+                    className={`cursor-pointer w-36 h-20 md:w-full object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage2 === image.src ? 'shadow-outline' : ''}`}
                     onClick={() => setSelectedImage2(image.src)}
                     width={160}
                     height={64} />
@@ -121,12 +121,12 @@ const webDevelopment = () => {
             </div>
           </div>
 
-          <div className="right">
-            <h1 className='text-3xl mt-5 pb-5'>Multi Translator</h1>
+          <div className="right md:px-32">
+            <h1 className='text-3xl mt-5 pb-5 md:text-center'>Multi Translator</h1>
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
-            <div className='grid grid-cols-3 w-80 text-center gap-3 mt-4'>
+            <div className='grid grid-cols-3 w-80 text-center gap-3 mt-4 md:justify-center md:w-full'>
               <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
               <p className='bg-cyan-300 rounded-[20px] text-sm p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
@@ -139,18 +139,18 @@ const webDevelopment = () => {
 
         <div className='grid grid-cols-1 mx-4 text-white py-20'>
           <div className="left">   
-            <Image className="img1 h-64 rounded-[5px] object-contain"
+            <Image className="img1 h-64 rounded-[5px] object-contain md:ml-12"
               src={selectedImage3}
               alt="Selected"
               width={640}
               height={256} />
-            <div className="flex justify-center -mt-8">
+            <div className="flex justify-center -mt-8 md:mt-2">
               {images.slice(6, 9).map((image) => (
                 <div key={image.id} className="m-1">
                   <Image
                     src={image.thumb}
                     alt={`Thumbnail ${image.id}`}
-                    className={`cursor-pointer w-36 h-20 object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage3 === image.src ? 'shadow-outline' : ''}`}
+                    className={`cursor-pointer w-36 h-20 md:w-full object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage3 === image.src ? 'shadow-outline' : ''}`}
                     onClick={() => setSelectedImage3(image.src)}
                     width={160}
                     height={64} />
@@ -159,12 +159,12 @@ const webDevelopment = () => {
             </div>
           </div>
 
-          <div className="right">
-            <h1 className='text-3xl text-white mt-5 pb-5'>Hotel Reservation System</h1>
+          <div className="right md:px-32">
+            <h1 className='text-3xl text-white mt-5 pb-5 md:text-center'>Hotel Reservation System</h1>
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
-            <div className='grid grid-cols-3 w-80 text-center gap-3 mt-4'>
+            <div className='grid grid-cols-3 w-80 text-center gap-3 mt-4 md:justify-center md:w-full'>
               <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
               <p className='bg-cyan-300 rounded-[20px] text-sm p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
@@ -177,18 +177,18 @@ const webDevelopment = () => {
 
         <div className='grid grid-cols-1 mx-4 text-white py-20'>
           <div className="left">   
-            <Image className="img1 h-64 rounded-[5px] object-contain"
+            <Image className="img1 h-64 rounded-[5px] object-contain md:ml-12"
               src={selectedImage4}
               alt="Selected"
               width={640}
               height={256} />
-            <div className="flex justify-center -mt-8">
+            <div className="flex justify-center -mt-8 md:mt-2">
               {images.slice(9, 12).map((image) => (
                 <div key={image.id} className="m-1">
                   <Image
                     src={image.thumb}
                     alt={`Thumbnail ${image.id}`}
-                    className={`cursor-pointer w-36 h-20 object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage4 === image.src ? 'shadow-outline' : ''}`}
+                    className={`cursor-pointer w-36 h-20 md:w-full object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage4 === image.src ? 'shadow-outline' : ''}`}
                     onClick={() => setSelectedImage4(image.src)}
                     width={160}
                     height={64} />
@@ -197,12 +197,12 @@ const webDevelopment = () => {
             </div>
           </div>
 
-          <div className="right">
-            <h1 className='text-3xl text-white mt-5 pb-5'>Clothing Store</h1>
+          <div className="right md:px-32">
+            <h1 className='text-3xl text-white mt-5 pb-5 md:text-center'>Clothing Store</h1>
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
-            <div className='grid grid-cols-3 w-80 text-center gap-3 mt-4'>
+            <div className='grid grid-cols-3 w-80 text-center gap-3 mt-4 md:justify-center md:w-full'>
               <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
               <p className='bg-cyan-300 rounded-[20px] text-sm p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
