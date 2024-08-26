@@ -18,6 +18,7 @@ import Slideshow3D from '/public/Images/3DSlideshow.gif';
 import Projects from '@/components/Projects/Projects';
 import NavBar from '@/components/Header/NavBar';
 import Footer from '@/components/Footer/Footer';
+import CustomerService from '@/components/CustomerService/CustomerService';
 
 const uiux = () => {
   return (
@@ -232,6 +233,7 @@ const uiux = () => {
         </div>
 
         <Footer />
+        <CustomerService />
       </div>
   )
 }
