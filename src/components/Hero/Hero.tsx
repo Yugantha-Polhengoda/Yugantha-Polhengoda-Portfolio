@@ -10,6 +10,7 @@ import { FaDownload } from "react-icons/fa";
 import { LiaPhoneAltSolid } from "react-icons/lia";
 
 const Hero = () => {
+
   return (
       <div id='Hero' className="bg-cover bg-center min-h-fit flex items-center justify-center
                       md:items-start md:justify-start
@@ -42,7 +43,7 @@ const Hero = () => {
                     /></span></h3> 
                 
                 <div className="flex pb-4 gap-3 2xl:mt-5">
-                    <a href={`${process.env.NEXT_PUBLIC_BASE_PATH}/Images/Yugantha_TotalCV.pdf`} download className="inline-flex items-center px-6 py-2 border border-transparent text-sm 2xl:text-lg font-medium rounded-md shadow-sm text-zinc-800 bg-white hover:bg-gray-200 hover:text-black group">
+                    <a href="https://yugantha-polhengoda.github.io/Yugantha-Polhengoda-Portfolio/Images/Yugantha_TotalCV.pdf" download className="inline-flex items-center px-6 py-2 border border-transparent text-sm 2xl:text-lg font-medium rounded-md shadow-sm text-zinc-800 bg-white hover:bg-gray-200 hover:text-black group">
                     <FaDownload size={18} className="phone-Icon mr-2" />
                         Resume
                     </a>
