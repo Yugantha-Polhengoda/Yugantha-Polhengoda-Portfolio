@@ -6,16 +6,10 @@ import Link from 'next/link';
 import Tilt from 'react-parallax-tilt';
 import "../app/globals.css";
 
-import Campaign from '/public/Images/Campaign.png';
-import Translator from '/public/Images/Translator.png';
 import FINAL from '/public/Images/FINAL.jpg';
-import Clothing from '/public/Images/Clothing.png';
 import image3d1 from '/public/Images/3D2.jpg';
 import Landing from '/public/Images/Landing.jpg';
 import Mobile from '/public/Images/Mobile-UI.jpg';
-import UISlideshow from '/public/Images/UISlideshow.gif';
-import Slideshow3D from '/public/Images/3DSlideshow.gif';
-import Projects from '@/components/Projects/Projects';
 import NavBar from '@/components/Header/NavBar';
 import Footer from '@/components/Footer/Footer';
 import CustomerService from '@/components/CustomerService/CustomerService';

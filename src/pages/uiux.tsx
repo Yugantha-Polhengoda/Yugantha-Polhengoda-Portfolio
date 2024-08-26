@@ -6,16 +6,11 @@ import Link from 'next/link';
 import Tilt from 'react-parallax-tilt';
 import "../app/globals.css";
 
-import Campaign from '/public/Images/Campaign.png';
+
 import Translator from '/public/Images/Translator.png';
 import UILogin from '/public/Images/UILogin.png';
-import Hotels from '/public/Images/Hotels.jpg';
+import Hotels from '/public/Images/Hotels.png';
 import Clothing from '/public/Images/Clothing.png';
-import MobileUI from '/public/Images/Mobile-UI.jpg';
-import WebSlideshow from '/public/Images/WebSlideshow.gif';
-import UISlideshow from '/public/Images/UISlideshow.gif';
-import Slideshow3D from '/public/Images/3DSlideshow.gif';
-import Projects from '@/components/Projects/Projects';
 import NavBar from '@/components/Header/NavBar';
 import Footer from '@/components/Footer/Footer';
 import CustomerService from '@/components/CustomerService/CustomerService';
