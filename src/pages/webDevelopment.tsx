@@ -6,6 +6,8 @@ import Link from 'next/link';
 import Tilt from 'react-parallax-tilt';
 import "../app/globals.css";
 
+import { FaGithub } from "react-icons/fa";
+
 import Campaign from '/public/Images/Campaign.png';
 import Campaign1 from '/public/Images/Campaign1.png';
 import Campaign2 from '/public/Images/Campaign2.png';
@@ -228,7 +230,7 @@ const webDevelopment = () => {
         <div className='absolute grid grid-cols-2 my-10 px-5 left-5 max-w-[1000px] text-white py-20'>
           <div className="left max-w-[90%]">
             <Image
-              className="img1 h-64 rounded-[5px] object-contain"
+              className="img1 h-64 rounded-[5px] object-contain cursor-pointer hover:opacity-50"
               src={selectedImage1}
               alt="Selected"
               width={640}
@@ -245,7 +247,7 @@ const webDevelopment = () => {
                     width={160}
                     height={64}
                   />
-                </div>
+                </div> 
               ))}
             </div>
           </div>
@@ -255,7 +257,7 @@ const webDevelopment = () => {
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
 
-            <div className='grid grid-cols-3 w-[360px] font-semibold text-center gap-3 mt-4'>
+            <div className='grid grid-cols-3 w-[300px] font-semibold text-center gap-3 mt-4'>
               <p className='bg-orange-500 rounded-[20px] text-sm p-1'>HTML</p>
               <p className='bg-cyan-400 rounded-[20px] text-sm p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
@@ -263,16 +265,19 @@ const webDevelopment = () => {
               <p className='bg-purple-500 rounded-[20px] text-sm p-1'>Bootstrap</p>
               <p className='bg-green-600 rounded-[20px] text-sm p-1'>Node JS</p>
             </div>
-          </div>
+          </div> 
+          <Link href="https://github.com/Yugantha-Polhengoda" className="absolute mt-48 ml-56">
+            <FaGithub color='white' className='w-10 h-10 mt-1 hover:scale-90 transition-transform duration-200  border-2 border-[#0ef] rounded-full p-[2px]' />
+          </Link>
         </div>
 
         <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white xl:mt-[38%] lg:mt-[50%] py-10'>
-          <div className="right max-w-[90%]">
+          <div className="right max-w-[90%] mt-8">
             <h1 className='text-3xl text-white pb-5'>Multi Translator</h1>
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
 
-            <div className='grid grid-cols-3 w-[360px] font-semibold text-center gap-3 mt-4'>
+            <div className='grid grid-cols-3 w-[300px] font-semibold text-center gap-3 mt-4'>
               <p className='bg-orange-500 rounded-[20px] text-sm p-1'>HTML</p>
               <p className='bg-cyan-400 rounded-[20px] text-sm p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
@@ -332,12 +337,12 @@ const webDevelopment = () => {
             </div>
           </div>
 
-          <div className="right max-w-[90%]">
+          <div className="right max-w-[90%] mt-5">
             <h1 className='text-3xl text-white mt-5 pb-5 lg:mt-0'>Hotel Reservation System</h1>
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
 
-            <div className='grid grid-cols-3 w-[360px] font-semibold text-center gap-3 mt-6'>
+            <div className='grid grid-cols-3 w-[300px] font-semibold text-center gap-3 mt-6'>
               <p className='bg-orange-500 rounded-[20px] text-sm p-1'>HTML</p>
               <p className='bg-cyan-400 rounded-[20px] text-sm p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
@@ -346,12 +351,12 @@ const webDevelopment = () => {
         </div>
 
         <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white xl:mt-[104%] lg:mt-[144%] py-10'>
-          <div className="right max-w-[90%]">
+          <div className="right max-w-[90%] mt-5">
             <h1 className='text-3xl text-white pb-5'>Online Shopping Application</h1>
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
 
-            <div className='grid grid-cols-3 w-[360px] font-semibold text-center gap-3 mt-4'>
+            <div className='grid grid-cols-3 w-[300px] font-semibold text-center gap-3 mt-4'>
               <p className='bg-orange-500 rounded-[20px] text-sm p-1'>HTML</p>
               <p className='bg-cyan-400 rounded-[20px] text-sm p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>

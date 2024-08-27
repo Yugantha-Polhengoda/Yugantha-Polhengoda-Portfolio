@@ -229,24 +229,24 @@ const uiux = () => {
             </div>
           </div>
 
-          <div className="right max-w-[90%]">
+          <div className="right max-w-[90%] mt-5">
             <h1 className='text-3xl text-white pb-5'>Online Cosmetic Store</h1>
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
 
-            <div className='grid grid-cols-3 w-[360px] font-semibold text-center gap-3 mt-4'>
+            <div className='grid grid-cols-3 w-[300px] font-semibold text-center gap-3 mt-4'>
                 <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Figma</p>
             </div>
           </div>
         </div>
 
         <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white xl:mt-[38%] lg:mt-[50%] py-10'>
-          <div className="right max-w-[90%]">
+          <div className="right max-w-[90%] mt-8">
             <h1 className='text-3xl text-white pb-5'>Multi Translator</h1>
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
 
-            <div className='grid grid-cols-3 w-[360px] font-semibold text-center gap-3 mt-4'>
+            <div className='grid grid-cols-3 w-[300px] font-semibold text-center gap-3 mt-4'>
                 <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Figma</p>
             </div>
           </div>
@@ -301,24 +301,24 @@ const uiux = () => {
             </div>
           </div>
 
-          <div className="right max-w-[90%]">
+          <div className="right max-w-[90%] mt-5">
             <h1 className='text-3xl text-white mt-5 pb-5 lg:mt-0'>Hotel Reservation System</h1>
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
 
-            <div className='grid grid-cols-3 w-[360px] font-semibold text-center gap-3 mt-6'>
+            <div className='grid grid-cols-3 w-[300px] font-semibold text-center gap-3 mt-6'>
                 <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Figma</p>
             </div>
           </div>
         </div>
 
         <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white xl:mt-[104%] lg:mt-[144%] py-10'>
-          <div className="right max-w-[90%]">
+          <div className="right max-w-[90%] mt-5">
             <h1 className='text-3xl text-white pb-5'>Online Shopping Application</h1>
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
 
-            <div className='grid grid-cols-3 w-[360px] font-semibold text-center gap-3 mt-4'>
+            <div className='grid grid-cols-3 w-[300px] font-semibold text-center gap-3 mt-4'>
                 <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Figma</p>
             </div>
           </div>
