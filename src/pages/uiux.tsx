@@ -69,7 +69,7 @@ const uiux = () => {
               height={256} />
             <div className="flex justify-center md:mt-2">
               {images.slice(0, 3).map((image) => (
-                <div key={image.id} className="m-1">
+                <div key={image.id} className="mx-1 -mt-4">
                   <Image
                     src={image.thumb}
                     alt={`Thumbnail ${image.id}`}
@@ -102,7 +102,7 @@ const uiux = () => {
               height={256} />
             <div className="flex justify-center md:mt-2">
               {images.slice(3, 6).map((image) => (
-                <div key={image.id} className="m-1">
+                <div key={image.id} className="mx-1 -mt-4">
                   <Image
                     src={image.thumb}
                     alt={`Thumbnail ${image.id}`}
@@ -135,7 +135,7 @@ const uiux = () => {
               height={256} />
             <div className="flex justify-center md:mt-2">
               {images.slice(6, 9).map((image) => (
-                <div key={image.id} className="m-1">
+                <div key={image.id} className="mx-1 -mt-4">
                   <Image
                     src={image.thumb}
                     alt={`Thumbnail ${image.id}`}
@@ -168,7 +168,7 @@ const uiux = () => {
               height={256} />
             <div className="flex justify-center md:mt-2">
               {images.slice(9, 12).map((image) => (
-                <div key={image.id} className="m-1">
+                <div key={image.id} className="mx-1 -mt-4">
                   <Image
                     src={image.thumb}
                     alt={`Thumbnail ${image.id}`}
