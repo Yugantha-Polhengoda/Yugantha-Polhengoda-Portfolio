@@ -67,7 +67,7 @@ const uiux = () => {
               alt="Selected"
               width={640}
               height={256} />
-            <div className="flex justify-center -mt-6 md:mt-2">
+            <div className="flex justify-center md:mt-2">
               {images.slice(0, 3).map((image) => (
                 <div key={image.id} className="m-1">
                   <Image
@@ -100,7 +100,7 @@ const uiux = () => {
               alt="Selected"
               width={640}
               height={256} />
-            <div className="flex justify-center -mt-6 md:mt-2">
+            <div className="flex justify-center md:mt-2">
               {images.slice(3, 6).map((image) => (
                 <div key={image.id} className="m-1">
                   <Image
@@ -133,7 +133,7 @@ const uiux = () => {
               alt="Selected"
               width={640}
               height={256} />
-            <div className="flex justify-center -mt-6 md:mt-2">
+            <div className="flex justify-center md:mt-2">
               {images.slice(6, 9).map((image) => (
                 <div key={image.id} className="m-1">
                   <Image
@@ -166,7 +166,7 @@ const uiux = () => {
               alt="Selected"
               width={640}
               height={256} />
-            <div className="flex justify-center -mt-6 md:mt-2">
+            <div className="flex justify-center md:mt-2">
               {images.slice(9, 12).map((image) => (
                 <div key={image.id} className="m-1">
                   <Image
