@@ -13,7 +13,7 @@ import nodejsIcon from '/public/Images/node-js.png'
 import springIcon from '/public/Images/spring.png'
 import bootstrapIcon from '/public/Images/bootstrap.png'
 
-import Icon3D2 from '/public/Images/3D2.jpg'
+import Icon3D2 from '/public/Images/3D1.jpg'
 
 const Experience = () => {
   return (
