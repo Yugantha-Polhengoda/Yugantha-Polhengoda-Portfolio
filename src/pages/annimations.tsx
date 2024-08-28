@@ -88,8 +88,8 @@ const annimations = () => {
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
             <div className='grid grid-cols-3 text-center gap-3 mt-4 md:justify-center md:w-full'>
-              <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Cinema4D</p>
-              <p className='bg-red-700 rounded-[20px] text-sm p-1'>Redshift</p>      
+              <p className='bg-blue-500 rounded-[20px] text-xs p-1'>Cinema4D</p>
+              <p className='bg-red-700 rounded-[20px] text-xs p-1'>Redshift</p>      
             </div>
           </div>
         </div>
@@ -122,8 +122,8 @@ const annimations = () => {
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
             <div className='grid grid-cols-3 text-center gap-3 mt-4 md:justify-center md:w-full'>
-              <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Cinema4D</p>
-              <p className='bg-red-700 rounded-[20px] text-sm p-1'>Redshift</p>      
+              <p className='bg-blue-500 rounded-[20px] text-xs p-1'>Cinema4D</p>
+              <p className='bg-red-700 rounded-[20px] text-xs p-1'>Redshift</p>      
             </div>
           </div>
         </div>
@@ -156,8 +156,8 @@ const annimations = () => {
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
             <div className='grid grid-cols-3 text-center gap-3 mt-4 md:justify-center md:w-full'>
-              <p className='bg-cyan-300 rounded-[20px] text-sm p-1'>3D's Max</p>
-              <p className='bg-red-700 rounded-[20px] text-sm p-1'>Redshift</p> 
+              <p className='bg-cyan-300 rounded-[20px] text-xs p-1'>3D's Max</p>
+              <p className='bg-red-700 rounded-[20px] text-xs p-1'>Redshift</p> 
             </div>
           </div>
         </div>
@@ -190,8 +190,8 @@ const annimations = () => {
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
             <div className='grid grid-cols-3 text-center gap-3 mt-4 md:justify-center md:w-full'>
-              <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Cinema4D</p>
-              <p className='bg-red-700 rounded-[20px] text-sm p-1'>Redshift</p>
+              <p className='bg-blue-500 rounded-[20px] text-xs p-1'>Cinema4D</p>
+              <p className='bg-red-700 rounded-[20px] text-xs p-1'>Redshift</p>
             </div>
           </div>
         </div>

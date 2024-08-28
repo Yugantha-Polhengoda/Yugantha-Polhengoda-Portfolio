@@ -89,13 +89,13 @@ const WebDevelopment = () => {
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
-            <div className='grid grid-cols-3 w-72 text-center gap-3 mt-4 md:justify-center md:w-full'>
-              <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
-              <p className='bg-cyan-300 rounded-[20px] text-sm p-1'>CSS</p>
-              <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
-              <p className='bg-blue-500 rounded-[20px] text-sm p-1'>REACT</p>
-              <p className='bg-purple-500 rounded-[20px] text-sm p-1'>Bootstrap</p>
-              <p className='bg-green-500 rounded-[20px] text-sm p-1'>NodeJS</p>
+            <div className='grid grid-cols-3 w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full'>
+              <p className='bg-red-700 rounded-[20px] p-1'>HTML</p>
+              <p className='bg-cyan-300 rounded-[20px] p-1'>CSS</p>
+              <p className='bg-yellow-500 rounded-[20px] p-1'>JS</p>
+              <p className='bg-blue-500 rounded-[20px] p-1'>REACT</p>
+              <p className='bg-purple-500 rounded-[20px] p-1'>Bootstrap</p>
+              <p className='bg-green-500 rounded-[20px] p-1'>NodeJS</p>
             </div>
           </div>
         </div>
@@ -127,13 +127,13 @@ const WebDevelopment = () => {
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
-            <div className='grid grid-cols-3 w-72 text-center gap-3 mt-4 md:justify-center md:w-full'>
-              <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
-              <p className='bg-cyan-300 rounded-[20px] text-sm p-1'>CSS</p>
-              <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
-              <p className='bg-blue-500 rounded-[20px] text-sm p-1'>REACT</p>
-              <p className='bg-purple-500 rounded-[20px] text-sm p-1'>TailwindCSS</p>
-              <p className='bg-green-500 rounded-[20px] text-sm p-1'>NodeJS</p>
+            <div className='grid grid-cols-3 w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full'>
+              <p className='bg-red-700 rounded-[20px] p-1'>HTML</p>
+              <p className='bg-cyan-300 rounded-[20px] p-1'>CSS</p>
+              <p className='bg-yellow-500 rounded-[20px] p-1'>JS</p>
+              <p className='bg-blue-500 rounded-[20px] p-1'>REACT</p>
+              <p className='bg-purple-500 rounded-[20px] p-1'>TailwindCSS</p>
+              <p className='bg-green-500 rounded-[20px] p-1'>NodeJS</p>
             </div>
           </div>
         </div>
@@ -165,13 +165,13 @@ const WebDevelopment = () => {
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
-            <div className='grid grid-cols-3 w-72 text-center gap-3 mt-4 md:justify-center md:w-full'>
-              <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
-              <p className='bg-cyan-300 rounded-[20px] text-sm p-1'>CSS</p>
-              <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
-              <p className='bg-blue-500 rounded-[20px] text-sm p-1'>REACT</p>
-              <p className='bg-purple-500 rounded-[20px] text-sm p-1'>TailwindCSS</p>
-              <p className='bg-green-500 rounded-[20px] text-sm p-1'>NodeJS</p>
+            <div className='grid grid-cols-3 w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full'>
+              <p className='bg-red-700 rounded-[20px] p-1'>HTML</p>
+              <p className='bg-cyan-300 rounded-[20px] p-1'>CSS</p>
+              <p className='bg-yellow-500 rounded-[20px] p-1'>JS</p>
+              <p className='bg-blue-500 rounded-[20px] p-1'>REACT</p>
+              <p className='bg-purple-500 rounded-[20px] p-1'>TailwindCSS</p>
+              <p className='bg-green-500 rounded-[20px] p-1'>NodeJS</p>
             </div>
           </div>
         </div>
@@ -203,13 +203,13 @@ const WebDevelopment = () => {
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
-            <div className='grid grid-cols-3 w-72 text-center gap-3 mt-4 md:justify-center md:w-full'>
-              <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
-              <p className='bg-cyan-300 rounded-[20px] text-sm p-1'>CSS</p>
-              <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
-              <p className='bg-blue-500 rounded-[20px] text-sm p-1'>REACT</p>
-              <p className='bg-purple-500 rounded-[20px] text-sm p-1'>TailwindCSS</p>
-              <p className='bg-green-500 rounded-[20px] text-sm p-1'>NodeJS</p>
+            <div className='grid grid-cols-3 w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full'>
+              <p className='bg-red-700 rounded-[20px] p-1'>HTML</p>
+              <p className='bg-cyan-300 rounded-[20px] p-1'>CSS</p>
+              <p className='bg-yellow-500 rounded-[20px] p-1'>JS</p>
+              <p className='bg-blue-500 rounded-[20px] p-1'>REACT</p>
+              <p className='bg-purple-500 rounded-[20px] p-1'>TailwindCSS</p>
+              <p className='bg-green-500 rounded-[20px] p-1'>NodeJS</p>
             </div>
           </div>
         </div>

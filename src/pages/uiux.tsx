@@ -89,7 +89,7 @@ const uiux = () => {
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
             <div className='grid grid-cols-3 text-center gap-3 mt-4 md:justify-center md:w-full'>
-              <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Figma</p>
+              <p className='bg-blue-500 rounded-[20px] text-xs p-1'>Figma</p>
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@ const uiux = () => {
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
             <div className='grid grid-cols-3 text-center gap-3 mt-4 md:justify-center md:w-full'>
-                <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Figma</p>
+                <p className='bg-blue-500 rounded-[20px] text-xs p-1'>Figma</p>
             </div>
           </div>
         </div>
@@ -155,7 +155,7 @@ const uiux = () => {
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
             <div className='grid grid-cols-3 text-center gap-3 mt-4 md:justify-center md:w-full'>
-                <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Figma</p>
+                <p className='bg-blue-500 rounded-[20px] text-xs p-1'>Figma</p>
             </div>
           </div>
         </div>
@@ -188,7 +188,7 @@ const uiux = () => {
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
             <div className='grid grid-cols-3 text-center gap-3 mt-4 md:justify-center md:w-full'>
-                <p className='bg-blue-500 rounded-[20px] text-sm p-1'>Figma</p>
+                <p className='bg-blue-500 rounded-[20px] text-xs p-1'>Figma</p>
             </div>
           </div>
         </div>
