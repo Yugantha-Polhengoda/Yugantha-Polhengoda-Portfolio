@@ -185,7 +185,7 @@ const annimations = () => {
           </div>
 
           <div className="right md:px-32">
-            <h1 className='text-3xl text-white mt-5 pb-5 md:text-center'>Clothing Store</h1>
+            <h1 className='text-3xl text-white mt-5 pb-5 md:text-center'>Landing Page Animation</h1>
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
