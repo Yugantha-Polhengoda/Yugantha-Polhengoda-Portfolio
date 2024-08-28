@@ -95,7 +95,7 @@ const WebDevelopment = () => {
               <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
               <p className='bg-blue-500 rounded-[20px] text-sm p-1'>REACT</p>
               <p className='bg-purple-500 rounded-[20px] text-sm p-1'>Bootstrap</p>
-              <p className='bg-green-500 rounded-[20px] text-sm p-1'>Node JS</p>
+              <p className='bg-green-500 rounded-[20px] text-sm p-1'>NodeJS</p>
             </div>
           </div>
         </div>
@@ -132,8 +132,8 @@ const WebDevelopment = () => {
               <p className='bg-cyan-300 rounded-[20px] text-sm p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
               <p className='bg-blue-500 rounded-[20px] text-sm p-1'>REACT</p>
-              <p className='bg-purple-500 rounded-[20px] text-sm p-1'>Tailwind CSS</p>
-              <p className='bg-green-500 rounded-[20px] text-sm p-1'>Node JS</p>
+              <p className='bg-purple-500 rounded-[20px] text-sm p-1'>TailwindCSS</p>
+              <p className='bg-green-500 rounded-[20px] text-sm p-1'>NodeJS</p>
             </div>
           </div>
         </div>
@@ -170,8 +170,8 @@ const WebDevelopment = () => {
               <p className='bg-cyan-300 rounded-[20px] text-sm p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
               <p className='bg-blue-500 rounded-[20px] text-sm p-1'>REACT</p>
-              <p className='bg-purple-500 rounded-[20px] text-sm p-1'>Tailwind CSS</p>
-              <p className='bg-green-500 rounded-[20px] text-sm p-1'>Node JS</p>
+              <p className='bg-purple-500 rounded-[20px] text-sm p-1'>TailwindCSS</p>
+              <p className='bg-green-500 rounded-[20px] text-sm p-1'>NodeJS</p>
             </div>
           </div>
         </div>
@@ -208,8 +208,8 @@ const WebDevelopment = () => {
               <p className='bg-cyan-300 rounded-[20px] text-sm p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
               <p className='bg-blue-500 rounded-[20px] text-sm p-1'>REACT</p>
-              <p className='bg-purple-500 rounded-[20px] text-sm p-1'>Tailwind CSS</p>
-              <p className='bg-green-500 rounded-[20px] text-sm p-1'>Node JS</p>
+              <p className='bg-purple-500 rounded-[20px] text-sm p-1'>TailwindCSS</p>
+              <p className='bg-green-500 rounded-[20px] text-sm p-1'>NodeJS</p>
             </div>
           </div>
         </div>
