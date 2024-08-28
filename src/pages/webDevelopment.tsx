@@ -29,8 +29,6 @@ import NavBar from '@/components/Header/NavBar';
 import Footer from '@/components/Footer/Footer';
 import CustomerService from '@/components/CustomerService/CustomerService';
 
-// Define the project type for better type safety
-type ProjectType = 'project1' | 'project2' | 'project3' | 'project4';
 
 const images = [
   { id: 1, src: Campaign.src, thumb: Campaign.src },
@@ -52,24 +50,10 @@ const WebDevelopment = () => {
   const [selectedImage2, setSelectedImage2] = useState(images[3]?.src);
   const [selectedImage3, setSelectedImage3] = useState(images[6]?.src);
   const [selectedImage4, setSelectedImage4] = useState(images[9]?.src);
-  const [hoveredProject, setHoveredProject] = useState<ProjectType | null>(null);
-
-  const handleMouseEnter = (project: ProjectType) => {
-    setHoveredProject(project);
-  };
-
-  const handleMouseLeave = () => {
-    setHoveredProject(null);
-  };
 
   return (
     <div className='bg-black h-auto'>
       <NavBar />
-
-
-
-      {/* ------------------------ MOBILE VIEW ---------------------------- */}
-
       
       <div className='py-40 lg:hidden'>
         <h4 className="text-center text-5xl pb-10 font-bold">
@@ -80,36 +64,25 @@ const WebDevelopment = () => {
 
         <div className='grid grid-cols-1 mx-4 text-white py-20'>
           <div className="left">   
-            <Image
-                className={`img1 h-64 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${hoveredProject === 'project1' ? 'opacity-50' : ''}`}
-                src={selectedImage1}
-                alt="Selected"
-                width={640}
-                height={256}
-                onMouseEnter={() => handleMouseEnter('project1')}
-                onMouseLeave={handleMouseLeave}
-              />
-              
-              {hoveredProject === 'project1' && (
-                <Link href="https://github.com/Yugantha-Polhengoda/Online-Cosmetic-Store-for-Whole-Sales-and-Retail" className="absolute -mt-40 mx-[40%]">
-                  <FaGithub color='white' className='w-12 h-12 hover:scale-90 transition-transform duration-200 border-2 border-[#0ef] rounded-full p-[2px]' />
-                </Link>
-              )}
-              <div className="flex justify-center mt-2">
-                {images.slice(0, 3).map((image) => (
-                  <div key={image.id} className="m-1">
-                    <Image
-                      src={image.thumb}
-                      alt={`Thumbnail ${image.id}`}
-                      className={`cursor-pointer w-36 h-20 object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage1 === image.src ? 'shadow-outline' : ''}`}
-                      onClick={() => setSelectedImage1(image.src)}
-                      width={160}
-                      height={64}
-                    />
-                  </div>
-                ))}
-              </div>
+            <Image className="img1 h-64 rounded-[5px] object-contain md:ml-12"
+              src={selectedImage1}
+              alt="Selected"
+              width={640}
+              height={256} />
+            <div className="flex justify-center md:mt-2">
+              {images.slice(0, 3).map((image) => (
+                <div key={image.id} className="m-1 mt-1">
+                  <Image
+                    src={image.thumb}
+                    alt={`Thumbnail ${image.id}`}
+                    className={`cursor-pointer w-36 h-20 md:w-full object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage1 === image.src ? 'shadow-outline' : ''}`}
+                    onClick={() => setSelectedImage1(image.src)}
+                    width={160}
+                    height={64} />
+                </div>
+              ))}
             </div>
+          </div>
 
           <div className="right md:px-32">
             <h1 className='text-3xl text-white mt-5 pb-5 lg:mt-0 md:text-center'>Online Cosmetic Store</h1>
@@ -127,47 +100,30 @@ const WebDevelopment = () => {
           </div>
         </div>
 
-
-
-
-        {/* Project 2 */}
-        <div className='grid grid-cols-1 mx-4 text-white py-20'>
-          <div className="left">   
-            <Image
-                className={`img1 h-64 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${hoveredProject === 'project2' ? 'opacity-50' : ''}`}
-                src={selectedImage2}
-                alt="Selected"
-                width={640}
-                height={256}
-                onMouseEnter={() => handleMouseEnter('project2')}
-                onMouseLeave={handleMouseLeave}
-              />
-
-              {hoveredProject === 'project2' && (
-                <Link href="https://github.com/Yugantha-Polhengoda/Multi-Translator-Sinhala-to-English-and-English-to-Sinhala-" className="absolute -mt-36 mx-[40%]">
-                  <FaGithub color='white' className='w-10 h-10 hover:scale-90 transition-transform duration-200 border-2 border-[#0ef] rounded-full p-[2px]' />
-                </Link>
-              )}
-
-
-              <div className="flex justify-center -mt-6 md:mt-2">
-                {images.slice(3, 6).map((image) => (
-                  <div key={image.id} className="m-1">
-                    <Image
-                      src={image.thumb}
-                      alt={`Thumbnail ${image.id}`}
-                      className={`cursor-pointer w-36 h-20 object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage2 === image.src ? 'shadow-outline' : ''}`}
-                      onClick={() => setSelectedImage2(image.src)}
-                      width={160}
-                      height={64}
-                    />
-                  </div>
-                ))}
-              </div>
+        <div className='grid grid-cols-1 py-20 px-4 text-white'>
+          <div className="left">
+            <Image className="img1 h-64 rounded-[5px] object-contain md:ml-12"
+              src={selectedImage2}
+              alt="Selected"
+              width={640}
+              height={256} />
+            <div className="flex justify-center -mt-6 md:mt-2">
+              {images.slice(3, 6).map((image) => (
+                <div key={image.id} className="m-1">
+                  <Image
+                    src={image.thumb}
+                    alt={`Thumbnail ${image.id}`}
+                    className={`cursor-pointer w-36 h-20 md:w-full object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage2 === image.src ? 'shadow-outline' : ''}`}
+                    onClick={() => setSelectedImage2(image.src)}
+                    width={160}
+                    height={64} />
+                </div>
+              ))}
             </div>
+          </div>
 
           <div className="right md:px-32">
-            <h1 className='text-3xl text-white mt-5 pb-5 lg:mt-0 md:text-center'>Online Cosmetic Store</h1>
+            <h1 className='text-3xl mt-5 pb-5 md:text-center'>Multi Translator</h1>
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
@@ -176,44 +132,29 @@ const WebDevelopment = () => {
               <p className='bg-cyan-300 rounded-[20px] text-sm p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
               <p className='bg-blue-500 rounded-[20px] text-sm p-1'>REACT</p>
-              <p className='bg-purple-500 rounded-[20px] text-sm p-1'>Bootstrap</p>
+              <p className='bg-purple-500 rounded-[20px] text-sm p-1'>Tailwind CSS</p>
               <p className='bg-green-500 rounded-[20px] text-sm p-1'>Node JS</p>
             </div>
           </div>
         </div>
 
-
-
-
-        {/* Project 3 */}
         <div className='grid grid-cols-1 mx-4 text-white py-20'>
           <div className="left">   
-            <Image className={`img1 h-64 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${hoveredProject === 'project3' ? 'opacity-50' : ''}`}
+            <Image className="img1 h-64 rounded-[5px] object-contain md:ml-12"
               src={selectedImage3}
               alt="Selected"
               width={640}
-              height={256}
-              onMouseEnter={() => handleMouseEnter('project3')}
-              onMouseLeave={handleMouseLeave}
-              />
-
-              {hoveredProject === 'project3' && (
-                <Link href="https://github.com/Yugantha-Polhengoda/Hotel-Reservation-System" className="absolute -mt-36 mx-[40%]">
-                  <FaGithub color='white' className='w-10 h-10 hover:scale-90 transition-transform duration-200 border-2 border-[#0ef] rounded-full p-[2px]' />
-                </Link>
-              )}
-
+              height={256} />
             <div className="flex justify-center -mt-6 md:mt-2">
               {images.slice(6, 9).map((image) => (
                 <div key={image.id} className="m-1">
                   <Image
-                      src={image.thumb}
-                      alt={`Thumbnail ${image.id}`}
-                      className={`cursor-pointer w-36 h-20 object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage3 === image.src ? 'shadow-outline' : ''}`}
-                      onClick={() => setSelectedImage3(image.src)}
-                      width={160}
-                      height={64}
-                    />
+                    src={image.thumb}
+                    alt={`Thumbnail ${image.id}`}
+                    className={`cursor-pointer w-36 h-20 md:w-full object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage3 === image.src ? 'shadow-outline' : ''}`}
+                    onClick={() => setSelectedImage3(image.src)}
+                    width={160}
+                    height={64} />
                 </div>
               ))}
             </div>
@@ -235,38 +176,23 @@ const WebDevelopment = () => {
           </div>
         </div>
 
-
-
-
-        {/* Project 4 */}
         <div className='grid grid-cols-1 mx-4 text-white py-20'>
           <div className="left">   
-            <Image className={`img1 h-64 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${hoveredProject === 'project4' ? 'opacity-50' : ''}`}
+            <Image className="img1 h-64 rounded-[5px] object-contain md:ml-12"
               src={selectedImage4}
               alt="Selected"
               width={640}
-              height={256}
-              onMouseEnter={() => handleMouseEnter('project4')}
-              onMouseLeave={handleMouseLeave}
-              />
-
-              {hoveredProject === 'project4' && (
-                <Link href="https://github.com/Yugantha-Polhengoda/Online-Shopping-Application" className="absolute -mt-36 mx-[40%]">
-                  <FaGithub color='white' className='w-10 h-10 hover:scale-90 transition-transform duration-200 border-2 border-[#0ef] rounded-full p-[2px]' />
-                </Link>
-              )}
-
+              height={256} />
             <div className="flex justify-center -mt-6 md:mt-2">
               {images.slice(9, 12).map((image) => (
                 <div key={image.id} className="m-1">
                   <Image
-                      src={image.thumb}
-                      alt={`Thumbnail ${image.id}`}
-                      className={`cursor-pointer w-36 h-20 object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage4 === image.src ? 'shadow-outline' : ''}`}
-                      onClick={() => setSelectedImage4(image.src)}
-                      width={160}
-                      height={64}
-                    />
+                    src={image.thumb}
+                    alt={`Thumbnail ${image.id}`}
+                    className={`cursor-pointer w-36 h-20 md:w-full object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage4 === image.src ? 'shadow-outline' : ''}`}
+                    onClick={() => setSelectedImage4(image.src)}
+                    width={160}
+                    height={64} />
                 </div>
               ))}
             </div>
@@ -290,12 +216,6 @@ const WebDevelopment = () => {
       </div>
 
 
-
-
-
-
-
-
       {/* ------------------------ WEB VIEW ---------------------------- */}
 
 
@@ -310,20 +230,13 @@ const WebDevelopment = () => {
           <div
             className="left max-w-[90%]">
             <Image
-              className={`img1 h-64 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${hoveredProject === 'project1' ? 'opacity-50' : ''}`}
+              className={`img1 h-64 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${selectedImage1 === 'image.src' ? 'opacity-50' : ''}`}
               src={selectedImage1}
               alt="Selected"
               width={640}
               height={256}
-              onMouseEnter={() => handleMouseEnter('project1')}
-              onMouseLeave={handleMouseLeave}
             />
 
-            {hoveredProject === 'project1' && (
-              <Link href="https://github.com/Yugantha-Polhengoda/Online-Cosmetic-Store-for-Whole-Sales-and-Retail" className="absolute top-40 left-56 mt-5 mr-5">
-                <FaGithub color='white' className='w-10 h-10 hover:scale-90 transition-transform duration-200 border-2 border-[#0ef] rounded-full p-[2px]' />
-              </Link>
-            )}
             <div className="flex justify-center mt-2">
               {images.slice(0, 3).map((image) => (
                 <div key={image.id} className="m-1">
@@ -360,8 +273,6 @@ const WebDevelopment = () => {
         <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white xl:mt-[38%] lg:mt-[50%] py-10'>
           <div
             className="right max-w-[90%] mt-8"
-            onMouseEnter={() => handleMouseEnter('project2')}
-            onMouseLeave={handleMouseLeave}
           >
             <h1 className='text-3xl text-white pb-5'>Multi Translator</h1>
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
@@ -380,20 +291,13 @@ const WebDevelopment = () => {
           <div
             className="left max-w-[90%]">
             <Image
-              className={`img1 h-64 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${hoveredProject === 'project2' ? 'opacity-50' : ''}`}
+              className={`img1 h-64 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${selectedImage2 === 'image.src' ? 'opacity-50' : ''}`}
               src={selectedImage2}
               alt="Selected"
               width={640}
-              height={256}
-              onMouseEnter={() => handleMouseEnter('project2')}
-              onMouseLeave={handleMouseLeave}  
+              height={256} 
             />
-
-            {hoveredProject === 'project2' && (
-              <Link href="https://github.com/Yugantha-Polhengoda/Multi-Translator-Sinhala-to-English-and-English-to-Sinhala-" className="absolute top-32 right-56 mt-5 mr-5">
-                <FaGithub color='white' className='w-10 h-10 hover:scale-90 transition-transform duration-200 border-2 border-[#0ef] rounded-full p-[2px]' />
-              </Link>
-            )}
+            
             <div className="flex justify-center -mt-5">
               {images.slice(3, 6).map((image) => (
                 <div key={image.id} className="m-1">
@@ -417,20 +321,13 @@ const WebDevelopment = () => {
           <div
             className="left max-w-[90%]">
             <Image
-              className={`img1 h-64 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${hoveredProject === 'project3' ? 'opacity-50' : ''}`}
+              className={`img1 h-64 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${selectedImage3 === 'image.src' ? 'opacity-50' : ''}`}
               src={selectedImage3}
               alt="Selected"
               width={640}
               height={256}
-              onMouseEnter={() => handleMouseEnter('project3')}
-              onMouseLeave={handleMouseLeave}
             />
 
-            {hoveredProject === 'project3' && (
-              <Link href="https://github.com/Yugantha-Polhengoda/Hotel-Reservation-System" className="absolute top-40 left-56 mt-5 mr-5">
-                <FaGithub color='white' className='w-10 h-10 hover:scale-90 transition-transform duration-200 border-2 border-[#0ef] rounded-full p-[2px]' />
-              </Link>
-            )}
             <div className="flex justify-center -mt-4">
               {images.slice(6, 9).map((image) => (
                 <div key={image.id} className="m-1">
@@ -462,11 +359,7 @@ const WebDevelopment = () => {
 
         {/* Project 4 */}
         <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white xl:mt-[104%] lg:mt-[144%] py-10'>
-          <div
-            className="right max-w-[90%] mt-5"
-            onMouseEnter={() => handleMouseEnter('project4')}
-            onMouseLeave={handleMouseLeave}
-          >
+          <div className="right max-w-[90%] mt-5">
             <h1 className='text-3xl text-white pb-5'>Online Shopping Application</h1>
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="#">Buy Extended Warranty</a></p>
@@ -484,19 +377,13 @@ const WebDevelopment = () => {
           <div
             className="left max-w-[90%]">
             <Image
-              className={`img1 h-60 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${hoveredProject === 'project4' ? 'opacity-50' : ''}`}
+              className={`img1 h-60 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${selectedImage4 === 'image.src' ? 'opacity-50' : ''}`}
               src={selectedImage4}
               alt="Selected"
               width={640}
-              height={256}
-              onMouseEnter={() => handleMouseEnter('project4')}
-              onMouseLeave={handleMouseLeave}  
+              height={256} 
             />
-            {hoveredProject === 'project4' && (
-              <Link href="https://github.com/Yugantha-Polhengoda/Online-Shopping-Application" className="absolute top-32 right-56 mt-5 mr-5">
-                <FaGithub color='white' className='w-10 h-10 hover:scale-90 transition-transform duration-200 border-2 border-[#0ef] rounded-full p-[2px]' />
-              </Link>
-            )}
+            
             <div className="flex justify-center -mt-3">
               {images.slice(9, 12).map((image) => (
                 <div key={image.id} className="m-1">
