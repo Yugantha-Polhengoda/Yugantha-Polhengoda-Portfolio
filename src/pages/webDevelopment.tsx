@@ -6,7 +6,7 @@ import "../app/globals.css";
 
 import { FaGithub } from "react-icons/fa";
 
-import Campaign from '/public/Images/Campaign.jpg';
+import Campaign from '/public/Images/Campaign.png';
 import Campaign1 from '/public/Images/Campaign1.jpg';
 import Dashboard from '/public/Images/Dashboard.png';
 
@@ -89,7 +89,7 @@ const WebDevelopment = () => {
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
-            <div className='grid grid-cols-3 w-80 text-center gap-3 mt-4 md:justify-center md:w-full'>
+            <div className='grid grid-cols-3 w-72 text-center gap-3 mt-4 md:justify-center md:w-full'>
               <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
               <p className='bg-cyan-300 rounded-[20px] text-sm p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
@@ -127,7 +127,7 @@ const WebDevelopment = () => {
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
-            <div className='grid grid-cols-3 w-80 text-center gap-3 mt-4 md:justify-center md:w-full'>
+            <div className='grid grid-cols-3 w-72 text-center gap-3 mt-4 md:justify-center md:w-full'>
               <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
               <p className='bg-cyan-300 rounded-[20px] text-sm p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
@@ -165,7 +165,7 @@ const WebDevelopment = () => {
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
-            <div className='grid grid-cols-3 w-80 text-center gap-3 mt-4 md:justify-center md:w-full'>
+            <div className='grid grid-cols-3 w-72 text-center gap-3 mt-4 md:justify-center md:w-full'>
               <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
               <p className='bg-cyan-300 rounded-[20px] text-sm p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
@@ -203,7 +203,7 @@ const WebDevelopment = () => {
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
-            <div className='grid grid-cols-3 w-80 text-center gap-3 mt-4 md:justify-center md:w-full'>
+            <div className='grid grid-cols-3 w-72 text-center gap-3 mt-4 md:justify-center md:w-full'>
               <p className='bg-red-700 rounded-[20px] text-sm p-1'>HTML</p>
               <p className='bg-cyan-300 rounded-[20px] text-sm p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
