@@ -2,8 +2,6 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
-import Tilt from 'react-parallax-tilt';
 import "../app/globals.css";
 
 import Icon3D1 from '/public/Images/3D1.jpg'
@@ -43,7 +41,7 @@ const images = [
 
 const annimations = () => {
 
-  const [selectedImage1, setSelectedImage1] = useState(images[0].src); // For section 1 (images 1-3)
+  const [selectedImage1, setSelectedImage1] = useState(images[0].src);
   const [selectedImage2, setSelectedImage2] = useState(images[3].src);
   const [selectedImage3, setSelectedImage3] = useState(images[6].src);
   const [selectedImage4, setSelectedImage4] = useState(images[9].src);
@@ -51,6 +49,9 @@ const annimations = () => {
   return (
     <div className='bg-black h-auto'>
       <NavBar />
+
+
+      {/* ------------------------ Mobile VIEW ---------------------------- */}
       
       <div className='py-40 lg:hidden'>
         <h4 className="text-center text-5xl pb-10 font-bold">

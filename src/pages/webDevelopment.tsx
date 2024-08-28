@@ -2,28 +2,25 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 import "../app/globals.css";
 
 import { FaGithub } from "react-icons/fa";
 
-import Campaign from '/public/Images/Campaign.png';
-import Campaign1 from '/public/Images/Campaign1.png';
-import Campaign2 from '/public/Images/Campaign2.png';
+import Campaign from '/public/Images/Campaign.jpg';
+import Campaign1 from '/public/Images/Campaign1.jpg';
 import Dashboard from '/public/Images/Dashboard.png';
 
-import Translator from '/public/Images/TranslatorH.png';
 import Translator1 from '/public/Images/Translator.png';
 import Translator2 from '/public/Images/Translator2.png';
 import Translator3 from '/public/Images/Translator3.png';
 
-import Hotels from '/public/Images/Hotels.png';
-import Hotels2 from '/public/Images/Hotels2.png';
-import Hotels3 from '/public/Images/Hotels3.png';
+import Hotels from '/public/Images/Hotels.jpg';
+import Hotels2 from '/public/Images/Hotels2.jpg';
+import Hotels3 from '/public/Images/Hotels3.jpg';
 
-import Clothing from '/public/Images/Clothing.png';
-import Clothing2 from '/public/Images/Clothing2.png';
-import Clothing3 from '/public/Images/Clothing3.png';
+import Clothing from '/public/Images/Clothing.jpg';
+import Clothing2 from '/public/Images/Clothing2.jpg';
+import Clothing3 from '/public/Images/Clothing3.jpg';
 
 import NavBar from '@/components/Header/NavBar';
 import Footer from '@/components/Footer/Footer';
@@ -46,7 +43,7 @@ const images = [
 ];
 
 const WebDevelopment = () => {
-  const [selectedImage1, setSelectedImage1] = useState(images[0]?.src); // For section 1 (images 1-3)
+  const [selectedImage1, setSelectedImage1] = useState(images[0]?.src) // For section 1 (images 1-3)
   const [selectedImage2, setSelectedImage2] = useState(images[3]?.src);
   const [selectedImage3, setSelectedImage3] = useState(images[6]?.src);
   const [selectedImage4, setSelectedImage4] = useState(images[9]?.src);
@@ -54,6 +51,9 @@ const WebDevelopment = () => {
   return (
     <div className='bg-black h-auto'>
       <NavBar />
+
+
+      {/* ------------------------ Mobile VIEW ---------------------------- */}
       
       <div className='py-40 lg:hidden'>
         <h4 className="text-center text-5xl pb-10 font-bold">
@@ -383,7 +383,7 @@ const WebDevelopment = () => {
               width={640}
               height={256} 
             />
-            
+
             <div className="flex justify-center -mt-3">
               {images.slice(9, 12).map((image) => (
                 <div key={image.id} className="m-1">
