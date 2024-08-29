@@ -43,12 +43,12 @@ const Hero = () => {
                     /></span></h3> 
                 
                 <div className="flex pb-4 gap-3 2xl:mt-5">
-                    <a href="https://yugantha-polhengoda.github.io/Yugantha-Polhengoda-Portfolio/Images/Yugantha_TotalCV.pdf" download className="inline-flex items-center pl-3 pr-3 py-2 border border-transparent text-sm md:px-6 2xl:text-lg font-medium rounded-md shadow-sm text-zinc-800 bg-white hover:bg-gray-200 hover:text-black group">
+                    <a href="https://yugantha-polhengoda.github.io/Yugantha-Polhengoda-Portfolio/Images/Yugantha_TotalCV.pdf" download className="inline-flex items-center px-5 py-2 border border-transparent text-sm md:px-6 2xl:text-lg font-medium rounded-md shadow-sm text-zinc-800 bg-white hover:bg-gray-200 hover:text-black group">
                     <FaDownload size={18} className="phone-Icon mr-2" />
                         Resume
                     </a>
 
-                    <a href="tel:+94767801452" className="inline-flex items-center pl-3 pr-3 py-2 border border-white text-sm md:px-6 2xl:text-lg font-medium rounded-md shadow-sm text-white bg-transparent hover:bg-white hover:text-zinc-800 group">
+                    <a href="tel:+94767801452" className="inline-flex items-center px-5 py-2 border border-white text-sm md:px-6 2xl:text-lg font-medium rounded-md shadow-sm text-white bg-transparent hover:bg-white hover:text-zinc-800 group">
                     <LiaPhoneAltSolid size={25} className="phone-Icon mr-1" />
                         Contact
                     </a>
