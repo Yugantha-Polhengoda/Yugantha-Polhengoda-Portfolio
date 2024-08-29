@@ -19,6 +19,7 @@ const Content = () => {
         <div className='inline-flex pb-4 gap-2 font-semibold 
                         md:gap-10 md:inline-flex
                         2xl:gap-10 2xl:inline-flex '>
+
             <div className="relative gap-5">
             <Image className="w-20 ml-3 2xl:w-44" src={Icon90} alt="icon90-1" />
             <h4 className="ml-0 pt-2 mt-2 text-xs 2xl:ml-3 2xl:pt-2 2xl:mt-2 2xl:text-xl text-gray-50">Web Development</h4>

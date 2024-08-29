@@ -46,9 +46,19 @@ const Contact = () => {
       </p>
 
       <div className="text-white text-left xl:mx-[20%] pb-5">
-        <p className='flex flex-wrap gap-3 text-sm lg:text-base m-4'><FaLocationDot size={26} /> Kurunegala, Sri Lanka</p>
-        <p className='flex flex-wrap gap-3 text-sm lg:text-base m-4'><FaPhone size={23} /> +94 767801452</p>
+        <p className='hidden md:flex flex-wrap gap-3 text-sm lg:text-base m-4'><FaLocationDot size={26} /> Kurunegala, Sri Lanka</p>
+        <p className='hidden md:flex flex-wrap gap-3 text-sm lg:text-base m-4'><FaPhone size={23} /> +94 767801452</p>
         <p className='hidden md:flex flex-wrap text-wrap gap-3 text-sm lg:text-base m-4'><MdEmail size={27} /> yuganthapolhengoda@gmail.com</p>
+
+        <div className='md:hidden flex gap-3 text-sm lg:text-base m-4'>
+          <FaLocationDot size={26} />
+          <p className='break-all'> Kurunegala, Sri Lanka</p>  
+        </div>
+
+        <div className='md:hidden flex gap-3 text-sm lg:text-base m-4' >
+          <FaPhone size={23} /> 
+          <p className='break-all'>+94 767801452</p>
+        </div>
 
         <div className='md:hidden flex gap-3 text-sm lg:text-base m-4 '>
           <MdEmail size={32} /> 

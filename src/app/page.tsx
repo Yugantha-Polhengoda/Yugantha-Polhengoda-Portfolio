@@ -10,7 +10,7 @@ import Contact from "@/components/Contact/Contact"
 
 export default function Home() {
   return (
-    <main className="flex z-50 min-h-screen bg-black flex-col w-full">
+    <main className="z-50 min-h-screen bg-black">
       <div className="">
         <NavBar />
         <Hero />
