@@ -40,20 +40,22 @@ const Content = () => {
       </div>
     </div> */}
 
-      <div className="z-30 flex flex-col md:grid-cols-3 items-center" id="Skills">
+    {/* ---------------------------------------------------------- */}
+
+      <div className="z-30 flex flex-col md:grid-cols-3 items-center mx-2" id="Skills">
         <div
-          className="bg-customGray rounded-xl shadow-[1px_1px_4px_4px_lightblue] pt-2 pb-4 px-2 flex flex-col items-center 
+          className="bg-customGray rounded-xl shadow-[1px_1px_4px_4px_lightblue] pt-2 pb-4 grid grid-cols-1 items-center 
                         md:p-5 md:pb-8 md:px-9 md:mt-[-20px]
-                        lg:p-5 lg:pb-10 lg:px-10 lg:mt-[-20px] 
-                        xl:p-5 xl:pb-12 xl:px-24 xl:mt-[-30px]"
+                        lg:p-5 lg:pb-10 lg:px-12 lg:mt-[-20px] 
+                        xl:p-5 xl:pb-12 xl:px-20 xl:mt-[-30px]"
                       >
           <h2 className="text-center font-semibold text-gray-50 font-Orbitron-font mb-4
-                        md:pb-2 md:pt-2 md:text-3xl 
-                        2xl:pb-6 2xl:pt-1 2xl:text-3xl ">
+                        md:pb-2 md:text-2xl 
+                        2xl:pb-6 2xl:pt-2 2xl:text-3xl ">
             Skills
           </h2>
 
-          <div className="grid grid-cols-3 items-center gap-3 p-1 font-semibold">
+          <div className="grid grid-cols-3 items-center gap-4 ml-3 mr-3 font-semibold xl:gap-10">
             <div className="relative flex flex-col items-center">
               <Image className="w-20 mb-2 xl:w-44" src={Icon90} alt="Web Development Icon" />
               <h4 className="text-gray-50 text-xs text-center md:text-sm xl:text-xl">Web Development</h4>
