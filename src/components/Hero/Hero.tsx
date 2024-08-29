@@ -42,7 +42,7 @@ const Hero = () => {
                       delaySpeed={1000}
                     /></span></h3> 
                 
-                <div className="flex pb-4 gap-3 2xl:mt-5">
+                {/* <div className="flex pb-4 gap-3 2xl:mt-5">
                     <a href="https://yugantha-polhengoda.github.io/Yugantha-Polhengoda-Portfolio/Images/Yugantha_TotalCV.pdf" download className="inline-flex items-center px-5 py-2 border border-transparent text-sm md:px-6 2xl:text-lg font-medium rounded-md shadow-sm text-zinc-800 bg-white hover:bg-gray-200 hover:text-black group">
                     <FaDownload size={18} className="phone-Icon mr-2" />
                         Resume
@@ -52,6 +52,24 @@ const Hero = () => {
                     <LiaPhoneAltSolid size={25} className="phone-Icon mr-1" />
                         Contact
                     </a>
+                </div> */}
+
+                <div className="grid grid-cols-2 pb-4 gap-3 2xl:mt-5">
+
+                  <div className='flex flex-wrap px-4 py-2 gap-2 items-center justify-center border border-transparent text-sm font-medium rounded-md shadow-sm text-zinc-800 bg-white hover:bg-gray-200 hover:text-black group'>
+                  <FaDownload size={18} className="phone-Icon" />
+                  <a href="https://yugantha-polhengoda.github.io/Yugantha-Polhengoda-Portfolio/Images/Yugantha_TotalCV.pdf" download className="">
+                        Resume
+                    </a>
+                  </div>
+
+                  <div className='flex flex-wrap px-4 py-2 gap-2 items-center justify-center border border-white text-sm font-medium rounded-md shadow-sm text-white bg-transparent hover:bg-white hover:text-zinc-800 group'>
+                  <LiaPhoneAltSolid size={25} className="phone-Icon " />
+                    <a href="tel:+94767801452" className="">
+                          Contact
+                      </a>
+                  </div>
+                    
                 </div>
             </div>
         </div>
