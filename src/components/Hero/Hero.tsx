@@ -54,16 +54,16 @@ const Hero = () => {
                     </a>
                 </div> */}
 
-                <div className="grid grid-cols-2 pb-4 gap-3 2xl:mt-5">
 
-                  <div className='flex flex-wrap px-4 py-2 gap-2 items-center justify-center border border-transparent text-sm font-medium rounded-md shadow-sm text-zinc-800 bg-white hover:bg-gray-200 hover:text-black group'>
+                <div className="grid grid-cols-2 pb-4 gap-3 md:flex 2xl:mt-5">
+                  <div className='flex flex-wrap px-4 py-2 gap-2 md:px-6 items-center justify-center border border-transparent text-sm 2xl:text-lg font-medium rounded-md shadow-sm text-zinc-800 bg-white hover:bg-gray-200 hover:text-black group'>
                   <FaDownload size={18} className="phone-Icon" />
                   <a href="https://yugantha-polhengoda.github.io/Yugantha-Polhengoda-Portfolio/Images/Yugantha_TotalCV.pdf" download className="">
                         Resume
                     </a>
                   </div>
 
-                  <div className='flex flex-wrap px-4 py-2 gap-2 items-center justify-center border border-white text-sm font-medium rounded-md shadow-sm text-white bg-transparent hover:bg-white hover:text-zinc-800 group'>
+                  <div className='flex flex-wrap px-4 py-2 gap-1 md:px-6 items-center justify-center border border-white text-sm 2xl:text-lg font-medium rounded-md shadow-sm text-white bg-transparent hover:bg-white hover:text-zinc-800 group'>
                   <LiaPhoneAltSolid size={25} className="phone-Icon " />
                     <a href="tel:+94767801452" className="">
                           Contact
