@@ -48,7 +48,7 @@ const Hero = () => {
                         Resume
                     </a>
 
-                    <a href="tel:+94767801452" className="inline-flex items-center pl-3 pr-3 py-2 border border-white text-sm md:px-6 2xl:text-lg font-medium rounded-md shadow-sm text-white bg-transparent hover:bg-white hover:text-zinc-800 group">
+                    <a href="tel:+94767801452" className="inline-flex items-center pl-3 pr-3 2xl:pl-0 2xl:pr-0 py-2 border border-white text-sm md:px-6 2xl:text-lg font-medium rounded-md shadow-sm text-white bg-transparent hover:bg-white hover:text-zinc-800 group">
                     <LiaPhoneAltSolid size={25} className="phone-Icon mr-1" />
                         Contact
                     </a>
