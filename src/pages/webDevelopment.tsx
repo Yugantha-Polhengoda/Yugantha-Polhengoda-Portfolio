@@ -49,7 +49,7 @@ const WebDevelopment = () => {
   const [selectedImage4, setSelectedImage4] = useState(images[9]?.src);
 
   return (
-    <div className='bg-black h-auto'>
+    <div className='bg-black h-auto w-full'>
       <NavBar />
 
 
