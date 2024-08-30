@@ -47,7 +47,7 @@ const uiux = () => {
     const [selectedImage4, setSelectedImage4] = useState(images[9].src);
 
   return (
-    <div className='bg-black h-auto w-fit'>
+    <div className='bg-black h-auto w-full'>
       <NavBar />
       
 
