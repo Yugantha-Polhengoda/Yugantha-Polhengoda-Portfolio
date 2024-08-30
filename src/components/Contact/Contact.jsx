@@ -51,12 +51,12 @@ const Contact = () => {
         <p className='hidden md:flex flex-wrap text-wrap gap-3 text-sm lg:text-base m-4'><MdEmail size={27} /> yuganthapolhengoda@gmail.com</p>
 
         <div className='md:hidden flex gap-3 text-sm lg:text-base m-4'>
-          <FaLocationDot size={26} />
+          <FaLocationDot size={26.5} />
           <p className='break-all'> Kurunegala, Sri Lanka</p>  
         </div>
 
         <div className='md:hidden flex gap-3 text-sm lg:text-base m-4' >
-          <FaPhone size={23} /> 
+          <FaPhone size={23.5} /> 
           <p className='break-all'>+94 767801452</p>
         </div>
 

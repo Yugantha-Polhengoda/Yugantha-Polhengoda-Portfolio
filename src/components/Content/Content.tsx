@@ -44,7 +44,7 @@ const Content = () => {
 
       <div className="z-30 flex flex-col md:grid-cols-3 items-center mx-2" id="Skills">
         <div
-          className="mt-[-14px] bg-customGray rounded-xl shadow-[1px_1px_4px_4px_lightblue] pt-2 pb-4 grid grid-cols-1 items-center 
+          className="mt-[-14px] bg-customGray rounded-xl shadow-[1px_1px_4px_4px_lightblue] pt-2 pb-6 grid grid-cols-1 items-center 
                         md:p-5 md:pb-8 md:px-9 md:mt-[-20px]
                         lg:p-5 lg:pb-10 lg:px-12 lg:mt-[-20px] 
                         xl:p-5 xl:pb-12 xl:px-20 xl:mt-[-30px]"
