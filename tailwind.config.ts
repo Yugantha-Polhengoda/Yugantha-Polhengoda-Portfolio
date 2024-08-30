@@ -22,6 +22,7 @@ const config: Config = {
         'NotoSerif-font': ["Noto Serif Khitan Small Script", "serif"],
       },
       fontSize: {
+        'custom-Ss': '5px',
         'custom-xs': '10px',
         'custom-sm': '16px',
       },

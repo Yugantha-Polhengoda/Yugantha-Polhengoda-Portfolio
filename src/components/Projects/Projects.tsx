@@ -20,7 +20,7 @@ const Projects = () => {
   return (
     <div id='Projects' className="pt-30 pb-20 scroll-mt-20 lg:scroll-mt-36">
       <div className="text-center 2xl:text-left">
-        <h4 className="Projects-h4 text-custom-xs mx-auto z-10 text-white bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.2)] rounded-full mb-1 px-5 pt-1 pb-1 inline-block justify-center items-center relative hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)] lg:text-xs 2xl:text-xs 2xl:ml-52">
+        <h4 className="Projects-h4 text-custom-xs mx-auto z-10 text-white bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.2)] rounded-full mb-1 px-5 pt-1 pb-1 inline-block justify-center items-center relative hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)] 2xl:ml-52">
         📅 Projects & Recent Works
         </h4> 
 
@@ -30,10 +30,10 @@ const Projects = () => {
             <div className="text-center transition-all">
               <Image className="absolute w-full h-44 md:h-1/2 lg:h-1/2 2xl:h-1/2 top-1.5 left-0 px-1.5 rounded-[15px] object-cover" src={Campaign} alt="Campaign" />
               <Image className="absolute w-full h-44 md:h-1/2 lg:h-1/2 2xl:h-1/2 top-1.5 left-0 px-1.5 rounded-[15px] object-cover hidden group-hover:block" src={WebSlideshow} alt="Campaign Hover" />
-              <h3 className="text-white text-2xl z-10 pt-48">Web Development</h3>
+              <h3 className="text-white text-xl z-10 pt-48">Web Development</h3>
 
               <Link href="/webDevelopment">
-                <button className="text-white mt-5 w-20 h-9 text-lg font-montserrat bg-[rgba(25,17,51,0.5)] border-t border-l border-white backdrop-blur-[5px] rounded-full hover:bg-transparent transition-all">
+                <button className="text-white mt-5 w-20 h-9 text-sm font-montserrat bg-[rgba(25,17,51,0.5)] border-t border-l border-white backdrop-blur-[5px] rounded-full hover:bg-transparent transition-all">
                   <span className="relative inline-block cursor-pointer transition-all hover:pr-4 ">
                     View
                     <span className="absolute opacity-0 top-0 right-[-1rem] transition-all hover:opacity-100 hover:right-0">&raquo;</span>
@@ -47,10 +47,10 @@ const Projects = () => {
             <div className="text-center transition-all">
               <Image className="absolute w-full h-1/2 top-1.5 left-0 px-1.5 rounded-[15px] object-cover" src={UI2} alt="UI Design" />
               <Image className="absolute w-full h-1/2 top-1.5 left-0 px-1.5 rounded-[15px] object-cover hidden group-hover:block" src={UISlideshow} alt="UI Design Hover" />
-              <h3 className="text-white text-2xl z-10 pt-48">UI/UX Design</h3>
+              <h3 className="text-white text-xl z-10 pt-48">UI/UX Design</h3>
 
               <Link href="/uiux">
-                <button className="text-white mt-5 w-20 h-9 text-lg font-montserrat bg-[rgba(25,17,51,0.5)] border-t border-l border-white backdrop-blur-[5px] rounded-full hover:bg-transparent transition-all">
+                <button className="text-white mt-5 w-20 h-9 text-sm font-montserrat bg-[rgba(25,17,51,0.5)] border-t border-l border-white backdrop-blur-[5px] rounded-full hover:bg-transparent transition-all">
                   <span className="relative inline-block cursor-pointer transition-all hover:pr-4">
                     View
                     <span className="absolute opacity-0 top-0 right-[-1rem] transition-all hover:opacity-100 hover:right-0">&raquo;</span>
@@ -64,10 +64,10 @@ const Projects = () => {
             <div className="text-center transition-all">
               <Image className="absolute w-full h-1/2 top-1.5 left-0 px-1.5 rounded-[15px] object-cover" src={MobileUI} alt="3D Animation" />
               <Image className="absolute w-full h-1/2 top-1.5 left-0 px-1.5 rounded-[15px] object-cover hidden group-hover:block" src={Slideshow3D} alt="3D Animation Hover" />
-              <h3 className="text-white text-2xl z-10 pt-48">3D Animation</h3>
+              <h3 className="text-white text-xl z-10 pt-48">3D Animation</h3>
 
               <Link href="/annimations">
-                <button className="text-white mt-5 bg-[rgba(25,17,51,0.5)] border-t border-l border-white backdrop-blur-[5px] rounded-full w-20 h-9 text-lg font-montserrat hover:bg-transparent transition-all">
+                <button className="text-white mt-5 bg-[rgba(25,17,51,0.5)] border-t border-l border-white backdrop-blur-[5px] rounded-full w-20 h-9 text-sm font-montserrat hover:bg-transparent transition-all">
                   <span className="relative inline-block cursor-pointer transition-all hover:pr-4">
                     View
                     <span className="absolute opacity-0 top-0 right-[-1rem] transition-all hover:opacity-100 hover:right-0">&raquo;</span>

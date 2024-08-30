@@ -55,13 +55,13 @@ const uiux = () => {
 
       
       <div className='py-40 lg:hidden'>
-        <h4 className="text-center text-5xl pb-10 font-bold">
+        <h4 className="text-center text-3xl pb-2 font-bold mx-2">
           <span className='text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-pink-500'>
             UI/UX Design
           </span>
         </h4> 
 
-        <div className='grid grid-cols-1 mx-4 text-white py-20'>
+        <div className='grid grid-cols-1 mx-4 text-white py-10'>
           <div className="left">   
             <Image className="img1 h-64 rounded-[5px] object-contain md:ml-12"
               src={selectedImage1}

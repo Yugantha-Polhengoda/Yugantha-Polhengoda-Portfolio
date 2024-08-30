@@ -56,13 +56,13 @@ const WebDevelopment = () => {
       {/* ------------------------ Mobile VIEW ---------------------------- */}
       
       <div className='py-40 lg:hidden'>
-        <h4 className="text-center text-5xl pb-10 font-bold">
+        <h4 className="text-center text-3xl pb-2 font-bold px-2">
           <span className='text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-pink-500'>
             Web Development
           </span>
         </h4> 
 
-        <div className='grid grid-cols-1 mx-4 text-white py-20'>
+        <div className='grid grid-cols-1 mx-4 text-white py-10'>
           <div className="left">   
             <Image className="img1 h-64 rounded-[5px] object-contain md:ml-12"
               src={selectedImage1}
@@ -89,7 +89,7 @@ const WebDevelopment = () => {
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
-            <div className='grid grid-cols-3 w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full'>
+            <div className='grid grid-cols-3 max-w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full'>
               <p className='bg-red-700 rounded-[20px] p-1'>HTML</p>
               <p className='bg-cyan-300 rounded-[20px] p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] p-1'>JS</p>
@@ -127,7 +127,7 @@ const WebDevelopment = () => {
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
-            <div className='grid grid-cols-3 w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full'>
+            <div className='grid grid-cols-3 max-w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full'>
               <p className='bg-red-700 rounded-[20px] p-1'>HTML</p>
               <p className='bg-cyan-300 rounded-[20px] p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] p-1'>JS</p>
@@ -165,7 +165,7 @@ const WebDevelopment = () => {
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
-            <div className='grid grid-cols-3 w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full'>
+            <div className='grid grid-cols-3 max-w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full'>
               <p className='bg-red-700 rounded-[20px] p-1'>HTML</p>
               <p className='bg-cyan-300 rounded-[20px] p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] p-1'>JS</p>
@@ -203,7 +203,7 @@ const WebDevelopment = () => {
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
-            <div className='grid grid-cols-3 w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full'>
+            <div className='grid grid-cols-3 max-w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full'>
               <p className='bg-red-700 rounded-[20px] p-1'>HTML</p>
               <p className='bg-cyan-300 rounded-[20px] p-1'>CSS</p>
               <p className='bg-yellow-500 rounded-[20px] p-1'>JS</p>
