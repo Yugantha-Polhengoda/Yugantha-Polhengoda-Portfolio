@@ -101,7 +101,7 @@ const Experience = () => {
                 💻 Web Development & Languages</h4>
 
               <h2 className="pt-2 text-sm lg:text-2xl 2xl:text-3xl font-bold">I'm Certified & Skilled Developer</h2>
-              <p className="pt-5 text-sm xl:text-base text-zinc-50 break-all">👋 I'm a web developer passionate about crafting beautiful
+              <p className="pt-5 text-sm xl:text-base text-zinc-50">👋 I'm a web developer passionate about crafting beautiful
                 and functional web experiences. With a strong foundation in both front-end
                 and back-end technologies,I love turning ideas into real-world applications.</p>
             </div>
@@ -148,7 +148,7 @@ const Experience = () => {
               </h4>
 
               <h2 className="pt-2 text-sm lg:text-2xl 2xl:text-3xl font-bold">I'm Certified & Skilled 3D Designer</h2>
-              <p className="pt-5 text-sm text-zinc-50 xl:text-base break-all">☝️ I discovered my love for 3D design 5 years ago and have since
+              <p className="pt-5 text-sm text-zinc-50 xl:text-base">☝️ I discovered my love for 3D design 5 years ago and have since
                 honed my skills in creating immersive and visually captivating 3D
                 models, animations, and environments. My work spans across various industries, including gaming, film, architecture, and product design.
               </p>
