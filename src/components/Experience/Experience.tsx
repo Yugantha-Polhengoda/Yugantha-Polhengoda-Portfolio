@@ -18,7 +18,7 @@ import Icon3D2 from '/public/Images/3D1.jpg'
 const Experience = () => {
   return (
     <div>
-      {/* <div id='Experience' className="p-8 pb-0 mt-16 justify-center flex flex-wrap text-white font-Poppins-font items-center md:mt-8 md:p-12 md:pb-0 md:justify-between lg:mt-8 lg:p-12 lg:pb-0 lg:justify-between 2xl:mt-16 2xl:p-32 2xl:pb-0 2xl:justify-between scroll-mt-10 lg:-scroll-mt-5">
+      <div id='Experience' className="hidden p-8 pb-0 mt-16 justify-center md:flex flex-wrap text-white font-Poppins-font items-center md:mt-8 md:p-12 md:pb-0 md:justify-between lg:mt-8 lg:p-12 lg:pb-0 lg:justify-between 2xl:mt-16 2xl:p-32 2xl:pb-0 2xl:justify-between scroll-mt-10 lg:-scroll-mt-5">
       <div className="mb-10 md:w-410 lg:w-2/3 2xl:w-55% 2xl:mb-32">
         <h4  className="languages-t ml-4 w-52 py-1 pl-3 mb-1 text-custom-xs bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.3)] rounded-full hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)]
                       md:pl-3 md:text-xs md:w-60
@@ -87,73 +87,75 @@ const Experience = () => {
           <Image className="mb-32 md:max-w-80 md:mt-28 lg:max-w-96 lg:mt-28 lg:ml-0 2xl:w-600 2xl:mt-0 2xl:mr-10" src={Icon3D2.src} alt="3D2" width="700" height="0"/>
         </div>
       </div>
-    </div> */}
+    </div>
 
 
     
 
       {/* -------------------------------------mobile---------------------------------- */}
 
-      <div id='Experience' className="grid grid-cols-1 md:grid-cols-2 mx-5 pb-0 mt-16 justify-center items-center text-white font-Poppins-font md:mt-8 lg:mt-8 xl:mt-16 scroll-mt-10 lg:-scroll-mt-5 xl:gap-80">
-          <div className="mb-10 max-w-full">
-            <h4 className="languages-t grid grid-cols-1 ml-4 max-w-52 py-1 pl-3 mb-1 text-custom-xs bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.3)] rounded-full hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)]">
-              💻 Web Development & Languages</h4>
+        <div className='md:hidden'>
+          <div id='Experience' className="grid grid-cols-1 md:grid-cols-2 mx-5 pb-0 mt-16 justify-center items-center text-white font-Poppins-font md:mt-8 lg:mt-8 xl:mt-16 scroll-mt-10 lg:-scroll-mt-5 xl:gap-80">
+            <div className="mb-10 max-w-full">
+              <h4 className="languages-t grid grid-cols-1 ml-4 max-w-52 py-1 pl-3 mb-1 text-custom-xs bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.3)] rounded-full hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)]">
+                💻 Web Development & Languages</h4>
 
-            <h2 className="pt-2 text-sm lg:text-2xl 2xl:text-3xl font-bold">I'm Certified & Skilled Developer</h2>
-            <p className="pt-5 text-sm xl:text-base text-zinc-50 break-all">👋 I'm a web developer passionate about crafting beautiful
-              and functional web experiences. With a strong foundation in both front-end
-              and back-end technologies,I love turning ideas into real-world applications.</p>
-          </div>
+              <h2 className="pt-2 text-sm lg:text-2xl 2xl:text-3xl font-bold">I'm Certified & Skilled Developer</h2>
+              <p className="pt-5 text-sm xl:text-base text-zinc-50 break-all">👋 I'm a web developer passionate about crafting beautiful
+                and functional web experiences. With a strong foundation in both front-end
+                and back-end technologies,I love turning ideas into real-world applications.</p>
+            </div>
 
-          <div className="mx-auto">
-            <div className="gap-1 grid grid-cols-3 justify-center">
-              <h4 className="max-w-20 p-2 text-center text-xs bg-zinc-50 text-black rounded-lg font-bold">
-                <Image className="w-7 ml-4" src={htmlIcon.src} alt="HTML" width={144} height={5}/>HTML
-              </h4>
-              <h4 className="max-w-20 p-2 text-center text-xs bg-zinc-50 text-black rounded-lg font-bold">
-                <Image className="max-w-7 ml-4" src={cssIcon.src} alt="CSS" width={144} height={5}/>CSS
-              </h4>
-              <h4 className="max-w-20 p-2 text-center text-xs bg-zinc-50 text-black rounded-lg font-bold">
-                <Image className="max-w-7 ml-4" src={jsIcon.src} alt="JavaScript" width={144} height={5}/>JavaScript
-              </h4>
+            <div className="mx-auto">
+              <div className="gap-1 grid grid-cols-3 justify-center">
+                <h4 className="max-w-20 p-2 text-center text-xs bg-zinc-50 text-black rounded-lg font-bold">
+                  <Image className="w-7 ml-4" src={htmlIcon.src} alt="HTML" width={144} height={5}/>HTML
+                </h4>
+                <h4 className="max-w-20 p-2 text-center text-xs bg-zinc-50 text-black rounded-lg font-bold">
+                  <Image className="max-w-7 ml-4" src={cssIcon.src} alt="CSS" width={144} height={5}/>CSS
+                </h4>
+                <h4 className="max-w-20 p-2 text-center text-xs bg-zinc-50 text-black rounded-lg font-bold">
+                  <Image className="max-w-7 ml-4" src={jsIcon.src} alt="JavaScript" width={144} height={5}/>JavaScript
+                </h4>
 
-              <h4 className="max-w-20 p-2 text-center text-xs bg-zinc-50 text-black rounded-lg font-bold">
-                <Image className="max-w-7 ml-4" src={reactIcon.src} alt="React" width={144} height={5}/>REACT
-              </h4>
-              <h4 className="max-w-20 p-2 text-center text-xs bg-zinc-50 text-black rounded-lg font-bold">
-                <Image className="w-7 ml-4" src={nextjsIcon.src} alt="Next.js" width={144} height={5}/>NEXT.JS
-              </h4>
-              <h4 className="max-w-20 p-2 text-center text-xs bg-zinc-50 text-black rounded-lg font-bold">
-                <Image className="max-w-7 ml-4" src={vuejsIcon.src} alt="Vue.js" width={144} height={5}/>VUE.JS
-              </h4>
+                <h4 className="max-w-20 p-2 text-center text-xs bg-zinc-50 text-black rounded-lg font-bold">
+                  <Image className="max-w-7 ml-4" src={reactIcon.src} alt="React" width={144} height={5}/>REACT
+                </h4>
+                <h4 className="max-w-20 p-2 text-center text-xs bg-zinc-50 text-black rounded-lg font-bold">
+                  <Image className="w-7 ml-4" src={nextjsIcon.src} alt="Next.js" width={144} height={5}/>NEXT.JS
+                </h4>
+                <h4 className="max-w-20 p-2 text-center text-xs bg-zinc-50 text-black rounded-lg font-bold">
+                  <Image className="max-w-7 ml-4" src={vuejsIcon.src} alt="Vue.js" width={144} height={5}/>VUE.JS
+                </h4>
 
-              <h4 className="max-w-20 p-2 text-center text-xs bg-zinc-50 text-black rounded-lg font-bold">
-                <Image className="max-w-7 inline mr-2" src={nodejsIcon.src} alt="Node.js" width={144} height={5}/>node.js
-              </h4>
-              <h4 className="max-w-20 p-2 text-center text-xs bg-zinc-50 text-black rounded-lg font-bold">
-                <Image className="max-w-7 inline mr-2" src={springIcon.src} alt="Spring Boot" width={144} height={5}/><span className=''>Springboot</span>
-              </h4>
-              <h4 className="max-w-20 p-2 text-center text-xs bg-zinc-50 text-black rounded-lg font-bold">
-                <Image className="max-w-7 inline mr-2" src={bootstrapIcon.src} alt="Bootstrap" width={144} height={5}/>Bootstrap
-              </h4>
+                <h4 className="max-w-20 p-2 text-center text-xs bg-zinc-50 text-black rounded-lg font-bold">
+                  <Image className="max-w-7 inline mr-2" src={nodejsIcon.src} alt="Node.js" width={144} height={5}/>node.js
+                </h4>
+                <h4 className="max-w-20 p-2 text-center text-xs bg-zinc-50 text-black rounded-lg font-bold">
+                  <Image className="max-w-7 inline mr-2" src={springIcon.src} alt="Spring Boot" width={144} height={5}/><span className=''>Springboot</span>
+                </h4>
+                <h4 className="max-w-20 p-2 text-center text-xs bg-zinc-50 text-black rounded-lg font-bold">
+                  <Image className="max-w-7 inline mr-2" src={bootstrapIcon.src} alt="Bootstrap" width={144} height={5}/>Bootstrap
+                </h4>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 mx-5 mt-10 text-white justify-center items-center md:gap-10 lg:gap-14 xl:gap-80">
-          <div className="mb-10 max-w-full">
-            <h4 className="languages-t max-w-44 py-1 ml-4 pl-4 mb-1 text-custom-xs bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.3)]  rounded-full hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)]">
-              ⚽ 3D Modeling & Animation
-            </h4>
+          <div className="grid grid-cols-1 md:grid-cols-2 mx-5 mt-10 text-white justify-center items-center md:gap-10 lg:gap-14 xl:gap-80">
+            <div className="mb-10 max-w-full">
+              <h4 className="languages-t max-w-44 py-1 ml-4 pl-4 mb-1 text-custom-xs bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.3)]  rounded-full hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)]">
+                ⚽ 3D Modeling & Animation
+              </h4>
 
-            <h2 className="pt-2 text-sm lg:text-2xl 2xl:text-3xl font-bold">I'm Certified & Skilled 3D Designer</h2>
-            <p className="pt-5 text-sm text-zinc-50 xl:text-base break-all">☝️ I discovered my love for 3D design 5 years ago and have since
-              honed my skills in creating immersive and visually captivating 3D
-              models, animations, and environments. My work spans across various industries, including gaming, film, architecture, and product design.
-            </p>
-          </div>
-          <div>
-            <Image className="mb-32 md:max-w-80 md:mt-28 lg:max-w-96 lg:mt-28 2xl:w-600 " src={Icon3D2.src} alt="3D2" width="700" height="0"/>
+              <h2 className="pt-2 text-sm lg:text-2xl 2xl:text-3xl font-bold">I'm Certified & Skilled 3D Designer</h2>
+              <p className="pt-5 text-sm text-zinc-50 xl:text-base break-all">☝️ I discovered my love for 3D design 5 years ago and have since
+                honed my skills in creating immersive and visually captivating 3D
+                models, animations, and environments. My work spans across various industries, including gaming, film, architecture, and product design.
+              </p>
+            </div>
+            <div>
+              <Image className="mb-32 md:max-w-80 md:mt-28 lg:max-w-96 lg:mt-28 2xl:w-600 " src={Icon3D2.src} alt="3D2" width="700" height="0"/>
+            </div>
           </div>
         </div>
       </div>
