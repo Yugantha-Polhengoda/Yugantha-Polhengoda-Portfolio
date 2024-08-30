@@ -219,7 +219,7 @@ const WebDevelopment = () => {
       {/* ------------------------ WEB VIEW ---------------------------- */}
 
 
-      <div className='py-40 xl:h-[340vh] h-[270vh] hidden lg:block'>
+      <div className='py-40 lg:h-[340vh] h-[270vh] hidden lg:block'>
         <h4 className="text-center text-5xl pb-10 font-bold">
           <span className='text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-pink-500'>
             Web Development

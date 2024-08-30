@@ -68,7 +68,7 @@ const uiux = () => {
               alt="Selected"
               width={640}
               height={256} />
-            <div className="flex justify-center md:mt-2">
+            <div className="flex justify-center md:mt-7">
               {images.slice(0, 3).map((image) => (
                 <div key={image.id} className="mx-1 -mt-4">
                   <Image
@@ -101,7 +101,7 @@ const uiux = () => {
               alt="Selected"
               width={640}
               height={256} />
-            <div className="flex justify-center md:mt-2">
+            <div className="flex justify-center md:mt-7">
               {images.slice(3, 6).map((image) => (
                 <div key={image.id} className="mx-1 -mt-4">
                   <Image
@@ -134,7 +134,7 @@ const uiux = () => {
               alt="Selected"
               width={640}
               height={256} />
-            <div className="flex justify-center md:mt-2">
+            <div className="flex justify-center md:mt-7">
               {images.slice(6, 9).map((image) => (
                 <div key={image.id} className="mx-1 -mt-4">
                   <Image
@@ -167,7 +167,7 @@ const uiux = () => {
               alt="Selected"
               width={640}
               height={256} />
-            <div className="flex justify-center md:mt-2">
+            <div className="flex justify-center md:mt-7">
               {images.slice(9, 12).map((image) => (
                 <div key={image.id} className="mx-1 -mt-4">
                   <Image
@@ -198,7 +198,7 @@ const uiux = () => {
       {/* ------------------------ WEB VIEW ---------------------------- */}
 
 
-      <div className='py-40 xl:h-[340vh] h-[270vh] hidden lg:block'>
+      <div className='py-40 lg:h-[340vh] h-[270vh] hidden lg:block'>
         <h4 className="text-center text-5xl pb-10 font-bold">
           <span className='text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-pink-500'>
             UI/UX Design
