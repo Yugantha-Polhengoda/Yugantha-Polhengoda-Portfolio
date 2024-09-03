@@ -23,7 +23,7 @@ const Experience = () => {
         <h4  className="languages-t ml-4 w-52 py-1 pl-3 mb-1 text-custom-xs bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.3)] rounded-full hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)]
                       md:pl-3 md:text-xs md:w-60
                       lg:pl-5 lg:text-xs lg:w-64 
-                      2xl:text-xs 2xl:w-64 2xl:ml-10"
+                      2xl:w-64 2xl:ml-10"
                        >💻 Web Development & Languages</h4>
 
         <h2 className="pt-2 text-sm md:text-xl lg:text-2xl 2xl:text-3xl font-bold">I'm Certified & Skilled Developer</h2>
