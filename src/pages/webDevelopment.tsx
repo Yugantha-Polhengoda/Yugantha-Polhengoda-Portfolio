@@ -49,188 +49,249 @@ const WebDevelopment = () => {
   const [selectedImage4, setSelectedImage4] = useState(images[9]?.src);
 
   return (
-    <div className='bg-black h-auto w-full'>
+    <div className="bg-black h-auto w-full">
       <NavBar />
 
-
       {/* ------------------------ Mobile VIEW ---------------------------- */}
-      
-      <div className='py-40 lg:hidden'>
+
+      <div className="py-40 lg:hidden">
         <h4 className="text-center text-3xl pb-2 font-bold px-2">
-          <span className='text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-pink-500'>
+          <span className="text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-pink-500">
             Web Development
           </span>
-        </h4> 
+        </h4>
 
-        <div className='grid grid-cols-1 mx-4 text-white py-10'>
-          <div className="left">   
-            <Image className="img1 h-64 rounded-[5px] object-contain md:ml-12"
+        <div className="grid grid-cols-1 mx-4 text-white py-10">
+          <div className="left">
+            <Image
+              className="img1 h-64 rounded-[5px] object-contain md:ml-12"
               src={selectedImage1}
               alt="Selected"
               width={640}
-              height={256} />
+              height={256}
+            />
             <div className="flex justify-center md:mt-2">
               {images.slice(0, 3).map((image) => (
                 <div key={image.id} className="m-1 mt-1">
                   <Image
                     src={image.thumb}
                     alt={`Thumbnail ${image.id}`}
-                    className={`cursor-pointer w-36 h-20 md:w-full object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage1 === image.src ? 'shadow-outline' : ''}`}
+                    className={`cursor-pointer w-36 h-20 md:w-full object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${
+                      selectedImage1 === image.src ? "shadow-outline" : ""
+                    }`}
                     onClick={() => setSelectedImage1(image.src)}
                     width={160}
-                    height={64} />
+                    height={64}
+                  />
                 </div>
               ))}
             </div>
           </div>
 
           <div className="right md:px-32">
-            <h1 className='text-3xl text-white mt-5 pb-5 lg:mt-0 md:text-center'>Online Cosmetic Store</h1>
-            <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-            <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
-            
-            <div className='grid grid-cols-3 max-w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full'>
-              <p className='bg-red-700 rounded-[20px] p-1'>HTML</p>
-              <p className='bg-cyan-300 rounded-[20px] p-1'>CSS</p>
-              <p className='bg-yellow-500 rounded-[20px] p-1'>JS</p>
-              <p className='bg-blue-500 rounded-[20px] p-1'>REACT</p>
-              <p className='bg-purple-500 rounded-[20px] p-1'>Bootstrap</p>
-              <p className='bg-green-500 rounded-[20px] p-1'>NodeJS</p>
+            <h1 className="text-3xl text-white mt-5 pb-5 lg:mt-0 md:text-center">
+              Online Cosmetic Store
+            </h1>
+            <p className="text-zinc-300">
+              The project titled "Online Cosmetic Store for Wholesale and
+              Retail" is a comprehensive web application designed to facilitate
+              the buying and selling of cosmetic products in both bulk and
+              individual quantities. Built using the MERN stack (MongoDB,
+              Express.js, React, and Node.js). it leverages Java for the backend
+              logic, providing a robust, scalable, and efficient structure.
+            </p>
+            <p className="text-zinc-300">
+              In stock. <a href="">Buy Extended Warranty</a>
+            </p>
+
+            <div className="grid grid-cols-3 max-w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full">
+              <p className="bg-red-700 rounded-[20px] p-1">HTML</p>
+              <p className="bg-cyan-300 rounded-[20px] p-1">CSS</p>
+              <p className="bg-yellow-500 rounded-[20px] p-1">JS</p>
+              <p className="bg-blue-500 rounded-[20px] p-1">REACT</p>
+              <p className="bg-purple-500 rounded-[20px] p-1">Bootstrap</p>
+              <p className="bg-green-500 rounded-[20px] p-1">NodeJS</p>
             </div>
           </div>
         </div>
 
-        <div className='grid grid-cols-1 py-20 px-4 text-white'>
+        <div className="grid grid-cols-1 py-20 px-4 text-white">
           <div className="left">
-            <Image className="img1 h-64 rounded-[5px] object-contain md:ml-12"
+            <Image
+              className="img1 h-64 rounded-[5px] object-contain md:ml-12"
               src={selectedImage2}
               alt="Selected"
               width={640}
-              height={256} />
+              height={256}
+            />
             <div className="flex justify-center -mt-6 md:mt-2">
               {images.slice(3, 6).map((image) => (
                 <div key={image.id} className="m-1">
                   <Image
                     src={image.thumb}
                     alt={`Thumbnail ${image.id}`}
-                    className={`cursor-pointer w-36 h-20 md:w-full object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage2 === image.src ? 'shadow-outline' : ''}`}
+                    className={`cursor-pointer w-36 h-20 md:w-full object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${
+                      selectedImage2 === image.src ? "shadow-outline" : ""
+                    }`}
                     onClick={() => setSelectedImage2(image.src)}
                     width={160}
-                    height={64} />
+                    height={64}
+                  />
                 </div>
               ))}
             </div>
           </div>
 
           <div className="right md:px-32">
-            <h1 className='text-3xl mt-5 pb-5 md:text-center'>Multi Translator</h1>
-            <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-            <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
-            
-            <div className='grid grid-cols-3 max-w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full'>
-              <p className='bg-red-700 rounded-[20px] p-1'>HTML</p>
-              <p className='bg-cyan-300 rounded-[20px] p-1'>CSS</p>
-              <p className='bg-yellow-500 rounded-[20px] p-1'>JS</p>
-              <p className='bg-blue-500 rounded-[20px] p-1'>REACT</p>
-              <p className='bg-purple-500 rounded-[20px] p-1'>TailwindCSS</p>
-              <p className='bg-green-500 rounded-[20px] p-1'>NodeJS</p>
+            <h1 className="text-3xl mt-5 pb-5 md:text-center">
+              Multi Translator
+            </h1>
+            <p className="text-zinc-300">
+              The "Multi Translator (Sinhala to English and English to Sinhala)"
+              is a language translation system built using the MERN stack. It
+              allows users to translate between Sinhala and English, offering a
+              user-friendly interface and efficient translation processing, with
+              the backend handling translation logic and database management for
+              accuracy and speed.
+            </p>
+            {/* <p className="text-zinc-300">
+              In stock. <a href="">Buy Extended Warranty</a>
+            </p> */}
+
+            <div className="grid grid-cols-3 max-w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full">
+              <p className="bg-red-700 rounded-[20px] p-1">HTML</p>
+              <p className="bg-cyan-300 rounded-[20px] p-1">CSS</p>
+              <p className="bg-yellow-500 rounded-[20px] p-1">JS</p>
+              <p className="bg-blue-500 rounded-[20px] p-1">REACT</p>
+              <p className="bg-purple-500 rounded-[20px] p-1">TailwindCSS</p>
+              <p className="bg-green-500 rounded-[20px] p-1">NodeJS</p>
             </div>
           </div>
         </div>
 
-        <div className='grid grid-cols-1 mx-4 text-white py-20'>
-          <div className="left">   
-            <Image className="img1 h-64 rounded-[5px] object-contain md:ml-12"
+        <div className="grid grid-cols-1 mx-4 text-white py-20">
+          <div className="left">
+            <Image
+              className="img1 h-64 rounded-[5px] object-contain md:ml-12"
               src={selectedImage3}
               alt="Selected"
               width={640}
-              height={256} />
+              height={256}
+            />
             <div className="flex justify-center -mt-6 md:mt-2">
               {images.slice(6, 9).map((image) => (
                 <div key={image.id} className="m-1">
                   <Image
                     src={image.thumb}
                     alt={`Thumbnail ${image.id}`}
-                    className={`cursor-pointer w-36 h-20 md:w-full object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage3 === image.src ? 'shadow-outline' : ''}`}
+                    className={`cursor-pointer w-36 h-20 md:w-full object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${
+                      selectedImage3 === image.src ? "shadow-outline" : ""
+                    }`}
                     onClick={() => setSelectedImage3(image.src)}
                     width={160}
-                    height={64} />
+                    height={64}
+                  />
                 </div>
               ))}
             </div>
           </div>
 
           <div className="right md:px-32">
-            <h1 className='text-3xl text-white mt-5 pb-5 md:text-center'>Hotel Reservation System</h1>
-            <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-            <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
-            
-            <div className='grid grid-cols-3 max-w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full'>
-              <p className='bg-red-700 rounded-[20px] p-1'>HTML</p>
-              <p className='bg-cyan-300 rounded-[20px] p-1'>CSS</p>
-              <p className='bg-yellow-500 rounded-[20px] p-1'>JS</p>
-              <p className='bg-blue-500 rounded-[20px] p-1'>REACT</p>
-              <p className='bg-purple-500 rounded-[20px] p-1'>TailwindCSS</p>
-              <p className='bg-green-500 rounded-[20px] p-1'>NodeJS</p>
+            <h1 className="text-3xl text-white mt-5 pb-5 md:text-center">
+              Hotel Reservation System
+            </h1>
+            <p className="text-zinc-300">
+              The "Hotel Reservation System" is a web application developed
+              during the second year, using HTML, CSS, and JavaScript. It
+              provides users with a simple interface to browse available rooms,
+              check availability, and make reservations. The application offers
+              a streamlined booking process, ensuring ease of use for both
+              customers and hotel administrators, with essential features such
+              as room details, pricing, and booking confirmation.
+            </p>
+            {/* <p className="text-zinc-300">
+              In stock. <a href="">Buy Extended Warranty</a>
+            </p> */}
+
+            <div className="grid grid-cols-3 max-w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full">
+              <p className="bg-red-700 rounded-[20px] p-1">HTML</p>
+              <p className="bg-cyan-300 rounded-[20px] p-1">CSS</p>
+              <p className="bg-yellow-500 rounded-[20px] p-1">JS</p>
+              <p className="bg-blue-500 rounded-[20px] p-1">REACT</p>
+              <p className="bg-purple-500 rounded-[20px] p-1">TailwindCSS</p>
+              <p className="bg-green-500 rounded-[20px] p-1">NodeJS</p>
             </div>
           </div>
         </div>
 
-        <div className='grid grid-cols-1 mx-4 text-white py-20'>
-          <div className="left">   
-            <Image className="img1 h-64 rounded-[5px] object-contain md:ml-12"
+        <div className="grid grid-cols-1 mx-4 text-white py-20">
+          <div className="left">
+            <Image
+              className="img1 h-64 rounded-[5px] object-contain md:ml-12"
               src={selectedImage4}
               alt="Selected"
               width={640}
-              height={256} />
+              height={256}
+            />
             <div className="flex justify-center -mt-6 md:mt-2">
               {images.slice(9, 12).map((image) => (
                 <div key={image.id} className="m-1">
                   <Image
                     src={image.thumb}
                     alt={`Thumbnail ${image.id}`}
-                    className={`cursor-pointer w-36 h-20 md:w-full object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage4 === image.src ? 'shadow-outline' : ''}`}
+                    className={`cursor-pointer w-36 h-20 md:w-full object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${
+                      selectedImage4 === image.src ? "shadow-outline" : ""
+                    }`}
                     onClick={() => setSelectedImage4(image.src)}
                     width={160}
-                    height={64} />
+                    height={64}
+                  />
                 </div>
               ))}
             </div>
           </div>
 
           <div className="right md:px-32">
-            <h1 className='text-3xl text-white mt-5 pb-5 md:text-center'>Clothing Store</h1>
-            <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-            <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
-            
-            <div className='grid grid-cols-3 max-w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full'>
-              <p className='bg-red-700 rounded-[20px] p-1'>HTML</p>
-              <p className='bg-cyan-300 rounded-[20px] p-1'>CSS</p>
-              <p className='bg-yellow-500 rounded-[20px] p-1'>JS</p>
-              <p className='bg-blue-500 rounded-[20px] p-1'>REACT</p>
-              <p className='bg-purple-500 rounded-[20px] p-1'>TailwindCSS</p>
-              <p className='bg-green-500 rounded-[20px] p-1'>NodeJS</p>
+            <h1 className="text-3xl text-white mt-5 pb-5 md:text-center">
+              Clothing Store
+            </h1>
+            <p className="text-zinc-300">
+              Designer Yugantha Polhengoda continues to put his signature spin
+              on all genres of design through various collaborations with
+              top-notch companies. Another one to add to the win column is his
+              work with Italian manufacturer Chateau d’Ax.
+            </p>
+            <p className="text-zinc-300">
+              In stock. <a href="">Buy Extended Warranty</a>
+            </p>
+
+            <div className="grid grid-cols-3 max-w-72 text-xs text-center gap-3 mt-4 md:justify-center md:w-full">
+              <p className="bg-red-700 rounded-[20px] p-1">HTML</p>
+              <p className="bg-cyan-300 rounded-[20px] p-1">CSS</p>
+              <p className="bg-yellow-500 rounded-[20px] p-1">JS</p>
+              <p className="bg-blue-500 rounded-[20px] p-1">REACT</p>
+              <p className="bg-purple-500 rounded-[20px] p-1">TailwindCSS</p>
+              <p className="bg-green-500 rounded-[20px] p-1">NodeJS</p>
             </div>
           </div>
         </div>
       </div>
 
-
       {/* ------------------------ WEB VIEW ---------------------------- */}
 
-
-      <div className='py-40 lg:h-[340vh] h-[270vh] hidden lg:block'>
+      <div className="py-40 lg:h-[340vh] h-[270vh] hidden lg:block">
         <h4 className="text-center text-5xl pb-10 font-bold">
-          <span className='text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-pink-500'>
+          <span className="text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-pink-500">
             Web Development
           </span>
         </h4>
 
-        <div className='absolute grid grid-cols-2 my-10 px-5 left-5 max-w-[1000px] text-white py-20'>
-          <div
-            className="left max-w-[90%]">
+        <div className="absolute grid grid-cols-2 my-10 px-5 left-5 max-w-[1000px] text-white py-20">
+          <div className="left max-w-[90%]">
             <Image
-              className={`img1 h-64 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${selectedImage1 === 'image.src' ? 'opacity-50' : ''}`}
+              className={`img1 h-64 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${
+                selectedImage1 === "image.src" ? "opacity-50" : ""
+              }`}
               src={selectedImage1}
               alt="Selected"
               width={640}
@@ -243,7 +304,9 @@ const WebDevelopment = () => {
                   <Image
                     src={image.thumb}
                     alt={`Thumbnail ${image.id}`}
-                    className={`cursor-pointer w-36 h-20 object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage1 === image.src ? 'shadow-outline' : ''}`}
+                    className={`cursor-pointer w-36 h-20 object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${
+                      selectedImage1 === image.src ? "shadow-outline" : ""
+                    }`}
                     onClick={() => setSelectedImage1(image.src)}
                     width={160}
                     height={64}
@@ -254,57 +317,82 @@ const WebDevelopment = () => {
           </div>
 
           <div className="right max-w-[90%]">
-            <h1 className='text-3xl text-white pb-5'>Online Cosmetic Store</h1>
-            <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-            <p className='text-zinc-300'>In stock. <a href="#">Buy Extended Warranty</a></p>
+            <h1 className="text-3xl text-white pb-5">Online Cosmetic Store</h1>
+            <p className="text-zinc-300">
+              it's a comprehensive web application designed to facilitate
+              the buying and selling of cosmetic products in both bulk and
+              individual quantities. Built using the MERN stack (MongoDB,
+              Express.js, React, and Node.js) providing a robust, scalable, and
+              efficient structure. The platform is designed to cater to the
+              needs of retailers seeking bulk purchases, as well as individual
+              consumers looking to shop for beauty products. With a
+              user-friendly interface.
+            </p>
+            {/* <p className="text-zinc-300">
+              In stock. <a href="#">Buy Extended Warranty</a>
+            </p> */}
 
-            <div className='grid grid-cols-3 w-[300px] font-semibold text-center gap-3 mt-4'>
-              <p className='bg-orange-500 rounded-[20px] text-sm p-1'>HTML</p>
-              <p className='bg-cyan-400 rounded-[20px] text-sm p-1'>CSS</p>
-              <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
-              <p className='bg-blue-600 rounded-[20px] text-sm p-1'>REACT</p>
-              <p className='bg-purple-500 rounded-[20px] text-sm p-1'>Bootstrap</p>
-              <p className='bg-green-600 rounded-[20px] text-sm p-1'>Node JS</p>
+            <div className="grid grid-cols-3 w-[300px] font-semibold text-center gap-3 mt-4">
+              <p className="bg-orange-500 rounded-[20px] text-sm p-1">HTML</p>
+              <p className="bg-cyan-400 rounded-[20px] text-sm p-1">CSS</p>
+              <p className="bg-yellow-500 rounded-[20px] text-sm p-1">JS</p>
+              <p className="bg-blue-600 rounded-[20px] text-sm p-1">REACT</p>
+              <p className="bg-purple-500 rounded-[20px] text-sm p-1">
+                Bootstrap
+              </p>
+              <p className="bg-green-600 rounded-[20px] text-sm p-1">Node JS</p>
             </div>
           </div>
         </div>
 
         {/* Project 2 */}
-        <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white xl:mt-[38%] lg:mt-[50%] py-10'>
-          <div
-            className="right max-w-[90%] mt-8"
-          >
-            <h1 className='text-3xl text-white pb-5'>Multi Translator</h1>
-            <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-            <p className='text-zinc-300'>In stock. <a href="#">Buy Extended Warranty</a></p>
+        <div className="absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white xl:mt-[38%] lg:mt-[50%] py-10">
+          <div className="right max-w-[90%] mt-8">
+            <h1 className="text-3xl text-white pb-5">Multi Translator</h1>
+            <p className="text-zinc-300">
+              The "Multi Translator (Sinhala to English and English to Sinhala)"
+              is a language translation system built using the MERN stack. It
+              allows users to translate between Sinhala and English, offering a
+              user-friendly interface and efficient translation processing, with
+              the backend handling translation logic and database management for
+              accuracy and speed.
+            </p>
+            {/* <p className="text-zinc-300">
+              In stock. <a href="#">Buy Extended Warranty</a>
+            </p> */}
 
-            <div className='grid grid-cols-3 w-[300px] font-semibold text-center gap-3 mt-4'>
-              <p className='bg-orange-500 rounded-[20px] text-sm p-1'>HTML</p>
-              <p className='bg-cyan-400 rounded-[20px] text-sm p-1'>CSS</p>
-              <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
-              <p className='bg-blue-600 rounded-[20px] text-sm p-1'>REACT</p>
-              <p className='bg-purple-500 rounded-[20px] text-sm p-1'>Tailwind CSS</p>
-              <p className='bg-green-600 rounded-[20px] text-sm p-1'>Node JS</p>
+            <div className="grid grid-cols-3 w-[300px] font-semibold text-center gap-3 mt-4">
+              <p className="bg-orange-500 rounded-[20px] text-sm p-1">HTML</p>
+              <p className="bg-cyan-400 rounded-[20px] text-sm p-1">CSS</p>
+              <p className="bg-yellow-500 rounded-[20px] text-sm p-1">JS</p>
+              <p className="bg-blue-600 rounded-[20px] text-sm p-1">REACT</p>
+              <p className="bg-purple-500 rounded-[20px] text-sm p-1">
+                Tailwind CSS
+              </p>
+              <p className="bg-green-600 rounded-[20px] text-sm p-1">Node JS</p>
             </div>
           </div>
 
-          <div
-            className="left max-w-[90%]">
+          <div className="left max-w-[90%]">
             <Image
-              className={`img1 h-64 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${selectedImage2 === 'image.src' ? 'opacity-50' : ''}`}
+              className={`img1 h-64 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${
+                selectedImage2 === "image.src" ? "opacity-50" : ""
+              }`}
               src={selectedImage2}
               alt="Selected"
               width={640}
-              height={256} 
+              height={256}
             />
-            
+
             <div className="flex justify-center -mt-5">
               {images.slice(3, 6).map((image) => (
                 <div key={image.id} className="m-1">
                   <Image
                     src={image.thumb}
                     alt={`Thumbnail ${image.id}`}
-                    className={`cursor-pointer w-36 h-20 object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage2 === image.src ? 'shadow-outline' : ''}`}
+                    className={`cursor-pointer w-36 h-20 object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${
+                      selectedImage2 === image.src ? "shadow-outline" : ""
+                    }`}
                     onClick={() => setSelectedImage2(image.src)}
                     width={160}
                     height={64}
@@ -315,13 +403,13 @@ const WebDevelopment = () => {
           </div>
         </div>
 
-
         {/* Project 3 */}
-        <div className='absolute grid grid-cols-1 my-10 lg:grid-cols-2 px-5 lg:left-5 max-w-[1000px] text-white xl:mt-[68%] lg:mt-[90%] py-20'>
-          <div
-            className="left max-w-[90%]">
+        <div className="absolute grid grid-cols-1 my-10 lg:grid-cols-2 px-5 lg:left-5 max-w-[1000px] text-white xl:mt-[68%] lg:mt-[90%] py-20">
+          <div className="left max-w-[90%]">
             <Image
-              className={`img1 h-64 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${selectedImage3 === 'image.src' ? 'opacity-50' : ''}`}
+              className={`img1 h-64 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${
+                selectedImage3 === "image.src" ? "opacity-50" : ""
+              }`}
               src={selectedImage3}
               alt="Selected"
               width={640}
@@ -334,7 +422,9 @@ const WebDevelopment = () => {
                   <Image
                     src={image.thumb}
                     alt={`Thumbnail ${image.id}`}
-                    className={`cursor-pointer w-36 h-20 object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage3 === image.src ? 'shadow-outline' : ''}`}
+                    className={`cursor-pointer w-36 h-20 object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${
+                      selectedImage3 === image.src ? "shadow-outline" : ""
+                    }`}
                     onClick={() => setSelectedImage3(image.src)}
                     width={160}
                     height={64}
@@ -345,43 +435,68 @@ const WebDevelopment = () => {
           </div>
 
           <div className="right max-w-[90%] mt-5">
-            <h1 className='text-3xl text-white mt-5 pb-5 lg:mt-0'>Hotel Reservation System</h1>
-            <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-            <p className='text-zinc-300'>In stock. <a href="#">Buy Extended Warranty</a></p>
+            <h1 className="text-3xl text-white mt-5 pb-5 lg:mt-0">
+              Hotel Reservation System
+            </h1>
+            <p className="text-zinc-300">
+              The "Hotel Reservation System" is a web application developed
+              during the second year, using HTML, CSS, and JavaScript. It
+              provides users with a simple interface to browse available rooms,
+              check availability, and make reservations. The application offers
+              a streamlined booking process, ensuring ease of use for both
+              customers and hotel administrators, with essential features such
+              as room details, pricing, and booking confirmation.
+            </p>
+            {/* <p className="text-zinc-300">
+              In stock. <a href="#">Buy Extended Warranty</a>
+            </p> */}
 
-            <div className='grid grid-cols-3 w-[300px] font-semibold text-center gap-3 mt-6'>
-              <p className='bg-orange-500 rounded-[20px] text-sm p-1'>HTML</p>
-              <p className='bg-cyan-400 rounded-[20px] text-sm p-1'>CSS</p>
-              <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
+            <div className="grid grid-cols-3 w-[300px] font-semibold text-center gap-3 mt-6">
+              <p className="bg-orange-500 rounded-[20px] text-sm p-1">HTML</p>
+              <p className="bg-cyan-400 rounded-[20px] text-sm p-1">CSS</p>
+              <p className="bg-yellow-500 rounded-[20px] text-sm p-1">JS</p>
             </div>
           </div>
         </div>
 
         {/* Project 4 */}
-        <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white xl:mt-[104%] lg:mt-[144%] py-10'>
+        <div className="absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white xl:mt-[104%] lg:mt-[144%] py-10">
           <div className="right max-w-[90%] mt-5">
-            <h1 className='text-3xl text-white pb-5'>Online Shopping Application</h1>
-            <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
-            <p className='text-zinc-300'>In stock. <a href="#">Buy Extended Warranty</a></p>
+            <h1 className="text-3xl text-white pb-5">
+              Online Shopping Application
+            </h1>
+            <p className="text-zinc-300">
+              The "Online-Shopping-Application" is a dynamic e-commerce platform
+              that allows users to customize their clothing styles and place
+              orders seamlessly. Built using Three.js, Vite.js, React, MongoDB,
+              Cloudinary, and Node.js, this application provides an interactive,
+              responsive & smooth shopping experience.
+            </p>
+            {/* <p className="text-zinc-300">
+              In stock. <a href="#">Buy Extended Warranty</a>
+            </p> */}
 
-            <div className='grid grid-cols-3 w-[300px] font-semibold text-center gap-3 mt-4'>
-              <p className='bg-orange-500 rounded-[20px] text-sm p-1'>HTML</p>
-              <p className='bg-cyan-400 rounded-[20px] text-sm p-1'>CSS</p>
-              <p className='bg-yellow-500 rounded-[20px] text-sm p-1'>JS</p>
-              <p className='bg-blue-600 rounded-[20px] text-sm p-1'>REACT</p>
-              <p className='bg-purple-500 rounded-[20px] text-sm p-1'>Tailwind CSS</p>
-              <p className='bg-green-600 rounded-[20px] text-sm p-1'>Node JS</p>
+            <div className="grid grid-cols-3 w-[300px] font-semibold text-center gap-3 mt-4">
+              <p className="bg-orange-500 rounded-[20px] text-sm p-1">HTML</p>
+              <p className="bg-cyan-400 rounded-[20px] text-sm p-1">CSS</p>
+              <p className="bg-yellow-500 rounded-[20px] text-sm p-1">JS</p>
+              <p className="bg-blue-600 rounded-[20px] text-sm p-1">REACT</p>
+              <p className="bg-purple-500 rounded-[20px] text-sm p-1">
+                Tailwind CSS
+              </p>
+              <p className="bg-green-600 rounded-[20px] text-sm p-1">Node JS</p>
             </div>
           </div>
 
-          <div
-            className="left max-w-[90%]">
+          <div className="left max-w-[90%]">
             <Image
-              className={`img1 h-60 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${selectedImage4 === 'image.src' ? 'opacity-50' : ''}`}
+              className={`img1 h-60 rounded-[5px] object-contain cursor-pointer transition-opacity duration-300 ${
+                selectedImage4 === "image.src" ? "opacity-50" : ""
+              }`}
               src={selectedImage4}
               alt="Selected"
               width={640}
-              height={256} 
+              height={256}
             />
 
             <div className="flex justify-center -mt-3">
@@ -390,7 +505,9 @@ const WebDevelopment = () => {
                   <Image
                     src={image.thumb}
                     alt={`Thumbnail ${image.id}`}
-                    className={`cursor-pointer w-36 h-20 object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${selectedImage4 === image.src ? 'shadow-outline' : ''}`}
+                    className={`cursor-pointer w-36 h-20 object-cover rounded-[5px] transition-shadow duration-300 ease-in-out ${
+                      selectedImage4 === image.src ? "shadow-outline" : ""
+                    }`}
                     onClick={() => setSelectedImage4(image.src)}
                     width={160}
                     height={64}
