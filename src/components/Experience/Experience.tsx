@@ -94,8 +94,8 @@ const Experience = () => {
 
       {/* -------------------------------------mobile---------------------------------- */}
 
-        <div className='md:hidden'>
-          <div id='Experience' className="grid grid-cols-1 md:grid-cols-2 mx-5 pb-0 mt-16 justify-center items-center text-white font-Poppins-font md:mt-8 lg:mt-8 xl:mt-16 scroll-mt-10 lg:-scroll-mt-5 xl:gap-80">
+        <div id='MobileExperience' className='md:hidden scroll-mt-14 md:scroll-mt-0'>
+          <div id='Experience' className="grid grid-cols-1 md:grid-cols-2 mx-5 pb-0 mt-16 justify-center items-center text-white font-Poppins-font md:mt-8 lg:mt-8 xl:mt-16 lg:-scroll-mt-5 xl:gap-80">
             <div className="mb-10 max-w-full">
               <h4 className="languages-t grid grid-cols-1 ml-4 max-w-52 py-1 pl-3 mb-1 text-custom-xs bg-[rgba(25,17,51,0.5)] border border-[rgba(248,246,254,0.3)] rounded-full hover:shadow-inner hover:shadow-[rgba(111,65,210,0.5)]">
                 💻 Web Development & Languages</h4>
