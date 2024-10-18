@@ -17,8 +17,8 @@ import Hotels2 from '/public/Images/HotelDesign.jpg';
 import Hotels3 from '/public/Images/SLIIT.jpg';
 
 import Slideshow from '/public/Images/Slideshow.jpg';
-import Slideshow1 from '/public/Images/Slideshow.jpg';
-import Slideshow2 from '/public/Images/Slideshow.jpg';
+import Slideshow1 from '/public/Images/ballWhite.jpg';
+import Slideshow2 from "/public/Images/city12.jpg";
 
 import NavBar from '@/components/Header/NavBar';
 import Footer from '@/components/Footer/Footer';
@@ -185,7 +185,7 @@ const annimations = () => {
           </div>
 
           <div className="right md:px-32">
-            <h1 className='text-3xl text-white mt-5 pb-5 md:text-center'>Landing Page Animation</h1>
+            <h1 className='text-3xl text-white mt-5 pb-5 md:text-center'>Landing Page Animations</h1>
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
             
@@ -321,7 +321,7 @@ const annimations = () => {
 
         <div className='absolute grid grid-cols-1 lg:grid-cols-2 px-5 lg:right-0 max-w-[1000px] gap-10 text-white xl:mt-[104%] lg:mt-[144%] py-10'>
           <div className="right max-w-[90%]">
-            <h1 className='text-3xl text-white pb-5'>Landing Page Animation</h1>
+            <h1 className='text-3xl text-white pb-5'>Landing Page Animations</h1>
             <p className='text-zinc-300'>Designer Yugantha Polhengoda continues to put his signature spin on all genres of design through various collaborations with top-notch companies. Another one to add to the win column is his work with Italian manufacturer Chateau d’Ax.</p>
             <p className='text-zinc-300'>In stock. <a href="">Buy Extended Warranty</a></p>
 
