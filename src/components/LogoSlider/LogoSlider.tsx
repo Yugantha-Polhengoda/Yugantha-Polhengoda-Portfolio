@@ -6,7 +6,7 @@ import Figma from '/public/Images/Figma.png';
 import Canva from '/public/Images/Canva.png';
 import VS2 from '/public/Images/VS2.png';
 import IntelJ from '/public/Images/intelj.png';
-import LionBit from "/public/Images/lionBit2.svg";
+import LionBit from "/public/Images/LionBit2.svg";
 import Android from '/public/Images/Android.png';
 import Cinema4D from '/public/Images/cinema4d1.png';
 import Max3DS from '/public/Images/3ds-max.png';
